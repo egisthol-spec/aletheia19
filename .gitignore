@@ -1,0 +1,63 @@
+# =========================================================================
+# Verrous de Sécurité ALETHEIA - Ne jamais publier ces répertoires en public
+# =========================================================================
+
+# --- 1. Données Clients & Coffre Fort (Le Substrat Local) ---
+03_COFFRE_DE_DONNEES/
+USB_ONLY/
+
+# --- 2. Opérations Actives & Ciblage (Le Maquis) ---
+02_MISSIONS_EN_COURS/
+04_ARCHIVES_ET_JOURNAUX/
+BOOTSTRAP_ALETHEIA/
+
+# --- 3. Actifs Premium Payants ---
+Gumroad/
+
+# --- 4. Configuration Locale & Agentic Runtime ---
+.agents/
+.vscode/
+.idea/
+*.code-workspace
+
+# --- 5. Brouillons, Notes de Recherche & Correspondances ---
+01_DOCUMENTS_ET_NOTES/**/Conversion PDF-md.*/
+01_DOCUMENTS_ET_NOTES/**/Conversion PDF-md.  pour Antigravity/
+01_DOCUMENTS_ET_NOTES/**/lettre_*.md
+01_DOCUMENTS_ET_NOTES/**/PROPOSITION_REPONSE_DUCLOS.md
+01_DOCUMENTS_ET_NOTES/PROMPT_BETA/
+*.odt
+*.docx
+*.pdf
+
+
+# =========================================================================
+# Ignorer les Fichiers Lourds, Temporaires et Environnements
+# =========================================================================
+resultats_visibles/
+SAVE_CHALLENGE_VESUVIUS/
+dataset/
+png_cache/
+__pycache__/
+*.pyc
+*.png
+*.jpg
+*.tif
+*.zarr
+
+# --- Clés de Sécurité et Variables d'Environnement ---
+.env
+api_keys.txt
+secrets.json
+*.key
+*.pem
+
+# --- 6. Dossiers de travail locaux, correspondances et scripts de dev ---
+00_CODE_ET_MOTEURS/
+Enclosure/
+Harnais/
+system_test/
+01_DOCUMENTS_ET_NOTES/
+Balistique/
+extract.py
+fetch_landing_page.py
