@@ -44,6 +44,24 @@ This repository contains the open-core infrastructure, diagnostic engines, and c
 
 ---
 
+## 📚 DOIs & Proofs of Anteriority
+
+This project is anchored by three Zenodo deposits forming a complete argumentative tripod:
+
+1. **[DOI: 10.5281/zenodo.18129883](https://doi.org/10.5281/zenodo.18129883)** (January 2026)
+   * *Proof of anteriority*: First formalization of the 25,188 cognitive isomorphisms.
+   * Role: Legal timestamp establishing priority of the conceptual framework.
+
+2. **[DOI: 10.5281/zenodo.18182159](https://doi.org/10.5281/zenodo.18182159)** (Vesuvius Technical Report)
+   * *Experimental validation*: Thermodynamic de-noising of volumetric substrates.
+   * Role: Physical proof that the framework applies to real biophysical data (carbonized papyri).
+
+3. **[DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)** (Current Preprint V5.2)
+   * *Unified specification*: From Lovelace's Loom to Latent Spaces.
+   * Role: Complete theoretical framework integrating thermodynamics, geometry, and information physics.
+
+---
+
 ## 🏛️ I. THE FASCIA PROTOCOL
 
 **FASCIA** (*Forensic Analysis of Sovereign Compliance in Industrial Architectures*) is a diagnostic methodology that treats organizations and technologies as open thermodynamic systems. Instead of auditing compliance through superficial checklists (which create a *Consensus Creux*), FASCIA measures the **Dette d'Oxygène** (metabolic debt) and the **Friction of the Real** (the Sol) against systemic abstractions (the Flux).
