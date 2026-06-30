@@ -78,7 +78,7 @@ It relies on the **Four Hands of Empiricism** model:
 
 The public repository contains the authoritative open-core specification, the presentation layer, and public case studies. The full local engineering workspace is structured as follows:
 
-*   **[`Case_Studies/`](file:///c:/VESUVIUS_LOCAL/Case_Studies/)** (Public): Clinical case files and high-level FASCIA audit summaries (Boeing 737 MAX, Renault-Nissan alliance, Vatican *Magnifica humanitas*).
+*   **[`Case_Studies/`](file:///c:/VESUVIUS_LOCAL/Case_Studies/)** (Public): Clinical case files and high-level FASCIA audit summaries (Boeing 737 MAX, Renault-Nissan alliance, Enron & Theranos, Vatican *Magnifica humanitas*).
 *   **`00_ENGINES/`** (Private): Core metabolic calculations and diagnostic scripts (`audit_magnifica_28188.py` / quantitative sensor).
 *   **`Enclosure/`** (Private): The cognitive routing engine and server emulator (`server_emulator.py`).
 *   **`01_DOCUMENTS/`** (Private): Academic preprints and raw research drafts.
