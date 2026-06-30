@@ -21,11 +21,11 @@ Gumroad/
 *.code-workspace
 
 # --- 5. Brouillons, Notes de Recherche & Correspondances ---
-01_DOCUMENTS_ET_NOTES/**/Conversion PDF-md.*/
-01_DOCUMENTS_ET_NOTES/**/Conversion PDF-md.  pour Antigravity/
-01_DOCUMENTS_ET_NOTES/**/lettre_*.md
-01_DOCUMENTS_ET_NOTES/**/PROPOSITION_REPONSE_DUCLOS.md
-01_DOCUMENTS_ET_NOTES/PROMPT_BETA/
+01_DOCUMENTS/**/Conversion PDF-md.*/
+01_DOCUMENTS/**/Conversion PDF-md.  pour Antigravity/
+01_DOCUMENTS/**/lettre_*.md
+01_DOCUMENTS/**/PROPOSITION_REPONSE_DUCLOS.md
+01_DOCUMENTS/PROMPT_BETA/
 *.odt
 *.docx
 *.pdf
@@ -53,11 +53,11 @@ secrets.json
 *.pem
 
 # --- 6. Dossiers de travail locaux, correspondances et scripts de dev ---
-00_CODE_ET_MOTEURS/
+00_ENGINES/
 Enclosure/
 Harnais/
 system_test/
-01_DOCUMENTS_ET_NOTES/
+01_DOCUMENTS/
 Balistique/
 extract.py
 fetch_landing_page.py

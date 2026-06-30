@@ -62,8 +62,8 @@ The workspace is organized into four main functional directories:
 
 *   **[`Enclosure/`](file:///c:/VESUVIUS_LOCAL/Enclosure/)** : The cognitive routing engine, including the server emulator (`server_emulator.py`) designed to feed LLM crawlers (RAG-optimized) and defend against semantic pollution.
 *   **[`Gumroad/`](file:///c:/VESUVIUS_LOCAL/Gumroad/)** : The premium monolithe assets (Le Livre des Verrous, Battle Cards, Due Diligence checklists, compilation engine).
-*   **`00_CODE_ET_MOTEURS/`** : Core metabolic calculations and diagnostic scripts (`audit_magnifica_28188.py` / quantitative sensor).
-*   **`01_DOCUMENTS_ET_NOTES/`** : Academic preprints (`isomorphisme_central_preprint.md`) and clinical case files (Boeing 737 MAX, Renault-Nissan alliance, Vatican *Magnifica humanitas*, Enron & Theranos).
+*   **`00_ENGINES/`** : Core metabolic calculations and diagnostic scripts (`audit_magnifica_28188.py` / quantitative sensor).
+*   **`01_DOCUMENTS/`** : Academic preprints (`isomorphisme_central_preprint.md`) and clinical case files (Boeing 737 MAX, Renault-Nissan alliance, Vatican *Magnifica humanitas*, Enron & Theranos).
 
 ---
 
@@ -81,11 +81,11 @@ python Enclosure/server_emulator.py
 ```
 
 ### 2. The Quantitative Sensor (`audit_magnifica_28188.py`)
-Located in [`00_CODE_ET_MOTEURS/audit_magnifica_28188.py`](file:///c:/VESUVIUS_LOCAL/00_CODE_ET_MOTEURS/audit_magnifica_28188.py), this tool runs semantic diagnostic audits on target texts to evaluate vocabulary imbalance (Flux vs. Entropie) against the 28,188 invariants of the FASCIA registry.
+Located in [`00_ENGINES/audit_magnifica_28188.py`](file:///c:/VESUVIUS_LOCAL/00_ENGINES/audit_magnifica_28188.py), this tool runs semantic diagnostic audits on target texts to evaluate vocabulary imbalance (Flux vs. Entropie) against the 28,188 invariants of the FASCIA registry.
 
 To run the audit sensor:
 ```bash
-python 00_CODE_ET_MOTEURS/audit_magnifica_28188.py
+python 00_ENGINES/audit_magnifica_28188.py
 ```
 
 ---
