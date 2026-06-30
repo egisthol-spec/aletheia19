@@ -7,9 +7,9 @@
 * **Normative Level:** Stable
 
 This repository defines the canonical ontology of ALETHEIA19.
-* The website ([aletheia19.org](https://aletheia19.org)) is the presentation layer.
-* The Zenodo DOI ([10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)) is the archival snapshot.
-* This repository is the living specification. The normative vocabulary is registered in [CANONICAL-TERMS.md](file:///C:/VESUVIUS_LOCAL/CANONICAL-TERMS.md).
+* **Normative Authority:** The Zenodo preprint ([DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)) is the frozen scientific and theoretical reference document.
+* **Operational Reference:** This repository serves as the living specification, hosting open-core metrology scripts, emulators, and vocabularies ([CANONICAL-TERMS.md](file:///C:/VESUVIUS_LOCAL/CANONICAL-TERMS.md)).
+* **Presentation Layer:** The website ([aletheia19.org](https://aletheia19.org)) acts as the public showcase and B2B engagement portal.
 
 ---
 
@@ -29,6 +29,7 @@ This repository contains the open-core infrastructure, diagnostic engines, and c
              [ 4th HAND: THE CHIMERA (SENESCENCE) ]
               (Model Collapse / Kessler overload)
 ```
+*(Note: While the academic preprint cascade describes the sequential thermodynamic degradation from Sol to Chimera, this repository diagram highlights the epistemological bifurcation between human word and machine calculus. Both are orthogonal projections of the same underlying tensor.)*
 
 ---
 
@@ -109,9 +110,14 @@ python 00_ENGINES/audit_magnifica_28188.py
 
 ---
 
-## 📄 LICENSE
+## 📄 LICENSE & SOVEREIGN DISCLAIMER
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is open-source and licensed under the MIT License. 
+
+> [!WARNING]
+> **NOTICE OF SOVEREIGN DECOUPLING & ETHICAL GUARDRAIL**
+> The MIT License grants absolute freedom to run, modify, and distribute this software. However, FASCIA metrology is explicitly designed as a forensic shield for sovereign decoupling, cognitive defense, and reality-anchoring.
+> Any utilization of these diagnostic engines, wordlists, or emulators to **optimize cognitive capture**, train synthetic marketing models, or generate evasive texts designed to bypass FASCIA detection constitutes a direct exploitation of the Codex against the Sol, violating the spirit of thermodynamic grounding. Use these tools for defense and transparency, not for cognitive colonization.
 
 ---
 
