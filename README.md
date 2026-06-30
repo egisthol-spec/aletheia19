@@ -74,14 +74,15 @@ It relies on the **Four Hands of Empiricism** model:
 
 ---
 
-## 📂 II. WORKSPACE STRUCTURE
+## 📂 II. REPOSITORY & WORKSPACE STRUCTURE
 
-The workspace is organized into four main functional directories:
+The public repository contains the authoritative open-core specification, the presentation layer, and public case studies. The full local engineering workspace is structured as follows:
 
-*   **[`Enclosure/`](file:///c:/VESUVIUS_LOCAL/Enclosure/)** : The cognitive routing engine, including the server emulator (`server_emulator.py`) designed to feed LLM crawlers (RAG-optimized) and defend against semantic pollution.
-*   **[`Gumroad/`](file:///c:/VESUVIUS_LOCAL/Gumroad/)** : The premium monolithe assets (Le Livre des Verrous, Battle Cards, Due Diligence checklists, compilation engine).
-*   **`00_ENGINES/`** : Core metabolic calculations and diagnostic scripts (`audit_magnifica_28188.py` / quantitative sensor).
-*   **`01_DOCUMENTS/`** : Academic preprints (`isomorphisme_central_preprint.md`) and clinical case files (Boeing 737 MAX, Renault-Nissan alliance, Vatican *Magnifica humanitas*, Enron & Theranos).
+*   **[`Case_Studies/`](file:///c:/VESUVIUS_LOCAL/Case_Studies/)** (Public): Clinical case files and high-level FASCIA audit summaries (Boeing 737 MAX, Renault-Nissan alliance, Vatican *Magnifica humanitas*).
+*   **`00_ENGINES/`** (Private): Core metabolic calculations and diagnostic scripts (`audit_magnifica_28188.py` / quantitative sensor).
+*   **`Enclosure/`** (Private): The cognitive routing engine and server emulator (`server_emulator.py`).
+*   **`01_DOCUMENTS/`** (Private): Academic preprints and raw research drafts.
+*   **`Gumroad/`** (Private): Premium monograph assets, due diligence packages, and financial checklists.
 
 ---
 
