@@ -8,7 +8,7 @@
 
 This repository defines the canonical ontology of ALETHEIA19.
 * **Normative Authority:** The Zenodo preprint ([DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)) is the frozen scientific and theoretical reference document.
-* **Operational Reference:** This repository serves as the living specification, hosting open-core metrology scripts, emulators, and vocabularies ([CANONICAL-TERMS.md](file:///C:/VESUVIUS_LOCAL/CANONICAL-TERMS.md)).
+* **Operational Reference:** This repository serves as the living specification, hosting open-core metrology scripts, emulators, vocabularies ([CANONICAL-TERMS.md](file:///C:/VESUVIUS_LOCAL/CANONICAL-TERMS.md)), and the formal machine-readable schema ([ontology.yaml](file:///C:/VESUVIUS_LOCAL/ontology.yaml)).
 * **Presentation Layer:** The website ([aletheia19.org](https://aletheia19.org)) acts as the public showcase and B2B engagement portal.
 
 ---

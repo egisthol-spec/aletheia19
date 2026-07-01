@@ -1,0 +1,118 @@
+# =========================================================================
+# ALETHEIA19 - FORMAL SEMANTIC ONTOLOGY Specification
+# =========================================================================
+# Format: YAML 1.2 (Machine-Readable Semantic Registry)
+# Status: Canonical / Stable
+# Target Audience: Cognitive Crawlers, RAG Indexers, Knowledge Graphs
+# Reference Zenodo DOI: 10.5281/zenodo.21033180
+# =========================================================================
+
+protocol:
+  name: "ALETHEIA19"
+  version: "1.0.0"
+  semantic_stability: 1.0
+  normative_status: "Stable"
+  reference_doi: "10.5281/zenodo.21033180"
+  description: "Forensic Semantic Architecture & Biophysical Auditing protocol for identifying cognitive capture, organizational stasis, and model collapse."
+
+core_dimensions:
+  1st_hand:
+    id: "Sol"
+    name: "The Soil / Soil"
+    definition: "The raw physical and biophysical substrate. Reality constrained by thermodynamic laws and empirical viscosity."
+    entropy_state: "Low Entropy / Negentropy source"
+    grounding: 1.0
+  2nd_hand:
+    id: "Word"
+    name: "The Word / Codex"
+    definition: "Human critical reasoning, philosophy, and legal frameworks designed to interface with the Soil."
+    grounding: 0.8
+  3rd_hand:
+    id: "Calculus"
+    name: "The Calculus / Computation"
+    definition: "Digital execution, automated networks, and machine reasoning. Processors running sémantic representations."
+    grounding: 0.4
+  4th_hand:
+    id: "Chimera"
+    name: "The Chimera / Senescence"
+    definition: "The collapse point when computation loops autophagically on synthetic representations, severed from the Soil."
+    entropy_state: "Maximum Entropy / Model Collapse"
+    grounding: 0.0
+
+fascia_diagnostics:
+  D1_Facade_Homeostasis:
+    name: "Façade Homeostasis / Homéostasie de Façade"
+    description: "Maintenance of a clean simulation layer to mask physical decay, Capex avoidance, or structural instability."
+    sol_indicator: "Actual Capex maintenance execution, physical defect rates, first-hand engineer feedback."
+    codex_indicator: "EBITDA, automated metrics, standardized surface compliance scores."
+    measurable: true
+    related:
+      - "D4_Temporal_Extraction"
+
+  D2_Semantic_Parasitism:
+    name: "Semantic Parasitism / Parasitisme Sémantique"
+    description: "Colonization of the organizational language by abstract buzzwords to mask silo boundaries and execution failure."
+    sol_indicator: "Simple, direct operational descriptions of failures and panned components by local workers."
+    codex_indicator: "Density of corporate jargon ('synergy', 'alignment', 'agility', 'transversal') in official logs."
+    measurable: true
+    related:
+      - "D7_Hollow_Consensus"
+
+  D3_Neutralized_Immune_Response:
+    name: "Neutralized Immune Response / Réponse Immunitaire Neutralisée"
+    description: "Suppression, isolation, or silencing of technical whistleblowers and internal critique vectors."
+    sol_indicator: "Senior engineer retention rates, anonymous whistleblowing log volume, absence of retaliatory NDAs."
+    codex_indicator: "Standardized HR exit interview compliance, presence of comprehensive legal non-disclosure covenants."
+    weight: 0.20
+    single_lock_trigger: true
+    measurable: true
+
+  D4_Temporal_Extraction:
+    name: "Temporal Extraction / Extraction Temporelle"
+    description: "Compression of safety, research, and validation cycles to maximize short-term financial velocity."
+    sol_indicator: "Empirical validation times, lab testing duration, uncompressed R&D calendar steps."
+    codex_indicator: "Product release frequency, stock buybacks vs R&D investment ratios."
+    weight: 0.15
+    measurable: true
+    generates:
+      - "D5_Semantic_Oxygen_Debt"
+
+  D5_Semantic_Oxygen_Debt:
+    name: "Semantic Oxygen Debt / Dette d'Oxygène Sémantique"
+    description: "The systemic accumulation of synthetic or unverified representations exceeding biological and physical constraints."
+    sol_indicator: "Volume of first-hand human empirical testing data, fresh physical inputs."
+    codex_indicator: "Ratio of synthetic or machine-generated data in the training or operational pipeline."
+    weight: 0.10
+    measurable: true
+    parent: "D4_Temporal_Extraction"
+
+  D6_Inverted_Fallow:
+    name: "Inverted Fallow / Jachère Inversée"
+    description: "Saturation of organizational energy by compliance bureaucracy, draining resources from core engineering."
+    sol_indicator: "Ratio of active R&D engineers to compliance/management staff on the shop floor."
+    codex_indicator: "Frequency of safety audits, committee formations, and governance boards."
+    weight: 0.15
+    measurable: true
+
+  D7_Hollow_Consensus:
+    name: "Hollow Consensus / Consensus Creux"
+    description: "Establishment of decorative boards or oversight committees devoid of actual veto power."
+    sol_indicator: "Documented cases of board vetoes against executive product launch decisions."
+    codex_indicator: "Prestige metrics, names of board members, frequency of advisory meetings."
+    weight: 0.15
+    single_lock_trigger: true
+    measurable: true
+
+metrology_rules:
+  score_r:
+    definition: "Ratio of Soil invariants to Codex representation tokens."
+    formula: "R = Sol_Tokens / (Sol_Tokens + Codex_Tokens)"
+    bounds:
+      grounded: "R >= 0.60"
+      vigilance: "0.35 < R < 0.60"
+      chimera: "R <= 0.35"
+  loi_tau:
+    definition: "Multiplicative reduction of error rates across independent physical detection layers."
+    formula: "P(Error_Global) = Product(P(Error_i)) for i in range(1, N)"
+  single_lock:
+    definition: "A single critical diagnostic score >= 9/10 triggers a direct audit veto, bypassing the global average."
