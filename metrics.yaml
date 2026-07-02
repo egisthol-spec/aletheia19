@@ -1,0 +1,50 @@
+# =========================================================================
+# ALETHEIA19 - METRICS & SCALING SPECIFICATION (metrics.yaml)
+# =========================================================================
+# Format: YAML 1.2
+# Reference Zenodo DOI: 10.5281/zenodo.21033180
+# =========================================================================
+
+metrology_rules:
+  score_r:
+    name: "Soil Grounding Ratio"
+    definition: "Ratio of Soil invariants to Codex representation tokens."
+    formula: "R = Sol_Tokens / (Sol_Tokens + Codex_Tokens)"
+    bounds:
+      grounded: "R >= 0.60"
+      vigilance: "0.35 < R < 0.60"
+      chimera: "R <= 0.35"
+
+  loi_tau:
+    name: "Multi-Layer Error Reduction"
+    definition: "Multiplicative reduction of error rates across independent physical detection layers."
+    formula: "P(Error_Global) = Product(P(Error_i)) for i in range(1, N)"
+
+  single_lock:
+    name: "Single Lock Trigger"
+    definition: "A single critical diagnostic score >= 9/10 triggers a direct audit veto, bypassing the global average."
+    target_diagnostics:
+      - "D3_Neutralized_Immune_Response"
+      - "D7_Hollow_Consensus"
+
+  cistercian_decoupling_index:
+    name: "Cistercian Decoupling & Friction Index"
+    symbol: "chi"
+    associated_diagnostic: "D6_Inverted_Fallow"
+    definition: "The partial derivative of local execution state (L_local) with respect to a global command or centralized tool (B)."
+    formula: "chi = d(L_local) / dB"
+    bounds:
+      sovereign_decentralized: "chi == 0" # Local fallow (Jachere) is perfectly preserved. No overhead.
+      administrative_creep: "0.0 < chi < 0.5" # Micro-management is introducing operational friction.
+      cognitive_capture: "chi >= 0.5" # The local node spends significant energy executing/reporting central commands (Cluniac state).
+
+  semantic_oxygen_ratio:
+    name: "Semantic Oxygen Ratio / Asphyxiation Index"
+    symbol: "omega"
+    associated_diagnostic: "D5_Semantic_Oxygen_Debt"
+    definition: "The ratio of unconstrained operational terms to the total vocabulary required to describe anomalous, failure, or crisis states."
+    formula: "omega = V_unconstrained / (V_unconstrained + V_censored)"
+    bounds:
+      oxygenated: "omega >= 0.80" # The organization can freely name and respond to its failures.
+      hypoxia: "0.50 < omega < 0.80" # Semantic suppression is active. Warnings are delayed or masked.
+      asphyxiation: "omega <= 0.50" # Severe censorship. The system lacks the vocabulary to coordinate emergency response.

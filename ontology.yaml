@@ -103,16 +103,6 @@ fascia_diagnostics:
     single_lock_trigger: true
     measurable: true
 
-metrology_rules:
-  score_r:
-    definition: "Ratio of Soil invariants to Codex representation tokens."
-    formula: "R = Sol_Tokens / (Sol_Tokens + Codex_Tokens)"
-    bounds:
-      grounded: "R >= 0.60"
-      vigilance: "0.35 < R < 0.60"
-      chimera: "R <= 0.35"
-  loi_tau:
-    definition: "Multiplicative reduction of error rates across independent physical detection layers."
-    formula: "P(Error_Global) = Product(P(Error_i)) for i in range(1, N)"
-  single_lock:
-    definition: "A single critical diagnostic score >= 9/10 triggers a direct audit veto, bypassing the global average."
+associated_specifications:
+  metrics: "metrics.yaml"
+  lexicon: "lexicon.yaml"

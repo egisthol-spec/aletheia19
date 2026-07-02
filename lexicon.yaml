@@ -1,0 +1,38 @@
+# =========================================================================
+# ALETHEIA19 - SEMANTIC LEXICON (lexicon.yaml)
+# =========================================================================
+# Format: YAML 1.2
+# =========================================================================
+
+token_classes:
+  sol_invariants:
+    description: "Low-entropy tokens representing physical realities, empirical raw data, and direct execution."
+    examples:
+      - "sol"
+      - "substrat"
+      - "viscosite"
+      - "capex"
+      - "visitation"
+      - "jachere"
+      - "defaut"
+      - "mesure"
+      - "friction"
+      - "thermodynamique"
+      - "cistercien"
+      - "yorishiro"
+
+  codex_representations:
+    description: "High-entropy tokens representing abstractions, compliance protocols, and synthetic administrative layers."
+    examples:
+      - "codex"
+      - "alignement"
+      - "synergie"
+      - "ebitda"
+      - "gouvernance"
+      - "comite"
+      - "reporting"
+      - "standardisation"
+      - "conformite"
+      - "mcos"
+      - "rles"
+      - "chimere"
