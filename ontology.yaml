@@ -106,3 +106,5 @@ fascia_diagnostics:
 associated_specifications:
   metrics: "metrics.yaml"
   lexicon: "lexicon.yaml"
+  plugins:
+    - "fascia_software_engineering.yaml"

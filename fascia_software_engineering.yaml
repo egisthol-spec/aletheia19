@@ -1,0 +1,37 @@
+# =========================================================================
+# FASCIA VERTICAL PLUGIN: SOFTWARE ENGINEERING (fascia_software_engineering.yaml)
+# =========================================================================
+# Target: Codebase health, CI/CD pipelines, and developer team friction.
+# =========================================================================
+
+domain: "software_engineering"
+version: "1.0"
+
+diagnostics_mapping:
+  D1_Facade_Homeostasis:
+    corporate_definition: "Surface metrics are optimized while the underlying physical operations deteriorate."
+    technical_mapping: "CI/CD pipeline displays a green status and high test coverage, but critical functional regressions occur in production. Code metrics are artificially gamed to satisfy management dashboards."
+
+  D2_Semantic_Parasitism:
+    corporate_definition: "Adoption of trendy vocabulary to mimic advanced structure without substance."
+    technical_mapping: "Hype-driven development (HDD). Unjustified architecture layers (e.g., microservices, complex design patterns, or over-engineered abstract classes) introduced only to match resume-driven design, creating massive coupling and overhead."
+
+  D3_Neutralized_Immune_Response:
+    corporate_definition: "The internal warning system is muted or decoupled from executive action."
+    technical_mapping: "Silently caught exceptions (empty try-catch blocks), compiler warnings disabled or ignored, and flaky tests disabled in CI/CD configuration to bypass build blocks."
+
+  D4_Temporal_Extraction:
+    corporate_definition: "Strategic long-term reserves are consumed to maintain short-term output."
+    technical_mapping: "Arbitrary sprint deadlines or release pressures forcing engineers to bypass design phases, resulting in systemic technical debt, lack of refactoring, and code duplication."
+
+  D5_Semantic_Oxygen_Debt:
+    corporate_definition: "The vocabulary required to describe anomaly states is censored or lost."
+    technical_mapping: "Undocumented, legacy, or highly obfuscated codebases. The failure of variable naming, lack of comments on critical architectural workarounds, and team siloization where the logic of key modules cannot be articulated by current developers."
+
+  D6_Inverted_Fallow:
+    corporate_definition: "Local operational time is consumed by central compliance and reporting."
+    technical_mapping: "Developers spending more than 30% of their weekly capacity writing Jira tickets, manually updating tracking tools, and participating in status sync meetings instead of shipping code."
+
+  D7_Hollow_Consensus:
+    corporate_definition: "Formal alignment achieved without authentic critical verification."
+    technical_mapping: "The 'LGTM' (Looks Good To Me) pull request review culture. PRs are systematically approved without code execution, deep logic verification, or constructive conflict, resulting in critical design failures slipping through."

@@ -31,12 +31,12 @@ metrology_rules:
     name: "Cistercian Decoupling & Friction Index"
     symbol: "chi"
     associated_diagnostic: "D6_Inverted_Fallow"
-    definition: "The partial derivative of local execution state (L_local) with respect to a global command or centralized tool (B)."
-    formula: "chi = d(L_local) / dB"
+    definition: "Operational friction index derived from the algebraic connectivity of the coordination network G(V, E). It maps the second smallest eigenvalue (Fiedler value, lambda_2) of the Laplacian matrix L = D - A to the local autonomy margin."
+    formula: "chi = 1 - (2 * lambda_2 / (lambda_2 + lambda_N))" # Normalizes spectral properties between 0 (sovereign decentralization) and 1 (Cluniac central stasis)
     bounds:
-      sovereign_decentralized: "chi == 0" # Local fallow (Jachere) is perfectly preserved. No overhead.
-      administrative_creep: "0.0 < chi < 0.5" # Micro-management is introducing operational friction.
-      cognitive_capture: "chi >= 0.5" # The local node spends significant energy executing/reporting central commands (Cluniac state).
+      sovereign_decentralized: "chi == 0" # Perfect balance: local nodes operate autonomously (Fiedler value is low but non-zero, preserving local jachere).
+      administrative_creep: "0.0 < chi < 0.5" # Network algebraic connectivity is rising, propagating micro-management constraints.
+      cognitive_capture: "chi >= 0.5" # The network is hyper-constrained (lambda_2 approaches the spectral radius lambda_N), local nodes lose all independent execution state.
 
   semantic_oxygen_ratio:
     name: "Semantic Oxygen Ratio / Asphyxiation Index"
