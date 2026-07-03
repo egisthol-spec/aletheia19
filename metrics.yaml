@@ -48,3 +48,19 @@ metrology_rules:
       oxygenated: "omega >= 0.80" # The organization can freely name and respond to its failures.
       hypoxia: "0.50 < omega < 0.80" # Semantic suppression is active. Warnings are delayed or masked.
       asphyxiation: "omega <= 0.50" # Severe censorship. The system lacks the vocabulary to coordinate emergency response.
+
+inference_rules:
+  R001_asphyxia_regime:
+    name: "Transition to Asphyxiation Regime"
+    condition: "D5_Semantic_Oxygen_Debt >= 0.80 AND D6_Inverted_Fallow >= 0.70"
+    consequence: "Systemic hypoxia triggered. Critical operational signals are masked. Initiate emergency vocabulary restoration."
+  
+  R002_chimera_collapse:
+    name: "Transition to Chimera Collapse"
+    condition: "score_r <= 0.35 AND D1_Facade_Homeostasis >= 0.80"
+    consequence: "Autophagous semantic loop active. Autonomy grounding (Sol) is lost. Trigger direct audit veto."
+
+  R003_immune_neutralization:
+    name: "Neutralization Veto Trigger"
+    condition: "D3_Neutralized_Immune_Response >= 0.90 OR D7_Hollow_Consensus >= 0.90"
+    consequence: "Immune warning vectors disabled. Bypassing global averages to execute direct veto protocol."
