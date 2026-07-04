@@ -57,7 +57,7 @@ This project is anchored by three Zenodo deposits forming a complete argumentati
    * *Experimental validation*: Thermodynamic de-noising of volumetric substrates.
    * Role: Physical proof that the framework applies to real biophysical data (carbonized papyri).
 
-3. **[DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)** (Current Preprint V5.4)
+3. **[DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)** (Current Preprint V5.5)
    * *Unified specification*: From Lovelace's Loom to Latent Spaces.
    * Role: Complete theoretical framework integrating thermodynamics, geometry, and information physics.
 
