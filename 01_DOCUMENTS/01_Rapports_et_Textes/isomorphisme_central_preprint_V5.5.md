@@ -6,6 +6,7 @@
 **Date :** Juillet 2026  
 **Classification / Cibles :** Physique Théorique de l'Information / Géométrie Différentielle Sémantique (Dépôt arXiv : cs.AI, q-bio.NC, physics.soc-ph)  
 **Mots-clés / Keywords :** Aletheia19 Protocol, FASCIA Protocol, Cognitive Isomorphism, Information Physics, Geometric Deep Learning, Semantic Transduction, Manifold Learning, Topological Stability, Neural ODEs, Lovelace Constraint, Fallow Law, AI Alignment
+**Zenodo DOI :** [10.5281/zenodo.21192234](https://doi.org/10.5281/zenodo.21192234) (Version V5.5)
 
 ---
 
