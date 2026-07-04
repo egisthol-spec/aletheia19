@@ -1019,7 +1019,7 @@ Pour contourner ce risque, le protocole exige que le prompt publié ci-dessus so
 6. Rayleigh, Lord (J. W. Strutt). (1873). Some General Theorems relating to Vibrations. *Proceedings of the London Mathematical Society*, s1-4(1), 357-368.
 7. Scellier, B., & Bengio, Y. (2017). Equilibrium Propagation: Bridging the Gap between Energy-Based Models, Backpropagation, and Boltzmann Machines. *Frontiers in Computational Neuroscience*, 11, 24.
 8. Bender, E. M., et al. (2021). On the Dangers of Stochastic Parrots. *Proceedings of FAccT '21*.
-9. Patrice R., & Collectif Aletheia19 (2026). *Matrice d'Isomorphismes Topologiques Transverses (V25K)*. Zenodo. DOI: https://doi.org/10.5281/zenodo.18129883.
+9. Patrice R., & Collectif Aletheia19 (2026). *Matrice d'Isomorphismes Topologiques Transverses (V25K)*. Zenodo. DOI: https://doi.org/10.5281/zenodo.18129882.
 10. Friston, K. (2010). The free-energy principle: a unified brain theory?. *Nature Reviews Neuroscience*, 11(2), 127-138.
 11. Amari, S. (1998). Natural gradient works efficiently in learning. *Neural Computation*, 10(2), 251-276.
 12. Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient Estimation of Word Representations in Vector Space. *Proceedings of ICLR 2013*.
@@ -1040,4 +1040,6 @@ Pour contourner ce risque, le protocole exige que le prompt publié ci-dessus so
 27. Bansal, Y., Nakkiran, P., & Barak, B. (2021). Revisiting Model Stitching to Compare Neural Representations. *Proceedings of NeurIPS 2021*.
 28. Oren, Y., Meister, N., Chatterji, N., Laber, F., & Hashimoto, T. (2023). Proving Test Set Contamination in Black Box Language Models. *Proceedings of ICLR 2024*. arXiv preprint arXiv:2310.17623.
 29. Chervet, F. (2025). *Hyperarme : De la course aux armements algorithmiques à l'alignement de l'IA*. Éditions Nullius in Verba.
+30. Adler, R. (1946). A study of locking phenomena in oscillators. *Proceedings of the IRE*, 34(6), 351-357.
+31. Takens, F. (1981). Detecting strange attractors in turbulence. *Lecture Notes in Mathematics*, 898, 366-381.
 

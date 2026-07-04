@@ -49,7 +49,7 @@ This repository contains the open-core infrastructure, diagnostic engines, and c
 
 This project is anchored by three Zenodo deposits forming a complete argumentative tripod:
 
-1. **[DOI: 10.5281/zenodo.18129883](https://doi.org/10.5281/zenodo.18129883)** (January 2026)
+1. **[DOI: 10.5281/zenodo.18129882](https://doi.org/10.5281/zenodo.18129882)** (January 2026)
    * *Proof of anteriority*: First formalization of the 25,188 cognitive isomorphisms.
    * Role: Legal timestamp establishing priority of the conceptual framework.
 
