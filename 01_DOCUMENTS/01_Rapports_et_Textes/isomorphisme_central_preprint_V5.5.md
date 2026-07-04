@@ -5,7 +5,7 @@
 **Affiliation :** Laboratoire d'Épistémologie Clinique et Métrologie de l'Information  
 **Date :** Juillet 2026  
 **Classification / Cibles :** Physique Théorique de l'Information / Géométrie Différentielle Sémantique (Dépôt arXiv : cs.AI, q-bio.NC, physics.soc-ph)  
-**Mots-clés / Keywords :** Aletheia19 Protocol, Cognitive Isomorphism, Information Physics, Geometric Deep Learning, Semantic Transduction, FASCIA Protocol, Manifold Learning, Topological Stability, Neural ODEs, Lovelace Constraint
+**Mots-clés / Keywords :** Aletheia19 Protocol, FASCIA Protocol, Cognitive Isomorphism, Information Physics, Geometric Deep Learning, Semantic Transduction, Manifold Learning, Topological Stability, Neural ODEs, Lovelace Constraint, Fallow Law, AI Alignment
 
 ---
 
