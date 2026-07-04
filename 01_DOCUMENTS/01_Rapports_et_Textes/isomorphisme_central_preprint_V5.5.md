@@ -5,6 +5,7 @@
 **Affiliation :** Laboratoire d'Épistémologie Clinique et Métrologie de l'Information  
 **Date :** Juillet 2026  
 **Classification / Cibles :** Physique Théorique de l'Information / Géométrie Différentielle Sémantique (Dépôt arXiv : cs.AI, q-bio.NC, physics.soc-ph)  
+**Mots-clés / Keywords :** Aletheia19 Protocol, Cognitive Isomorphism, Information Physics, Geometric Deep Learning, Semantic Transduction, FASCIA Protocol, Manifold Learning, Topological Stability, Neural ODEs, Lovelace Constraint
 
 ---
 
@@ -901,7 +902,7 @@ Ces correspondances proverbiales ne sont pas ornementales. Elles illustrent la s
 | 9 | *« Vigilance » reflète « Sang » ou « Trésorerie »* (ID 19995) | « Un sou est un sou » (proverbe français) | La surveillance comme préservation de la liquidité |
 | 10 | *« Convalescence » est l'équivalent structurel de « Trésorerie »* (ID 20033) | « Après la pluie, le beau temps » (proverbe français) | Le cycle de régénération comme reconstitution de réserve |
 
-> **Note méthodologique :** La matrice complète de $28\;188$ isomorphismes de graphes relationnels sémantiques est disponible sous licence ouverte (voir Réf. [5]). Les correspondances proverbiales ci-dessus n'ont pas été sélectionnées par optimisation algorithmique mais par homomorphisme de structure de dépendance sémantique commune (préservation des liens orientés de relation entre concepts) — illustrant la saillance phénoménologique immédiate pour l'opérateur humain de ces invariants structurels.
+> **Note méthodologique :** La matrice complète de $28\;188$ isomorphismes de graphes relationnels sémantiques est disponible sous licence ouverte (voir Réf. [9]). Les correspondances proverbiales ci-dessus n'ont pas été sélectionnées par optimisation algorithmique mais par homomorphisme de structure de dépendance sémantique commune (préservation des liens orientés de relation entre concepts) — illustrant la saillance phénoménologique immédiate pour l'opérateur humain de ces invariants structurels.
 
 ---
 
