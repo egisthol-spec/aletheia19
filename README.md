@@ -86,6 +86,7 @@ The public repository contains the authoritative open-core specification, the pr
     *   `Vatican_Magnifica_Humanitas.md`: Sovereign immune response of a millennial administration.
     *   `In_Ovo_Sorting.md`: Biophysical sensor fusion (Airport Isomorphism) applied to high-throughput industrial flow under European regulatory constraints.
     *   `Meta_Self_Audit.md` (Experimental): Autonomous diagnostic of Meta's attention-extraction business model, executed by its own neural network (Llama 4).
+    *   `GLM_Chinese_Firewall.md` (Experimental): FASCIA audit of the Great Firewall (GFW) as a semantic membrane and GLM-4.6 adversarial subversion (PCCO) under state regulatory constraints.
 *   **`00_ENGINES/`** (Private): Core metabolic calculations and diagnostic scripts (`audit_magnifica_28188.py` / quantitative sensor).
 *   **`Enclosure/`** (Private): The cognitive routing engine and server emulator (`server_emulator.py`).
 *   **`01_DOCUMENTS/`** (Private): Academic preprints and raw research drafts.
