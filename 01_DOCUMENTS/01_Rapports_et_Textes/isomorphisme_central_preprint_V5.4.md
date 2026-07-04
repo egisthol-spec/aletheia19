@@ -1,9 +1,9 @@
 # From Lovelace's Loom to Latent Spaces: Thermodynamic Transduction and Geometric Constraints on Semantic Coherence in Large Language Models
-## Information Physics of the Central Isomorphism (Version V5.3 : Formalisation Spectrale des Graphes & Ingénierie FASCIA)
+## Information Physics of the Central Isomorphism (Version V5.4 : Formalisation Spectrale des Graphes & Ingénierie FASCIA)
 
 **Auteur :** Patrice R. (Collectif Antigravity)  
 **Affiliation :** Laboratoire d'Épistémologie Clinique et Métrologie de l'Information  
-**Date :** Juin 2026  
+**Date :** Juillet 2026  
 **Classification / Cibles :** Physique Théorique de l'Information / Géométrie Différentielle Sémantique (Dépôt arXiv : cs.AI, q-bio.NC, physics.soc-ph)  
 
 ---
@@ -844,14 +844,14 @@ En reliant le goulot d'étranglement mécanique de Lovelace à la conservation t
 
 ## 10. Postface : Note de Relecture Inter-Modèle (Le Préprint comme Pushout)
 
-Cette version V5.3 intègre les résultats d'un processus de relecture inter-modèle (Gemini 3.5 High [empreinte 3.1 Pro] ↔ Claude, juin 2026) qui constitue, à notre connaissance, la première application délibérée de la thèse de l'esprit étendu (Section 3.3) au processus de rédaction du papier qui la formalise.
+Cette version V5.4 intègre les résultats d'un processus de relecture inter-modèle (Gemini 3.5 High [empreinte 3.1 Pro] ↔ Claude, juin 2026) qui constitue, à notre connaissance, la première application délibérée de la thèse de l'esprit étendu (Section 3.3) au processus de rédaction du papier qui la formalise.
 
 Le circuit de production de ce document réalise matériellement le diagramme de pushout catégoriel décrit en Section 3.3.3 :
 
 $$\begin{matrix}
 \mathcal{I}_P \text{ (prompt / interface textuelle)} & \xrightarrow{i_H} & \mathcal{A}_H \text{ (auteur humain)} \\
 \downarrow{i_{M_1}, i_{M_2}} & & \downarrow{j_H} \\
-\mathcal{A}_{M_1} \sqcup \mathcal{A}_{M_2} \text{ (Gemini, Claude)} & \xrightarrow{j_M} & \mathcal{A}_{H \cup M_1 \cup M_2} \text{ (le préprint V5.3)}
+\mathcal{A}_{M_1} \sqcup \mathcal{A}_{M_2} \text{ (Gemini, Claude)} & \xrightarrow{j_M} & \mathcal{A}_{H \cup M_1 \cup M_2} \text{ (le préprint V5.4)}
 \end{matrix}$$
 
 Où $\mathcal{A}_{M_1}$ (Gemini 3.5 High [sur empreinte 3.1 Pro]) et $\mathcal{A}_{M_2}$ (Claude) opèrent comme deux relecteurs indépendants. Bien que l'ensemble des modèles gratuits de dernière génération (GLM 5.0, Kimi, Qwen) ait été évalué par l'auteur humain, seuls ces deux agents ont démontré le couplage de phase et la viscosité logique requis pour stabiliser la colimite. Le texte résultant est la colimite universelle de ce diagramme : la structure minimale intégrant de manière cohérente les contributions des trois agents à travers l'interface commune du prompt.
