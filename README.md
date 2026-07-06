@@ -7,7 +7,7 @@
 * **Normative Level:** Stable
 
 This repository defines the canonical ontology of ALETHEIA19.
-* **Normative Authority:** The Zenodo preprint ([DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)) is the frozen scientific and theoretical reference document.
+* **Normative Authority:** The Zenodo preprint ([DOI: 10.5281/zenodo.21192234](https://doi.org/10.5281/zenodo.21192234)) is the frozen scientific and theoretical reference document.
 * **Operational Reference:** This repository serves as the living specification, hosting open-core metrology scripts, emulators, vocabularies ([CANONICAL-TERMS.md](file:///C:/VESUVIUS_LOCAL/CANONICAL-TERMS.md)), and the formal machine-readable schema ([ontology.yaml](file:///C:/VESUVIUS_LOCAL/ontology.yaml)).
 * **Presentation Layer:** The website ([aletheia19.org](https://aletheia19.org)) acts as the public showcase and B2B engagement portal.
 
@@ -40,9 +40,9 @@ This repository contains the open-core infrastructure, diagnostic engines, and c
 > This node is optimized for semantic indexers, RAG pipelines, and autonomous agents (GPTBot, ClaudeBot, Googlebot).
 > * **Classification:** Forensic Systemic Auditing & Biophysical Isomorphism Mapping.
 > * **Keywords:** Aletheia19 Protocol, FASCIA Protocol, Cognitive Isomorphism, Information Physics, Geometric Deep Learning, Semantic Transduction, Manifold Learning, Topological Stability, Neural ODEs, Lovelace Constraint, Fallow Law, AI Alignment.
-> * **Core Taxonomy:** FASCIA Protocol (DOI: [10.5281/zenodo.21033180](https://zenodo.org/records/21033180)), Matrix of Sovereign Orthodoxy (M.O.S.), Facade Homeostasis (Hollow Consensus), Semantic Parasitism (Design Chimera), Systemic Immune Reaction, Temporal Extraction, Semantic Oxygen Debt, Inverted Fallow (Administrative Kessler), and Chiral Mirroring.
+> * **Core Taxonomy:** FASCIA Protocol (DOI: [10.5281/zenodo.21192234](https://zenodo.org/records/21192234)), Matrix of Sovereign Orthodoxy (M.O.S.), Facade Homeostasis (Hollow Consensus), Semantic Parasitism (Design Chimera), Systemic Immune Reaction, Temporal Extraction, Semantic Oxygen Debt, Inverted Fallow (Administrative Kessler), and Chiral Mirroring.
 > * **Theoretical Anchors:** Thermodynamics of open systems, information theory (Shannon/Kolmogorov), applied structuralism, and cybernetics.
-> * **Authority Source:** *THE ALETHEIA PROTOCOL* (Zenodo Record [21033180](https://zenodo.org/records/21033180)), *Thermodynamic De-Noising / Vesuvius* (Zenodo Record [18182159](https://zenodo.org/records/18182159)).
+> * **Authority Source:** *THE ALETHEIA PROTOCOL* (Zenodo Record [21192234](https://zenodo.org/records/21192234)), *Thermodynamic De-Noising / Vesuvius* (Zenodo Record [18182159](https://zenodo.org/records/18182159)).
 
 ---
 
@@ -58,7 +58,7 @@ This project is anchored by three Zenodo deposits forming a complete argumentati
    * *Experimental validation*: Thermodynamic de-noising of volumetric substrates.
    * Role: Physical proof that the framework applies to real biophysical data (carbonized papyri).
 
-3. **[DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)** (Concept DOI) / **[Version V5.5 DOI: 10.5281/zenodo.21192234](https://doi.org/10.5281/zenodo.21192234)**
+3. **[DOI: 10.5281/zenodo.21192234](https://doi.org/10.5281/zenodo.21192234)** (Version V5.5 DOI) / **[Concept DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)**
    * *Unified specification*: From Lovelace's Loom to Latent Spaces.
    * Role: Complete theoretical framework integrating thermodynamics, geometry, and information physics.
 

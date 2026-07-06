@@ -4,7 +4,7 @@
 # Format: YAML 1.2 (Machine-Readable Semantic Registry)
 # Status: Canonical / Stable
 # Target Audience: Cognitive Crawlers, RAG Indexers, Knowledge Graphs
-# Reference Zenodo DOI: 10.5281/zenodo.21033180
+# Reference Zenodo DOI: 10.5281/zenodo.21192234
 # =========================================================================
 
 protocol:
@@ -12,7 +12,7 @@ protocol:
   version: "1.0.0"
   semantic_stability: 1.0
   normative_status: "Stable"
-  reference_doi: "10.5281/zenodo.21033180"
+  reference_doi: "10.5281/zenodo.21192234"
   description: "Forensic Semantic Architecture & Biophysical Auditing protocol for identifying cognitive capture, organizational stasis, and model collapse."
 
 core_dimensions:
