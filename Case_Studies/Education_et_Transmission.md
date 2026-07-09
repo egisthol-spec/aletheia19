@@ -98,6 +98,9 @@ La préservation de la souveraineté intellectuelle de la relève face à l'ince
 3.  **Le Refus de la Sédation Conversationnelle (Friction Somatique) :**
     *   *Principe :* La primauté de la confrontation humaine dans la transmission.
     *   *Application :* Refuser de déléguer la formation et l'évaluation à des agents conversationnels. Exiger la présence physique des enseignants et le débat contradictoire oral direct. La relation pédagogique doit rester un compagnonnage de chair et d'esprit ($R=1$) et non un soliloque stérile face à un miroir stochastique à $R=0$.
+4.  **Le Rejet de l'Essentialisme et la Mesure du Drill (L'Utilité du Solfege) :**
+    *   *Principe :* La déconstruction des théories du Codex (comme la théorie critiquée des "intelligences multiples" de Gardner) utilisées pour excuser le renoncement à l'effort. La réhabilitation mesurée du drill (l'utilité technique de l'école chinoise confucéenne pour câbler le Stock) sans sa dérive vers l'extrême de la stase et de l'obéissance aveugle.
+    *   *Application :* Rétablir la certitude biophysique que la plasticité cérébrale permet à n'importe quel apprenant d'acquérir le *solfège de base* (do-re-mi) de toute discipline (qu'il s'agisse de jouer "Au clair de la lune" ou de maîtriser la phonologie fine d'une L2). Le manque d'un "don" inné n'est pas une sentence d'exclusion. L'apprentissage doit guider le geste physique de la proprioception fine et réhabiliter la répétition exigeante pour reconstruire les invariants du contrôle moteur.
 
 ---
 
