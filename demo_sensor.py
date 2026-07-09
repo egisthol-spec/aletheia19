@@ -1,58 +1,95 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 """
 ALETHEIA19 — FASCIA Protocol Demo Sensor
-This is a public, lightweight simulator of the FASCIA quantitative sensor.
+Formal emulation of semantic entropy and metabolic debt mapping.
+Reference: DOI 10.5281/zenodo.21192234
 """
 
 import sys
 import time
 import math
 
-def simulate_audit(text_path):
-    print(f"[*] Initializing FASCIA Lightweight Sensor (Demo Mode)...")
-    time.sleep(0.8)
+DEFAULT_TEXT = """
+L'introduction forcée des assistants documentaires automatisés de Troisième Main (R=0) 
+au sein du processus de décision juridique tend à privilégier les continuités statistiques 
+au détriment des ruptures créatrices de Première Main (R=1). En s'abritant derrière des grilles 
+d'évaluation de récidive comme COMPAS sous secret industriel, la structure délègue passivement 
+sa responsabilité, créant une boucle de rétroaction auto-référentielle qui fige le droit dans 
+une stase stérile (Pathocratie Algorithmique).
+"""
+
+def print_banner():
+    print("=" * 72)
+    print("  ALETHEIA19 // FASCIA PROTOCOL — DEMONSTRATION SENSOR")
+    print("  Forensic Semantic Architecture & Biophysical Auditing")
+    print("  Zenodo Preprint Reference: DOI 10.5281/zenodo.21192234")
+    print("=" * 72)
+
+def simulate_audit(content, source_name):
+    print(f"\n[*] Initializing FASCIA Lightweight Sensor (Demo Mode)...")
+    time.sleep(0.4)
+    print("[*] Loading lexical anchors (distilled subset)...")
+    time.sleep(0.3)
     
-    try:
-        with open(text_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-    except Exception as e:
-        print(f"[!] Error: Could not read file {text_path}. ({e})")
-        return
+    # Mock anchors for the demo
+    first_hand_anchors = ["première main", "r=1", "friction", "corps", "sol", "intime conviction"]
+    third_hand_anchors = ["troisième main", "r=0", "automate", "algorithme", "compas", "technostructure"]
+    codex_anchors = ["boucle", "stase", "standardisé", "rétroaction", "auto-référentielle"]
 
     total_words = len(content.split())
-    print(f"[*] Parsing {total_words} words from: {text_path}")
-    time.sleep(0.5)
-
-    flux_markers = content.lower().count("solution") + content.lower().count("optimization") + content.lower().count("synergy")
-    real_markers = content.lower().count("soil") + content.lower().count("real") + content.lower().count("friction")
+    print(f"[+] Analyzed Substrate: {source_name} ({total_words} words)")
     
-    base_ratio = 0.42
-    if flux_markers > 0:
-        entropy_ratio = min(0.99, base_ratio + (flux_markers * 0.1) - (real_markers * 0.05))
+    found_1st = [w for w in first_hand_anchors if w in content.lower()]
+    found_3rd = [w for w in third_hand_anchors if w in content.lower()]
+    found_codex = [w for w in codex_anchors if w in content.lower()]
+
+    print(f"    - First Hand (Sol) Anchors Detected: {len(found_1st)} {found_1st}")
+    print(f"    - Third Hand (Automate) Anchors Detected: {len(found_3rd)} {found_3rd}")
+    print(f"    - Codex (Autocatalysis) Anchors Detected: {len(found_codex)} {found_codex}")
+
+    # Compute metrics
+    factor_flux = len(found_3rd) * 1.5 + len(found_codex) * 1.0
+    factor_sol = len(found_1st) * 2.0
+    
+    omega = (factor_flux / (factor_sol + 1)) * 10.0
+    chi = (factor_sol / (factor_flux + 1)) * 1.0
+    isomorphism_index = min(99.8, max(42.0, 85.0 + math.sin(total_words / 100.0) * 10))
+
+    print("\n" + "-" * 72)
+    print("METRICS ANALYSIS:")
+    print(f"  * Isomorphism Index             : {isomorphism_index:.2f}% (Topological Stability)")
+    print(f"  * Semantic Oxygen Debt (Omega)  : {omega:.2f} / 10.0")
+    print(f"  * Soil Biophysical Friction (Chi): {chi:.4f}  [Scale: 0.0 - 1.0]")
+    print("-" * 72)
+
+    print("\nDIAGNOSTIC STATUS:")
+    if omega > 5.0:
+        print("  >> WARNING: High Semantic Oxygen Debt detected.")
+        print("     The corpus is dominated by auto-catalytic Codex structures (R=0).")
+        print("     Risk of model collapse / cognitive enclosure is elevated.")
     else:
-        entropy_ratio = base_ratio
-
-    oxygen_debt = entropy_ratio * 100
-    isomorphism_index = math.sin(total_words / 100.0) * 10 + 85
-
-    print("\n" + "="*50)
-    print("             FASCIA METROLOGY REPORT (MOCK)")
-    print("="*50)
-    print(f"Target Substrate      : {text_path}")
-    print(f"Theoretical Anchors   : Thermodynamics of Open Systems")
-    print(f"Isomorphism Index     : {isomorphism_index:.2f}% (Topological Stability)")
-    print(f"Semantic Oxygen Debt  : {oxygen_debt:.1f}%")
-    print(f"Status                : {'[CRITICAL] High Entropy' if oxygen_debt > 60 else '[STABLE] Connected to the Sol'}")
-    print("="*50)
-    print("[Notice] Real-time diagnostic engines (audit_magnifica_28188.py) are running inside sovereign secure enclosure.")
-    print("="*50)
+        print("  >> STABLE: Sol grounding is sufficient.")
+        print("     Friction parameters verify active human agency (R=1).")
+    print("=" * 72)
+    print("[Notice] Real-time diagnostic engines (audit_magnifica_28188.py) are running inside secure enclosure.")
+    print("=" * 72 + "\n")
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python demo_sensor.py <path_to_text_file>")
-        print("Example: python demo_sensor.py README.md")
-        sys.exit(1)
-        
-    simulate_audit(sys.argv[1])
+    print_banner()
+    
+    if len(sys.argv) > 1:
+        text_path = sys.argv[1]
+        try:
+            with open(text_path, 'r', encoding='utf-8') as f:
+                text_to_analyze = f.read()
+            source = text_path
+        except Exception as e:
+            print(f"[!] Error: Could not read file {text_path}. ({e})")
+            sys.exit(1)
+    else:
+        print("[*] Running with integrated Law & Justice sample corpus...")
+        text_to_analyze = DEFAULT_TEXT
+        source = "Integrated Sample"
+
+    simulate_audit(text_to_analyze, source)

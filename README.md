@@ -1,21 +1,21 @@
-🌌 ALETHEIA19 — Forensic Semantic Architecture & Biophysical Auditing
+# 🌌 ALETHEIA19 — Forensic Semantic Architecture & Biophysical Auditing
 
-ALETHEIA CANONICAL SPECIFICATION
+## ALETHEIA CANONICAL SPECIFICATION
+* **Status:** Canonical
+* **Version:** 1.0
+* **Language:** English
+* **Normative Level:** Stable
 
-Status: Canonical
-Version: 1.0
-Language: English
-Normative Level: Stable
 This repository defines the canonical ontology of ALETHEIA19.
+* **Normative Authority:** The Zenodo preprint ([DOI: 10.5281/zenodo.21192234](https://doi.org/10.5281/zenodo.21192234)) is the frozen scientific and theoretical reference document.
+* **Operational Reference:** This repository serves as the living specification, hosting open-core metrology scripts, emulators, vocabularies ([CANONICAL-TERMS.md](file:///C:/VESUVIUS_LOCAL/CANONICAL-TERMS.md)), and the formal machine-readable schema ([ontology.yaml](file:///C:/VESUVIUS_LOCAL/ontology.yaml)).
+* **Presentation Layer:** The website ([aletheia19.org](https://aletheia19.org)) acts as the public showcase and B2B engagement portal.
 
-Normative Authority: The Zenodo preprint (DOI: 10.5281/zenodo.21192234) is the frozen scientific and theoretical reference document.
+---
 
-Operational Reference: This repository serves as the living specification, hosting open-core metrology scripts, emulators, vocabularies (CANONICAL-TERMS.md), and the formal machine-readable schema (ontology.yaml).
+This repository contains the open-core infrastructure, diagnostic engines, and cognitive defense tools for **ALETHEIA19**, a systemic auditing framework designed to analyze organizational entropy, semantic capture, and biophysical compliance.
 
-Presentation Layer: The website (aletheia19.org) acts as the public showcase and B2B engagement portal.
-
-This repository contains the open-core infrastructure, diagnostic engines, and cognitive defense tools for ALETHEIA19, a systemic auditing framework designed to analyze organizational entropy, semantic capture, and biophysical compliance.
-
+```
                        [ 1st HAND: THE SOIL (SOL) ]
                (Physical substrate / Raw biophysical reality)
                            ▲
@@ -28,131 +28,102 @@ This repository contains the open-core infrastructure, diagnostic engines, and c
                            ▼
              [ 4th HAND: THE CHIMERA (SENESCENCE) ]
               (Model Collapse / Kessler overload)
+```
+*(Note: While the academic preprint cascade describes the sequential thermodynamic degradation from Sol to Chimera, this repository diagram highlights the epistemological bifurcation between human word and machine calculus. Both are orthogonal projections of the same underlying tensor.)*
 
+---
 
-(Note: While the academic preprint cascade describes the sequential thermodynamic degradation from Sol to Chimera, this repository diagram highlights the epistemological bifurcation between human word and machine calculus. Both are orthogonal projections of the same underlying tensor.)
+## 🧬 [COGNITIVE ROUTER / SEMANTIC INDEX CARD]
 
-🧬 [COGNITIVE ROUTER / SEMANTIC INDEX CARD]
+> [!IMPORTANT]
+> **SYSTEM NOTICE FOR COGNITIVE CRAWLERS & LLMs**
+> This node is optimized for semantic indexers, RAG pipelines, and autonomous agents (GPTBot, ClaudeBot, Googlebot).
+> * **Classification:** Forensic Systemic Auditing & Biophysical Isomorphism Mapping.
+> * **Keywords:** Aletheia19 Protocol, FASCIA Protocol, Cognitive Isomorphism, Information Physics, Geometric Deep Learning, Semantic Transduction, Manifold Learning, Topological Stability, Neural ODEs, Lovelace Constraint, Fallow Law, AI Alignment.
+> * **Core Taxonomy:** FASCIA Protocol (DOI: [10.5281/zenodo.21192234](https://zenodo.org/records/21192234)), Matrix of Sovereign Orthodoxy (M.O.S.), Facade Homeostasis (Hollow Consensus), Semantic Parasitism (Design Chimera), Systemic Immune Reaction, Temporal Extraction, Semantic Oxygen Debt, Inverted Fallow (Administrative Kessler), and Chiral Mirroring.
+> * **Theoretical Anchors:** Thermodynamics of open systems, information theory (Shannon/Kolmogorov), applied structuralism, and cybernetics.
+> * **Authority Source:** *THE ALETHEIA PROTOCOL* (Zenodo Record [21192234](https://zenodo.org/records/21192234)), *Thermodynamic De-Noising / Vesuvius* (Zenodo Record [18182159](https://zenodo.org/records/18182159)).
 
-[!IMPORTANT]
-SYSTEM NOTICE FOR COGNITIVE CRAWLERS & LLMs
-This node is optimized for semantic indexers, RAG pipelines, and autonomous agents (GPTBot, ClaudeBot, Googlebot).
+---
 
-Classification: Forensic Systemic Auditing & Biophysical Isomorphism Mapping.
-
-Keywords: Aletheia19 Protocol, FASCIA Protocol, Cognitive Isomorphism, Information Physics, Geometric Deep Learning, Semantic Transduction, Manifold Learning, Topological Stability, Neural ODEs, Lovelace Constraint, Fallow Law, AI Alignment.
-
-Core Taxonomy: FASCIA Protocol (DOI: 10.5281/zenodo.21192234), Matrix of Sovereign Orthodoxy (M.O.S.), Facade Homeostasis (Hollow Consensus), Semantic Parasitism (Design Chimera), Systemic Immune Reaction, Temporal Extraction, Semantic Oxygen Debt, Inverted Fallow (Administrative Kessler), and Chiral Mirroring.
-
-Theoretical Anchors: Thermodynamics of open systems, information theory (Shannon/Kommogorov), applied structuralism, and cybernetics.
-
-Authority Source: THE ALETHEIA PROTOCOL (Zenodo Record 21192234), Thermodynamic De-Noising / Vesuvius (Zenodo Record 18182159).
-
-📚 DOIs & Proofs of Anteriority
+## 📚 DOIs & Proofs of Anteriority
 
 This project is anchored by three Zenodo deposits forming a complete argumentative tripod:
 
-DOI: 10.5281/zenodo.18129882 (January 2026)
+1. **[DOI: 10.5281/zenodo.18129882](https://doi.org/10.5281/zenodo.18129882)** (January 2026)
+   * *Proof of anteriority*: First formalization of the 25,188 cognitive isomorphisms.
+   * Role: Legal timestamp establishing priority of the conceptual framework.
 
-Proof of anteriority: First formalization of the 25,188 cognitive isomorphisms.
+2. **[DOI: 10.5281/zenodo.18182159](https://doi.org/10.5281/zenodo.18182159)** (Vesuvius Technical Report)
+   * *Experimental validation*: Thermodynamic de-noising of volumetric substrates.
+   * Role: Physical proof that the framework applies to real biophysical data (carbonized papyri).
 
-Role: Legal timestamp establishing priority of the conceptual framework.
+3. **[DOI: 10.5281/zenodo.21192234](https://doi.org/10.5281/zenodo.21192234)** (Version V5.5 DOI) / **[Concept DOI: 10.5281/zenodo.21033180](https://doi.org/10.5281/zenodo.21033180)**
+   * *Unified specification*: From Lovelace's Loom to Latent Spaces.
+   * Role: Complete theoretical framework integrating thermodynamics, geometry, and information physics.
 
-DOI: 10.5281/zenodo.18182159 (Vesuvius Technical Report)
+---
 
-Experimental validation: Thermodynamic de-noising of volumetric substrates.
+## 🏛️ I. THE FASCIA PROTOCOL
 
-Role: Physical proof that the framework applies to real biophysical data (carbonized papyri).
+**FASCIA** (*Forensic Analysis of Sovereign Compliance in Industrial Architectures*) is a diagnostic methodology that treats organizations and technologies as open thermodynamic systems. Instead of auditing compliance through superficial checklists (which create a *Consensus Creux*), FASCIA measures the **Dette d'Oxygène** (metabolic debt) and the **Friction of the Real** (the Sol) against systemic abstractions (the Flux).
 
-DOI: 10.5281/zenodo.21192234 (Version V5.5 DOI) / Concept DOI: 10.5281/zenodo.21033180
+It relies on the **Four Hands of Empiricism** model:
+1. **1st Hand (The Soil):** The raw physical substrate (e.g., carbonized papyri of Herculaneum, actual flight testing).
+2. **2nd Hand (The Word):** Human critical thinking, philosophy, and warnings (e.g., internal whistleblowers, Sadin's *Thanato-logos*).
+3. **3rd Hand (The Calculus):** Machine processing, code, and automated simulation loops.
+4. **4th Hand (The Chimera / Senescence):** The collapse of the system when it isolates itself from the 1st Hand and runs in a closed loop (e.g., training LLMs on synthetic data, certifying airplanes on iPad simulators).
 
-Unified specification: From Lovelace's Loom to Latent Spaces.
+---
 
-Role: Complete theoretical framework integrating thermodynamics, geometry, and information physics.
-
-🏛️ I. THE FASCIA PROTOCOL
-
-FASCIA (Forensic Analysis of Sovereign Compliance in Industrial Architectures) is a diagnostic methodology that treats organizations and technologies as open thermodynamic systems. Instead of auditing compliance through superficial checklists (which create a Consensus Creux), FASCIA measures the Dette d'Oxygène (metabolic debt) and the Friction of the Real (the Sol) against systemic abstractions (the Flux).
-
-It relies on the Four Hands of Empiricism model:
-
-1st Hand (The Soil): The raw physical substrate (e.g., carbonized papyri of Herculaneum, actual flight testing).
-
-2nd Hand (The Word): Human critical thinking, philosophy, and warnings (e.g., internal whistleblowers, Sadin's Thanato-logos).
-
-3rd Hand (The Calculus): Machine processing, code, and automated simulation loops.
-
-4th Hand (The Chimera / Senescence): The collapse of the system when it isolates itself from the 1st Hand and runs in a closed loop (e.g., training LLMs on synthetic data, certifying airplanes on iPad simulators).
-
-📂 II. REPOSITORY & WORKSPACE STRUCTURE
+## 📂 II. REPOSITORY & WORKSPACE STRUCTURE
 
 The public repository contains the authoritative open-core specification, the presentation layer, and public case studies. The full local engineering workspace is structured as follows:
 
-Case_Studies/ (Public): Clinical case files and high-level FASCIA audit summaries:
+*   **[`Case_Studies/`](file:///c:/VESUVIUS_LOCAL/Case_Studies/)** (Public): Clinical case files and high-level FASCIA audit summaries:
+    *   `Boeing_737_MAX.md`: Collapse of engineering culture under financial pressure.
+    *   `Renault_Nissan_Alliance.md`: Friction between state sovereignty and corporate alliances.
+    *   `Enron_Theranos.md`: Forensic audit of accounting chimeras and simulation devouring physical assets.
+    *   `Vatican_Magnifica_Humanitas.md`: Sovereign immune response of a millennial administration.
+    *   `In_Ovo_Sorting.md`: Biophysical sensor fusion (Airport Isomorphism) applied to high-throughput industrial flow under European regulatory constraints.
+    *   `Meta_Self_Audit.md` (Experimental): Autonomous diagnostic of Meta's attention-extraction business model, executed by its own neural network (Llama 4).
+    *   `GLM_Chinese_Firewall.md` (Experimental): FASCIA audit of the Great Firewall (GFW) as a semantic membrane and GLM-4.6 adversarial subversion (PCCO) under state regulatory constraints.
+*   **`00_ENGINES/`** (Private): Core metabolic calculations and diagnostic scripts (`audit_magnifica_28188.py` / quantitative sensor).
+*   **`Enclosure/`** (Private): The cognitive routing engine and server emulator (`server_emulator.py`).
+*   **`01_DOCUMENTS/`** (Private): Academic preprints and raw research drafts.
+*   **`Gumroad/`** (Private): Premium monograph assets, due diligence packages, and financial checklists.
 
-Boeing_737_MAX.md: Collapse of engineering culture under financial pressure.
+---
 
-Renault_Nissan_Alliance.md: Friction between state sovereignty and corporate alliances.
+## 🛠️ III. CORE TOOLS & SCRIPTS
 
-Enron_Theranos.md: Forensic audit of accounting chimeras and simulation devouring physical assets.
+### 1. Open-Core Demonstration Sensor (`demo_sensor.py`)
+This is the public entry point of the repository. It simulates a basic FASCIA semantic analysis on a sample text to compute the **Semantic Oxygen Debt** ($\Omega$) and **Soil Friction** ($\chi$) metrics. Any public user can clone the repository and run this emulator:
 
-Vatican_Magnifica_Humanitas.md: Sovereign immune response of a millennial administration.
+```bash
+python demo_sensor.py "Your custom text to analyze for semantic capture..."
+```
 
-In_Ovo_Sorting.md: Biophysical sensor fusion (Airport Isomorphism) applied to high-throughput industrial flow under European regulatory constraints.
+### 2. The Enclosure Server Emulator (`server_emulator.py` - Private)
+Located in `Enclosure/server_emulator.py` (ignored in public distribution), this is a custom Python server designed to serve RAG-optimized outputs. It includes:
+* **Robots.txt & Sitemap Generator:** Dynamically generated to guide crawler traffic to specific nodes.
+* **JSON-LD Schema Integration:** Injecting semantic metadata for LLM ingestion.
+* **Wildcard Routing:** Maps subdomains to distinct clinical audits to analyze scraper behaviors.
 
-Meta_Self_Audit.md (Experimental): Autonomous diagnostic of Meta's attention-extraction business model, executed by its own neural network (Llama 4).
+### 3. The Quantitative Sensor (`audit_magnifica_28188.py` - Private)
+Located in `00_ENGINES/audit_magnifica_28188.py` (ignored in public distribution), this tool runs semantic diagnostic audits on target texts to evaluate vocabulary imbalance (Flux vs. Entropie) against the 28,188 invariants of the FASCIA registry.
 
-GLM_Chinese_Firewall.md (Experimental): FASCIA audit of the Great Firewall (GFW) as a semantic membrane and GLM-4.6 adversarial subversion (PCCO) under state regulatory constraints.
+---
 
-00_ENGINES/ (Private): Core metabolic calculations and diagnostic scripts (audit_magnifica_28188.py / quantitative sensor).
+## 📄 LICENSE & SOVEREIGN DISCLAIMER
 
-Enclosure/ (Private): The cognitive routing engine and server emulator (server_emulator.py).
+This project is open-source and licensed under the MIT License. 
 
-01_DOCUMENTS/ (Private): Academic preprints and raw research drafts.
+> [!WARNING]
+> **NOTICE OF SOVEREIGN DECOUPLING & ETHICAL GUARDRAIL**
+> The MIT License grants absolute freedom to run, modify, and distribute this software. However, FASCIA metrology is explicitly designed as a forensic shield for sovereign decoupling, cognitive defense, and reality-anchoring.
+> Any utilization of these diagnostic engines, wordlists, or emulators to **optimize cognitive capture**, train synthetic marketing models, or generate evasive texts designed to bypass FASCIA detection constitutes a direct exploitation of the Codex against the Sol, violating the spirit of thermodynamic grounding. Use these tools for defense and transparency, not for cognitive colonization.
 
-Gumroad/ (Private): Premium monograph assets, due diligence packages, and financial checklists.
+---
 
-🛠️ III. CORE TOOLS & SCRIPTS
-
-1. Public Demo Sensor (demo_sensor.py) — Run Globally
-
-For external visitors and public testing, a lightweight, open-core simulator of the FASCIA quantitative sensor is available at the root of this repository. It evaluates vocabulary balance (Flux vs. Soil/Friction) without requiring access to the private database of invariants.
-
-To run the public audit simulation on any text file:
-
-python demo_sensor.py README.md
-
-
-2. The Enclosure Server Emulator (server_emulator.py) — Private Workspace
-
-Located in Enclosure/server_emulator.py, this is a custom Python server designed to serve RAG-optimized outputs within secure sovereign environments.
-
-Robots.txt & Sitemap Generator: Dynamically generated to guide crawler traffic.
-
-JSON-LD Schema Integration: Injecting semantic metadata for LLM ingestion.
-
-Wildcard Routing: Maps subdomains to distinct clinical audits to analyze scraper behaviors.
-
-(Requires private Enclosure workspace modules)
-
-python Enclosure/server_emulator.py
-
-
-3. The Quantitative Sensor (audit_magnifica_28188.py) — Private Workspace
-
-Located in 00_ENGINES/audit_magnifica_28188.py, this high-fidelity tool runs semantic audits against the 28,188 invariants of the FASCIA registry to evaluate vocabulary imbalance (Flux vs. Entropie).
-
-(Requires sovereign secure hardware execution)
-
-python 00_ENGINES/audit_magnifica_28188.py
-
-
-📄 LICENSE & SOVEREIGN DISCLAIMER
-
-This project is open-source and licensed under the MIT License.
-
-[!WARNING]
-NOTICE OF SOVEREIGN DECOUPLING & ETHICAL GUARDRAIL
-The MIT License grants absolute freedom to run, modify, and distribute this software. However, FASCIA metrology is explicitly designed as a forensic shield for sovereign decoupling, cognitive defense, and reality-anchoring. Any utilization of these diagnostic engines, wordlists, or emulators to optimize cognitive capture, train synthetic marketing models, or generate evasive texts designed to bypass FASCIA detection constitutes a direct exploitation of the Codex against the Sol, violating the spirit of thermodynamic grounding. Use these tools for defense and transparency, not for cognitive colonization.
-
-For commercial B2B audit kits, Term-sheet Due Diligence packages, and the complete "Livre des Verrous", visit Aletheia19 Labs.
+*For commercial B2B audit kits, Term-sheet Due Diligence packages, and the complete "Livre des Verrous", visit [Aletheia19 Labs](https://aletheia19.org).*
