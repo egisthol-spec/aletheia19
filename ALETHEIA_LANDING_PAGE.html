@@ -1204,11 +1204,16 @@
             const activeScan = document.getElementById('active-scan-container');
             const resultsBox = document.getElementById('results-box');
             const scanStatus = document.getElementById('scan-status');
+            const laser = document.querySelector('.laser-bar');
 
             if (!docInput) {
                 alert("Veuillez coller un texte à analyser.");
                 return;
             }
+
+            // Reset laser color to blue scanning state
+            laser.style.background = '#00ffff';
+            laser.style.boxShadow = '0 0 10px #00ffff, 0 0 5px #fff';
 
             // Hide results, show scanning animation
             resultsBox.style.display = 'none';
@@ -1220,7 +1225,7 @@
                 setTimeout(() => {
                     scanStatus.innerText = "Mesure de la viscosité et de l'inertie de phase...";
                     setTimeout(() => {
-                        activeScan.style.display = 'none';
+                        // Keep scanner visible, just show results and update laser
                         displayScanResults(docInput);
                     }, 1000);
                 }, 1000);
@@ -1230,6 +1235,8 @@
         function displayScanResults(text) {
             const resultsBox = document.getElementById('results-box');
             resultsBox.style.display = 'block';
+            const laser = document.querySelector('.laser-bar');
+            const scanStatus = document.getElementById('scan-status');
 
             // Lists of sémantique triggers
             const codexDissonances = [
@@ -1307,16 +1314,31 @@
                 verdictLabel.classList.add('verdict-vivant');
                 verdictDesc.innerHTML = "<strong>Félicitations.</strong> Ce document présente une viscosité logique élevée et un ancrage matériel indéniable ($R = " + frictionVal + "$). Les expressions traduisent une contrainte physique ou logique réelle et résistent à l'alignement lisse du Codex sémantique. L'Œuf est vivant, la néguentropie est assurée.";
                 logBox.innerHTML = "<strong>[FASCIA-LOG]</strong> Ingestion réussie. R = " + frictionVal + " (Haute viscosité). Invariants détectés: " + solCount + " occurrences. Indice de simulation très faible. L'inertie du Sol maintient la variété.";
+                
+                // Green laser for Vivant
+                laser.style.background = '#00ffaa';
+                laser.style.boxShadow = '0 0 15px #00ffaa, 0 0 5px #fff';
+                scanStatus.innerHTML = "<span style='color: #00ffaa; font-weight: bold;'>[STATUT : ANALYSE TERMINÉE - SOUVERAINETÉ ASSURÉE]</span>";
             } else if (R <= 0.35) {
                 verdictLabel.innerText = "Coquille Vide (Simulation Codex)";
                 verdictLabel.classList.add('verdict-vide');
                 verdictDesc.innerHTML = "<strong>Alerte.</strong> Ce texte est une pure construction publicitaire ou un discours de complaisance administrative ($R = " + frictionVal + "$). Il est saturé d'expressions de seconde main et de buzzwords managériaux vides. La structure n'a aucun couplage avec le réel ; c'est un zombi stochastique, une coquille vide prête à s'effondrer au moindre audit de torsion.";
                 logBox.innerHTML = "<strong>[FASCIA-LOG]</strong> ALERTE : R = " + frictionVal + " (Friction critique). Parasitisme détecté: " + codexCount + " buzzwords Codex. Zéro viscosité interne. Le système est vide sémantiquement.";
+                
+                // Red laser for Vide
+                laser.style.background = '#ff0055';
+                laser.style.boxShadow = '0 0 15px #ff0055, 0 0 5px #fff';
+                scanStatus.innerHTML = "<span style='color: #ff0055; font-weight: bold;'>[STATUT : ALERTE - SIMULATION CODEX DÉTECTÉE]</span>";
             } else {
                 verdictLabel.innerText = "Œuf Dur (Stase Administrative)";
                 verdictLabel.classList.add('verdict-cuit');
                 verdictDesc.innerHTML = "<strong>Mise en garde.</strong> Ce système est figé dans une stase bureaucratique ($R = " + frictionVal + "$). Il ne produit plus de dérive de surface mais a perdu toute plasticité adaptative. L'intérieur a été solidifié pour répondre à la pression réglementaire, éliminant les degrés de liberté métaboliques. L'œuf est cuit.";
                 logBox.innerHTML = "<strong>[FASCIA-LOG]</strong> NOTICE : R = " + frictionVal + " (Stase rigide). Le couplage de phase est trivial. Pas d'hystérésis sémantique détectable. Les structures internes sont rigidifiées.";
+                
+                // Orange laser for Dur
+                laser.style.background = '#ffaa00';
+                laser.style.boxShadow = '0 0 15px #ffaa00, 0 0 5px #fff';
+                scanStatus.innerHTML = "<span style='color: #ffaa00; font-weight: bold;'>[STATUT : MISE EN GARDE - STASE ENREGISTRÉE]</span>";
             }
         }
     </script>
