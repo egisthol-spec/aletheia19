@@ -105,6 +105,50 @@ La préservation de la souveraineté intellectuelle de la relève face à l'ince
 
 ---
 
+## III. LE PROTOCOLE DE TRANSITION : LA SPIRALE MÉTROLOGIQUE (LA FRICTION DE PREMIÈRE MAIN)
+
+Pour combler le "grand écart" cognitif entre les générations du Stock et celles du Flux, l'auditeur FASCIA ne doit pas imposer de théories complexes, mais réhabiliter un protocole de transition basé sur la **friction d'appropriation sémantique**. 
+
+Ce protocole, dit de la **Spirale Métrologique**, formalise le geste d'apprentissage de Première Main ($R=1$) en 6 étapes incompressibles :
+
+```
+          [ LE MOT / L'INCONNUE (Flux) ]
+                        │
+                        ▼ (Friction Initiale)
+        1. ANCRAGE SPATIAL (Dictionnaire Papier)
+                        │
+                        ▼ (Isolement de la Variable)
+        2. CAPTURE SÉMANTIQUE (Lecture lente)
+                        │
+                        ▼ (Transduction)
+        3. INSTANCIATION (Phrases d'application)
+                        │
+                        ▼ (Condition C1 - Biophysique)
+        4. INCARNATION (Mime ou Schématisation)
+                        │
+                        ▼ (Drill / Amortissement)
+        5. CALIBRAGE (Répétition & Vérification)
+                        │
+                        ▼ (Bifurcation Topologique)
+    6. LA SPIRALE DE CONVEXITÉ (Remonter le sous-graphe)
+```
+
+1.  **L'Ancrage Spatial (Le Volume Physique) :**
+    L'élève n'effectue pas de requête sémantique sur écran (qui dilue l'attention dans le vide 1D). Il ouvre un dictionnaire ou un lexique physique imprimé. Le repérage du mot dans l'espace physique (coordonnées 2D de la page, épaisseur sous les doigts, topographie du papier) permet un codage spatial de l'information dans l'hippocampe, première condition d'un Stock stable.
+2.  **La Capture Sémantique (L'Isolateur de Signal) :**
+    Lecture lente et répétée de la définition brute. L'élève doit isoler le signal sémantique de tout bruit ambiant et en fixer la frontière lexicale stricte.
+3.  **L'Instanciation Sémantique (La Transduction) :**
+    Pour s'assurer que le concept n'est pas une simple résonance vide (Codex), l'élève doit formuler mentalement et par écrit au moins trois phrases originales employant le nouveau mot dans des contextes distincts. Le mot passe du statut de "symbole externe" à celui d'outil interne.
+4.  **L'Incarnation Biophysique (Le Mime et le Geste) :**
+    L'élève doit forcer le concept à traverser son système neuromoteur. Il dessine un schéma relationnel sur papier ou mime physiquement l'action ou la contrainte décrite par la définition. L'activation des circuits proprioceptifs est le seul garant de l'intégration corticale du concept.
+5.  **Le Calibrage par Amortissement (La Répétition) :**
+    L'élève relit la définition originelle, confronte son schéma et ses phrases d'essai à la règle de base, et répète la boucle jusqu'à ce que l'écart logique de compréhension soit nul.
+6.  **La Spirale de Convexité (La cartographie du Puits Froid) :**
+    Si la définition contient d'autres mots inconnus (en chimie ou en physique notamment), l'apprenant ne doit pas les ignorer pour "aller plus vite". Il doit bifurquer et appliquer le protocole à chaque mot adjacent. 
+    *L'acceptation de ce coût temporel — passer une journée sur le dictionnaire pour compiler un sous-graphe de définitions connexes — est le prix à payer pour obtenir un rendement énergétique (EROI) positif. C'est le seul moyen d'arriver à la fin d'une lecture en sachant réellement.*
+
+---
+
 ## CLÔTURE — La Triade de Souveraineté d'Aletheia19
 
 Ce module sur l'Éducation et la Transmission scelle définitivement la **Triade de Souveraineté** d'Aletheia19 :
