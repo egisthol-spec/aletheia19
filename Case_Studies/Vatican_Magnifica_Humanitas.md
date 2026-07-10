@@ -11,8 +11,10 @@
 ---
 
 > [!NOTE]
-> **CADRE D'AUDIT**
-> Ce document applique le protocole **FASCIA** (Forensic Analysis of Sovereign Compliance in Industrial Architectures) sous protocole **M.O.S.** (Matrix of Sovereign Orthodoxy). Il dissèque l'encyclique *Magnifica humanitas* promulguée par le pape Léon XIV le 25 mai 2026. L'audit met en contraste la lecture anthropocentrique dualiste du Vatican avec une **lecture biophysique asiatique** (Tao, Zen, Shinto, Bouddhisme) pour évaluer la viabilité du Puits Froid face à la capture cognitive.
+> **CADRE D'AUDIT & NOTE DE DÉMONSTRATION PROSPECTIVE**
+> Ce document applique le protocole **FASCIA** (Forensic Analysis of Sovereign Compliance in Industrial Architectures) sous protocole **M.O.S.** (Matrix of Sovereign Orthodoxy). Il s'agit d'une **démonstration théorique et d'un stress-test prospectif** (rédigé sous forme de projection narrative). Son but est d'éprouver la puissance modélisatrice du protocole face aux réactions dogmatiques d'une institution souveraine historique (le Vatican) confrontée à la dissolution statistique (l'IA). L'audit met en contraste la lecture anthropocentrique dualiste du Vatican avec une **lecture biophysique asiatique** (Tao, Zen, Shinto, Bouddhisme) pour évaluer la viabilité du Puits Froid face à la capture cognitive.
+> 
+> *Note épistémologique : En tant que projection prospective, ce cas d'étude explore les structures invariantes de croyance ("l'absence de preuve n'est pas la preuve de l'absence") plutôt que des chroniques factuelles figées.*
 
 ---
 
