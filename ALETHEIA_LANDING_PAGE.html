@@ -286,6 +286,26 @@
 
 
 
+        textarea {
+            width: 100%;
+            height: 180px;
+            background: #050505;
+            border: 1px solid #222;
+            color: #fff;
+            padding: 1rem;
+            font-family: monospace;
+            font-size: 0.9rem;
+            resize: vertical;
+            box-sizing: border-box;
+            margin-bottom: 1rem;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.1);
+        }
+
         /* Conteneur de l'image de l'oeuf avec scan */
 
         .scanner-container {
@@ -602,15 +622,15 @@
             <br />
             <button id="scan-btn" class="button" onclick="initiateSubstrateScan()">Scanner le Substrat</button>
             
-            <div id="active-scan-container" style="display: none; text-align: center; margin-top: 2rem;">
+            <div id="active-scan-container" style="text-align: center; margin-top: 2rem;">
                 <div class="scanner-container">
                     <img src="egg.png" onerror="this.onerror=null; this.src='egg.jpg';" alt="Aletheia Egg Scanner" class="scanner-image" />
                     <div class="laser-bar"></div>
                 </div>
-                <div class="scan-label" id="scan-status">Scanning the Substrate...</div>
+                <div class="scan-label" id="scan-status">[STATUT : SCANNER EN VEILLE - EN ATTENTE DE SUBSTRAT]</div>
             </div>
 
-            <div id="results-box" class="results-box">
+            <div id="results-box" class="results-box" style="display: none;">
                 <h3 style="font-family: var(--font-serif); border-bottom: 1px solid #222; padding-bottom: 0.5rem; color: #fff;">
                     Diagnostic de Cohérence Thermodynamique
                 </h3>
