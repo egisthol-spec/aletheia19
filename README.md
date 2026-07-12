@@ -77,6 +77,21 @@ It relies on the **Four Hands of Empiricism** model:
 
 ---
 
+## ⚖️ THE TEMPORAL ASYMMETRY PRINCIPLE (LE PRINCIPE DE DISSYMÉTRIE TEMPORELLE)
+
+The foundational axiom unifying the FASCIA framework is the **Temporal Asymmetry Principle**:
+
+> **The rate of revision of a symbolic model (Codex/Calculus) grows exponentially faster than the rate of renewal or repair of the physical substrate (Soil/Sol) it governs.**
+
+$$\frac{d}{dt}(V_{\text{revision}}) \gg \frac{d}{dt}(V_{\text{renewal}})$$
+
+This mismatch triggers a cascade of systemic failure modes:
+1. **The Synchronization Constraint (Contrainte de Désynchronisation):** As the decision or transaction speed of the symbolic model accelerates, it loses physical coupling with the substrate. The model spins in a vacuum, unable to affect real-world material change in time (e.g., ERCOT's price signals vs. frozen valves).
+2. **Codex Autocatalysis:** To bridge this growing temporal gap, the system generates intermediate representations—audits, compliance checklists, and metrics. The Codex feeds on itself, spawning more bureaucracy to simulate a synchronized state that does not physically exist.
+3. **Phase Transition:** The energy cost of maintaining this hollow symbolic complexity starves the physical substrate, leading to a sudden, material system collapse.
+
+---
+
 ## 📂 II. REPOSITORY & WORKSPACE STRUCTURE
 
 The public repository contains the authoritative open-core specification, the presentation layer, and public case studies. The full local engineering workspace is structured as follows:
