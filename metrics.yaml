@@ -11,11 +11,15 @@ metrology_rules:
   score_r:
     name: "Soil Grounding Ratio / Indice d'Ancrage au Sol"
     symbol: "R"
-    definition: "Ratio of Soil invariants to Codex representation tokens, or the trigonometric projection of physical validation rate V_validation over symbolic revision rate V_revision."
-    formula: "R = Sol_Tokens / (Sol_Tokens + Codex_Tokens) [Or R = sin(theta) where theta = arctan(V_validation / V_revision)]"
+    operational_definition:
+      description: "Static textual audit: Ratio of Soil invariants to Codex representation tokens."
+      formula: "R_static = Sol_Tokens / (Sol_Tokens + Codex_Tokens)"
+    dynamic_projection:
+      description: "Continuous process audit: Trigonometric projection of the physical validation rate (V_val) over the symbolic revision rate (V_rev)."
+      formula: "R_dynamic = sin(theta) where theta = arctan(V_val / V_rev)"
     constraint_identity: "D_t^2 + R^2 = 1.0 (Loi de Conservation de la Contrainte)"
     bounds:
-      grounded: "R >= 0.707" # Optimal coupling (theta >= 45 degrees)
+      grounded: "R >= 0.707" # Optimal coupling (theta >= 45 degrees, validation rate >= revision rate)
       vigilance: "0.35 < R < 0.707"
       chimera: "R <= 0.35" # System is a pure simulation
 
@@ -57,12 +61,12 @@ metrology_rules:
     name: "Temporal Asymmetry Index / Indice de Dissymétrie Temporelle"
     symbol: "D_t"
     associated_diagnostic: "D4_Temporal_Extraction"
-    definition: "Quantifies the divergence between the velocity of symbolic model revision V_revision and the velocity of physical substrate validation V_validation, projected onto the circle of constraint."
-    formula: "D_t = cos(theta) where theta = arctan(V_validation / V_revision)"
+    definition: "Quantifies the divergence between the rate of symbolic model revision V_rev and the rate of physical substrate validation V_val, projected onto the circle of constraint."
+    formula: "D_t = cos(theta) where theta = arctan(V_val / V_rev)"
     bounds:
       synchronized: "D_t < 0.30" # Ideal coupling (theta approaches 90 degrees)
       coupled_tracking: "0.30 <= D_t < 0.707" # The substrate has enough time to adapt (theta >= 45 degrees)
-      chaotic_desynchronization: "D_t >= 0.707" # The revision rate outruns validation capacity (theta falls below 45 degrees)"
+      chaotic_desynchronization: "D_t >= 0.707" # The revision rate outruns validation rate (theta falls below 45 degrees, V_rev > V_val)
 
 inference_rules:
   R001_asphyxia_regime:
