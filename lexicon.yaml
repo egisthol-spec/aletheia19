@@ -20,6 +20,9 @@ token_classes:
       - "thermodynamique"
       - "cistercien"
       - "yorishiro"
+      - "irreversibilite"
+      - "electromigration"
+      - "relaxation"
 
   codex_representations:
     description: "High-entropy tokens representing abstractions, compliance protocols, and synthetic administrative layers."
@@ -36,3 +39,5 @@ token_classes:
       - "mcos"
       - "rles"
       - "chimere"
+      - "desynchronisation"
+      - "autocatalyse"

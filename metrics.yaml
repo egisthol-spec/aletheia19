@@ -49,6 +49,17 @@ metrology_rules:
       hypoxia: "0.50 < omega < 0.80" # Semantic suppression is active. Warnings are delayed or masked.
       asphyxiation: "omega <= 0.50" # Severe censorship. The system lacks the vocabulary to coordinate emergency response.
 
+  temporal_asymmetry_index:
+    name: "Temporal Asymmetry Index / Indice de Dissymétrie Temporelle"
+    symbol: "D_t"
+    associated_diagnostic: "D4_Temporal_Extraction"
+    definition: "Quantifies the divergence between the velocity of symbolic model revision V_revision and the velocity of physical substrate renewal V_renewal."
+    formula: "D_t = 1 - (V_renewal / V_revision)"
+    bounds:
+      synchronized: "D_t == 0.0" # Ideal coupling: the model updates at the exact speed of physical adaptation.
+      coupled_tracking: "0.0 < D_t < 0.70" # The substrate has enough time to adapt to the model's instructions.
+      chaotic_desynchronization: "D_t >= 0.70" # The model's revision rate outruns the physical time constant, leading to systemic decoupling and collapse.
+
 inference_rules:
   R001_asphyxia_regime:
     name: "Transition to Asphyxiation Regime"
@@ -64,3 +75,8 @@ inference_rules:
     name: "Neutralization Veto Trigger"
     condition: "D3_Neutralized_Immune_Response >= 0.90 OR D7_Hollow_Consensus >= 0.90"
     consequence: "Immune warning vectors disabled. Bypassing global averages to execute direct veto protocol."
+
+  R004_desynchronization_collapse:
+    name: "Desynchronization Phase Transition"
+    condition: "D_t >= 0.70 AND D5_Semantic_Oxygen_Debt >= 0.50"
+    consequence: "Systemic desynchronization detected. The symbolic layer has decoupled from the substrate. Physical collapse (blackout/stasis) is imminent."
