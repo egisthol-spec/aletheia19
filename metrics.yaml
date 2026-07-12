@@ -1,19 +1,23 @@
 # =========================================================================
 # ALETHEIA19 - METRICS & SCALING SPECIFICATION (metrics.yaml)
 # =========================================================================
+# ALETHEIA19 - METRICS & SCALING SPECIFICATION (metrics.yaml)
+# =========================================================================
 # Format: YAML 1.2
 # Reference Zenodo DOI: 10.5281/zenodo.21192234
 # =========================================================================
 
 metrology_rules:
   score_r:
-    name: "Soil Grounding Ratio"
-    definition: "Ratio of Soil invariants to Codex representation tokens."
-    formula: "R = Sol_Tokens / (Sol_Tokens + Codex_Tokens)"
+    name: "Soil Grounding Ratio / Indice d'Ancrage au Sol"
+    symbol: "R"
+    definition: "Ratio of Soil invariants to Codex representation tokens, or the trigonometric projection of physical validation rate V_validation over symbolic revision rate V_revision."
+    formula: "R = Sol_Tokens / (Sol_Tokens + Codex_Tokens) [Or R = sin(theta) where theta = arctan(V_validation / V_revision)]"
+    constraint_identity: "D_t^2 + R^2 = 1.0 (Loi de Conservation de la Contrainte)"
     bounds:
-      grounded: "R >= 0.60"
-      vigilance: "0.35 < R < 0.60"
-      chimera: "R <= 0.35"
+      grounded: "R >= 0.707" # Optimal coupling (theta >= 45 degrees)
+      vigilance: "0.35 < R < 0.707"
+      chimera: "R <= 0.35" # System is a pure simulation
 
   loi_tau:
     name: "Multi-Layer Error Reduction"
@@ -53,12 +57,12 @@ metrology_rules:
     name: "Temporal Asymmetry Index / Indice de Dissymétrie Temporelle"
     symbol: "D_t"
     associated_diagnostic: "D4_Temporal_Extraction"
-    definition: "Quantifies the divergence between the velocity of symbolic model revision V_revision and the velocity of physical substrate renewal V_renewal."
-    formula: "D_t = 1 - (V_renewal / V_revision)"
+    definition: "Quantifies the divergence between the velocity of symbolic model revision V_revision and the velocity of physical substrate validation V_validation, projected onto the circle of constraint."
+    formula: "D_t = cos(theta) where theta = arctan(V_validation / V_revision)"
     bounds:
-      synchronized: "D_t == 0.0" # Ideal coupling: the model updates at the exact speed of physical adaptation.
-      coupled_tracking: "0.0 < D_t < 0.70" # The substrate has enough time to adapt to the model's instructions.
-      chaotic_desynchronization: "D_t >= 0.70" # The model's revision rate outruns the physical time constant, leading to systemic decoupling and collapse.
+      synchronized: "D_t < 0.30" # Ideal coupling (theta approaches 90 degrees)
+      coupled_tracking: "0.30 <= D_t < 0.707" # The substrate has enough time to adapt (theta >= 45 degrees)
+      chaotic_desynchronization: "D_t >= 0.707" # The revision rate outruns validation capacity (theta falls below 45 degrees)"
 
 inference_rules:
   R001_asphyxia_regime:
@@ -78,5 +82,5 @@ inference_rules:
 
   R004_desynchronization_collapse:
     name: "Desynchronization Phase Transition"
-    condition: "D_t >= 0.70 AND D5_Semantic_Oxygen_Debt >= 0.50"
-    consequence: "Systemic desynchronization detected. The symbolic layer has decoupled from the substrate. Physical collapse (blackout/stasis) is imminent."
+    condition: "D_t >= 0.707 AND D5_Semantic_Oxygen_Debt >= 0.50"
+    consequence: "Systemic desynchronization detected. The symbolic layer has decoupled from the substrate (theta < 45 degrees). Physical collapse (blackout/stasis) is imminent."
