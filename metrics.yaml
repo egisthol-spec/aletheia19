@@ -40,7 +40,7 @@ metrology_rules:
     symbol: "chi"
     associated_diagnostic: "D6_Inverted_Fallow"
     definition: "Operational friction index derived from the algebraic connectivity of the coordination network G(V, E). It maps the second smallest eigenvalue (Fiedler value, lambda_2) of the Laplacian matrix L = D - A to the local autonomy margin."
-    formula: "chi = 1 - (2 * lambda_2 / (lambda_2 + lambda_N))" # Normalizes spectral properties between 0 (sovereign decentralization) and 1 (Cluniac central stasis)
+    formula: "chi = 2 * lambda_2 / (lambda_2 + lambda_N)" # Normalizes spectral properties between 0 (sovereign decentralization) and 1 (Cluniac central stasis)
     bounds:
       sovereign_decentralized: "chi == 0" # Perfect balance: local nodes operate autonomously (Fiedler value is low but non-zero, preserving local jachere).
       administrative_creep: "0.0 < chi < 0.5" # Network algebraic connectivity is rising, propagating micro-management constraints.
@@ -67,6 +67,16 @@ metrology_rules:
       synchronized: "D_t < 0.30" # Ideal coupling (theta approaches 90 degrees)
       coupled_tracking: "0.30 <= D_t < 0.707" # The substrate has enough time to adapt (theta >= 45 degrees)
       chaotic_desynchronization: "D_t >= 0.707" # The revision rate outruns validation rate (theta falls below 45 degrees, V_rev > V_val)
+
+  diagnostic_consistency_index:
+    name: "Diagnostic Consistency Index / Indice d'Incohérence Diagnostique"
+    symbol: "Delta"
+    definition: "Measures the divergence of independently estimated Soil Grounding (R_est) and Temporal Asymmetry (D_t_est) by calculating their distance to the theoretical circle of constraint."
+    formula: "Delta = abs(D_t_est^2 + R_est^2 - 1.0)"
+    bounds:
+      consistent: "Delta < 0.10" # High diagnostic convergence
+      unstable: "0.10 <= Delta < 0.30" # Moderate estimation noise or measurement blur
+      contradictory: "Delta >= 0.30" # Heavy internal contradiction; suggests target dissimulation or bad input data
 
 inference_rules:
   R001_asphyxia_regime:
