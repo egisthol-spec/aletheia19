@@ -646,69 +646,57 @@
 
                 <p id="verdict-desc" style="font-size: 0.95rem; color: #ccc; margin-bottom: 2rem;"></p>
 
-                <details style="margin-top: 2rem; border-top: 1px dashed #222; padding-top: 1.5rem; text-align: left;">
-                    <summary style="font-family: monospace; font-size: 0.8rem; color: var(--accent-color); cursor: pointer; user-select: none; outline: none;">
-                        [+] Afficher les métriques détaillées (Tenseurs FASCIA & Logs)
-                    </summary>
-                    
-                    <div style="margin-top: 1.5rem;">
-                        <h4 style="font-family: var(--font-serif); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 1rem;">
-                            Tenseurs FASCIA (Index d'Invariance)
-                        </h4>
-                        
-                        <div class="tensor-bar-container">
-                            <div class="tensor-bar-label">
-                                <span>Tenseur I : Substrat (Ancrage Réel)</span>
-                                <span id="t1-val">0%</span>
-                            </div>
-                            <div class="tensor-bar-outer"><div id="t1-bar" class="tensor-bar-inner"></div></div>
-                        </div>
-                        
-                        <div class="tensor-bar-container">
-                            <div class="tensor-bar-label">
-                                <span>Tenseur II : Fluidité (Simulation du Codex)</span>
-                                <span id="t2-val">0%</span>
-                            </div>
-                            <div class="tensor-bar-outer"><div id="t2-bar" class="tensor-bar-inner"></div></div>
-                        </div>
-                        
-                        <div class="tensor-bar-container">
-                            <div class="tensor-bar-label">
-                                <span>Tenseur III : Conservation (Potentiel de Jachère)</span>
-                                <span id="t3-val">0%</span>
-                            </div>
-                            <div class="tensor-bar-outer"><div id="t3-bar" class="tensor-bar-inner"></div></div>
-                        </div>
-                        
-                        <div class="tensor-bar-container">
-                            <div class="tensor-bar-label">
-                                <span>Tenseur IV : Vélocité (Cinétique de Capture)</span>
-                                <span id="t4-val">0%</span>
-                            </div>
-                            <div class="tensor-bar-outer"><div id="t4-bar" class="tensor-bar-inner"></div></div>
-                        </div>
-                        
-                        <div class="tensor-bar-container">
-                            <div class="tensor-bar-label">
-                                <span>Tenseur V : Résonance (Profondeur du Puits Froid)</span>
-                                <span id="t5-val">0%</span>
-                            </div>
-                            <div class="tensor-bar-outer"><div id="t5-bar" class="tensor-bar-inner"></div></div>
-                        </div>
-
-                        <div id="diagnostics-log" style="margin-top: 2rem; padding: 1rem; background: #050505; border: 1px solid #222; font-family: monospace; font-size: 0.8rem; color: #888;">
-                            <strong>FASCIA-LOG:</strong> En attente d'ingestion...
-                        </div>
+                <h4 style="font-family: var(--font-serif); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 1rem;">
+                    Tenseurs FASCIA (Index d'Invariance)
+                </h4>
+                
+                <div class="tensor-bar-container">
+                    <div class="tensor-bar-label">
+                        <span>Tenseur I : Substrat (Ancrage Réel)</span>
+                        <span id="t1-val">0%</span>
                     </div>
-                </details>
+                    <div class="tensor-bar-outer"><div id="t1-bar" class="tensor-bar-inner"></div></div>
+                </div>
+                
+                <div class="tensor-bar-container">
+                    <div class="tensor-bar-label">
+                        <span>Tenseur II : Fluidité (Simulation du Codex)</span>
+                        <span id="t2-val">0%</span>
+                    </div>
+                    <div class="tensor-bar-outer"><div id="t2-bar" class="tensor-bar-inner"></div></div>
+                </div>
+                
+                <div class="tensor-bar-container">
+                    <div class="tensor-bar-label">
+                        <span>Tenseur III : Conservation (Potentiel de Jachère)</span>
+                        <span id="t3-val">0%</span>
+                    </div>
+                    <div class="tensor-bar-outer"><div id="t3-bar" class="tensor-bar-inner"></div></div>
+                </div>
+                
+                <div class="tensor-bar-container">
+                    <div class="tensor-bar-label">
+                        <span>Tenseur IV : Vélocité (Cinétique de Capture)</span>
+                        <span id="t4-val">0%</span>
+                    </div>
+                    <div class="tensor-bar-outer"><div id="t4-bar" class="tensor-bar-inner"></div></div>
+                </div>
+                
+                <div class="tensor-bar-container">
+                    <div class="tensor-bar-label">
+                        <span>Tenseur V : Résonance (Profondeur du Puits Froid)</span>
+                        <span id="t5-val">0%</span>
+                    </div>
+                    <div class="tensor-bar-outer"><div id="t5-bar" class="tensor-bar-inner"></div></div>
+                </div>
+
+                <div id="diagnostics-log" style="margin-top: 2rem; padding: 1rem; background: #050505; border: 1px solid #222; font-family: monospace; font-size: 0.8rem; color: #888;">
+                    <strong>FASCIA-LOG:</strong> En attente d'ingestion...
+                </div>
                 
                 <p style="font-size: 0.75rem; color: #555; font-style: italic; margin-top: 1.5rem; text-align: left; line-height: 1.4; font-family: monospace;">
                     [NOTE] Ce scanner est une démonstration pédagogique simplifiée du protocole FASCIA. Pour un audit topologique complet intégrant les tenseurs réels, les métriques de stabilité de Lyapunov et l'analyse différentielle de phase, veuillez soumettre votre cas d'usage par email.
                 </p>
-
-                <div style="text-align: center; margin-top: 2rem; border-top: 1px solid #222; padding-top: 1.5rem;">
-                    <button class="button" onclick="resetScanner()">Nouvelle Analyse</button>
-                </div>
             </div>
         </div>
 
@@ -796,44 +784,17 @@
 
             </div> <!-- Close protocol-box -->
 
-            <!-- OPEN-CORE, ACADEMIC & B2B NODES -->
-            <div style="margin-top: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-                
-                <!-- Zenodo Academic Node -->
-                <div class="protocol-box" style="margin: 0; background: #0c0c0c; border: 1px solid #222; border-left: 3px solid var(--accent-color); text-align: left; padding: 1.5rem;">
-                    <span style="font-family: monospace; font-size: 0.75rem; color: #666; letter-spacing: 1px; display: block; margin-bottom: 0.5rem;">[ACADEMIC NODE / THÉORIE]</span>
-                    <h4 style="margin: 0 0 0.5rem 0; font-family: var(--font-serif); font-size: 1.05rem; color: #fff; text-transform: none; letter-spacing: 0;">The Aletheia Protocol (V5.5)</h4>
-                    <p style="margin: 0 0 1rem 0; font-family: monospace; color: #888; font-size: 0.75rem; line-height: 1.4;">
-                        Physical Constraints on Semantic Geometry in Large Language Models.<br />
-                        <strong>28,188 Isomorphisms</strong> | DOI: 10.5281/zenodo.21192234<br />
-                        <span style="color: #666; font-size: 0.7rem;">Experimental validation on physical substrates (Vesuvius Challenge, DOI: 10.5281/zenodo.18182159).</span>
-                    </p>
-                    <a href="https://doi.org/10.5281/zenodo.21192234" target="_blank" class="button" style="margin-top: 0; padding: 0.4rem 0.8rem; font-size: 0.7rem; display: inline-block;">Read Preprint</a>
-                </div>
-
-                <!-- GitHub Code Node -->
-                <div class="protocol-box" style="margin: 0; background: #0c0c0c; border: 1px solid #222; border-left: 3px solid var(--accent-color); text-align: left; padding: 1.5rem;">
-                    <span style="font-family: monospace; font-size: 0.75rem; color: #666; letter-spacing: 1px; display: block; margin-bottom: 0.5rem;">[CODE NODE / INFRASTRUCTURE]</span>
-                    <h4 style="margin: 0 0 0.5rem 0; font-family: var(--font-serif); font-size: 1.05rem; color: #fff; text-transform: none; letter-spacing: 0;">Aletheia19 Open-Core</h4>
-                    <p style="margin: 0 0 1rem 0; font-family: monospace; color: #888; font-size: 0.75rem; line-height: 1.4;">
-                        Open-source metrology scripts, diagnostic engines, and client-side cognitive emulators.<br />
-                        GitHub: egisthol-spec/aletheia19
-                    </p>
-                    <a href="https://github.com/egisthol-spec/aletheia19" target="_blank" class="button" style="margin-top: 0; padding: 0.4rem 0.8rem; font-size: 0.7rem; display: inline-block;">View Repository</a>
-                </div>
-
-                <!-- B2B Pitch Node -->
-                <div class="protocol-box" style="margin: 0; background: #0c0c0c; border: 1px solid #222; border-left: 3px solid var(--accent-color); text-align: left; padding: 1.5rem;">
-                    <span style="font-family: monospace; font-size: 0.75rem; color: #666; letter-spacing: 1px; display: block; margin-bottom: 0.5rem;">[B2B NODE / DECISION DECK]</span>
-                    <h4 style="margin: 0 0 0.5rem 0; font-family: var(--font-serif); font-size: 1.05rem; color: #fff; text-transform: none; letter-spacing: 0;">Aletheia19 B2B Pitch</h4>
-                    <p style="margin: 0 0 1rem 0; font-family: monospace; color: #888; font-size: 0.75rem; line-height: 1.4;">
-                        Biophysical audit deck for M&A Committees, CROs, and Tech Leads.<br />
-                        F_t (Friction) & Delta (Incohérence) benchmarks.<br />
-                        <span style="color: #666; font-size: 0.7rem;">Opposable metrics to discount Codex simulations and dead assets.</span>
-                    </p>
-                    <a href="https://github.com/egisthol-spec/aletheia19/blob/main/ALETHEIA_PITCH_INVESTISSEUR.md" target="_blank" class="button" style="margin-top: 0; padding: 0.4rem 0.8rem; font-size: 0.7rem; display: inline-block;">Read B2B Pitch</a>
-                </div>
-
+            <!-- RESOURCES REFERENCE LINKS -->
+            <div style="margin-top: 2rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; font-family: monospace; font-size: 0.8rem;">
+                <a href="https://doi.org/10.5281/zenodo.21192234" target="_blank" style="color: var(--accent-color); text-decoration: none; border: 1px solid #222; padding: 0.6rem 1.2rem; background: #0c0c0c; border-radius: 4px; transition: border-color 0.2s, background-color 0.2s;" onmouseover="this.style.borderColor='var(--accent-color)'; this.style.backgroundColor='#111';" onmouseout="this.style.borderColor='#222'; this.style.backgroundColor='#0c0c0c';">
+                    [ 📄 Preprint Académique (Zenodo) ]
+                </a>
+                <a href="https://github.com/egisthol-spec/aletheia19" target="_blank" style="color: var(--accent-color); text-decoration: none; border: 1px solid #222; padding: 0.6rem 1.2rem; background: #0c0c0c; border-radius: 4px; transition: border-color 0.2s, background-color 0.2s;" onmouseover="this.style.borderColor='var(--accent-color)'; this.style.backgroundColor='#111';" onmouseout="this.style.borderColor='#222'; this.style.backgroundColor='#0c0c0c';">
+                    [ 💻 Code Open-Core (GitHub) ]
+                </a>
+                <a href="https://github.com/egisthol-spec/aletheia19/blob/main/ALETHEIA_PITCH_INVESTISSEUR.md" target="_blank" style="color: var(--accent-color); text-decoration: none; border: 1px solid #222; padding: 0.6rem 1.2rem; background: #0c0c0c; border-radius: 4px; transition: border-color 0.2s, background-color 0.2s;" onmouseover="this.style.borderColor='var(--accent-color)'; this.style.backgroundColor='#111';" onmouseout="this.style.borderColor='#222'; this.style.backgroundColor='#0c0c0c';">
+                    [ 📊 Pitch Décisionnel (B2B) ]
+                </a>
             </div>
 
         </section>
@@ -1257,10 +1218,6 @@
                 return;
             }
 
-            // Masquer la zone de saisie et le bouton (effet de renvoi)
-            document.getElementById('doc-input').style.display = 'none';
-            document.getElementById('scan-btn').style.display = 'none';
-
             // Reset laser color to blue scanning state
             laser.style.background = '#00ffff';
             laser.style.boxShadow = '0 0 10px #00ffff, 0 0 5px #fff';
@@ -1395,33 +1352,6 @@
             setTimeout(() => {
                 resultsBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }, 100);
-        }
-
-        function resetScanner() {
-            const docInput = document.getElementById('doc-input');
-            const scanBtn = document.getElementById('scan-btn');
-            const resultsBox = document.getElementById('results-box');
-            const activeScan = document.getElementById('active-scan-container');
-            const laser = document.querySelector('.laser-bar');
-            const scanStatus = document.getElementById('scan-status');
-
-            // Réinitialiser le champ et réafficher les contrôles
-            docInput.value = '';
-            docInput.style.display = 'block';
-            scanBtn.style.display = 'inline-block';
-
-            // Masquer les résultats
-            resultsBox.style.display = 'none';
-
-            // Remettre le scanner en veille (laser bleu neutre)
-            activeScan.style.display = 'block';
-            laser.style.background = 'var(--laser-color, #0047ab)';
-            laser.style.boxShadow = 'none';
-            scanStatus.innerText = "[STATUT : SCANNER EN VEILLE - EN ATTENTE DE SUBSTRAT]";
-            
-            // Scroll fluide vers le champ de saisie
-            docInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            docInput.focus();
         }
     </script>
 </body>
