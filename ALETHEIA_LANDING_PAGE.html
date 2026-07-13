@@ -1362,6 +1362,11 @@
                 laser.style.boxShadow = '0 0 15px #ffaa00, 0 0 5px #fff';
                 scanStatus.innerHTML = "<span style='color: #ffaa00; font-weight: bold;'>[STATUT : MISE EN GARDE - STASE ENREGISTRÉE]</span>";
             }
+
+            // Défilement automatique vers la boîte de résultats
+            setTimeout(() => {
+                resultsBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
         }
     </script>
 </body>
