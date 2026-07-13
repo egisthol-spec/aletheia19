@@ -646,57 +646,69 @@
 
                 <p id="verdict-desc" style="font-size: 0.95rem; color: #ccc; margin-bottom: 2rem;"></p>
 
-                <h4 style="font-family: var(--font-serif); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 1rem;">
-                    Tenseurs FASCIA (Index d'Invariance)
-                </h4>
-                
-                <div class="tensor-bar-container">
-                    <div class="tensor-bar-label">
-                        <span>Tenseur I : Substrat (Ancrage Réel)</span>
-                        <span id="t1-val">0%</span>
-                    </div>
-                    <div class="tensor-bar-outer"><div id="t1-bar" class="tensor-bar-inner"></div></div>
-                </div>
-                
-                <div class="tensor-bar-container">
-                    <div class="tensor-bar-label">
-                        <span>Tenseur II : Fluidité (Simulation du Codex)</span>
-                        <span id="t2-val">0%</span>
-                    </div>
-                    <div class="tensor-bar-outer"><div id="t2-bar" class="tensor-bar-inner"></div></div>
-                </div>
-                
-                <div class="tensor-bar-container">
-                    <div class="tensor-bar-label">
-                        <span>Tenseur III : Conservation (Potentiel de Jachère)</span>
-                        <span id="t3-val">0%</span>
-                    </div>
-                    <div class="tensor-bar-outer"><div id="t3-bar" class="tensor-bar-inner"></div></div>
-                </div>
-                
-                <div class="tensor-bar-container">
-                    <div class="tensor-bar-label">
-                        <span>Tenseur IV : Vélocité (Cinétique de Capture)</span>
-                        <span id="t4-val">0%</span>
-                    </div>
-                    <div class="tensor-bar-outer"><div id="t4-bar" class="tensor-bar-inner"></div></div>
-                </div>
-                
-                <div class="tensor-bar-container">
-                    <div class="tensor-bar-label">
-                        <span>Tenseur V : Résonance (Profondeur du Puits Froid)</span>
-                        <span id="t5-val">0%</span>
-                    </div>
-                    <div class="tensor-bar-outer"><div id="t5-bar" class="tensor-bar-inner"></div></div>
-                </div>
+                <details style="margin-top: 2rem; border-top: 1px dashed #222; padding-top: 1.5rem; text-align: left;">
+                    <summary style="font-family: monospace; font-size: 0.8rem; color: var(--accent-color); cursor: pointer; user-select: none; outline: none;">
+                        [+] Afficher les métriques détaillées (Tenseurs FASCIA & Logs)
+                    </summary>
+                    
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="font-family: var(--font-serif); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 1rem;">
+                            Tenseurs FASCIA (Index d'Invariance)
+                        </h4>
+                        
+                        <div class="tensor-bar-container">
+                            <div class="tensor-bar-label">
+                                <span>Tenseur I : Substrat (Ancrage Réel)</span>
+                                <span id="t1-val">0%</span>
+                            </div>
+                            <div class="tensor-bar-outer"><div id="t1-bar" class="tensor-bar-inner"></div></div>
+                        </div>
+                        
+                        <div class="tensor-bar-container">
+                            <div class="tensor-bar-label">
+                                <span>Tenseur II : Fluidité (Simulation du Codex)</span>
+                                <span id="t2-val">0%</span>
+                            </div>
+                            <div class="tensor-bar-outer"><div id="t2-bar" class="tensor-bar-inner"></div></div>
+                        </div>
+                        
+                        <div class="tensor-bar-container">
+                            <div class="tensor-bar-label">
+                                <span>Tenseur III : Conservation (Potentiel de Jachère)</span>
+                                <span id="t3-val">0%</span>
+                            </div>
+                            <div class="tensor-bar-outer"><div id="t3-bar" class="tensor-bar-inner"></div></div>
+                        </div>
+                        
+                        <div class="tensor-bar-container">
+                            <div class="tensor-bar-label">
+                                <span>Tenseur IV : Vélocité (Cinétique de Capture)</span>
+                                <span id="t4-val">0%</span>
+                            </div>
+                            <div class="tensor-bar-outer"><div id="t4-bar" class="tensor-bar-inner"></div></div>
+                        </div>
+                        
+                        <div class="tensor-bar-container">
+                            <div class="tensor-bar-label">
+                                <span>Tenseur V : Résonance (Profondeur du Puits Froid)</span>
+                                <span id="t5-val">0%</span>
+                            </div>
+                            <div class="tensor-bar-outer"><div id="t5-bar" class="tensor-bar-inner"></div></div>
+                        </div>
 
-                <div id="diagnostics-log" style="margin-top: 2rem; padding: 1rem; background: #050505; border: 1px solid #222; font-family: monospace; font-size: 0.8rem; color: #888;">
-                    <strong>FASCIA-LOG:</strong> En attente d'ingestion...
-                </div>
+                        <div id="diagnostics-log" style="margin-top: 2rem; padding: 1rem; background: #050505; border: 1px solid #222; font-family: monospace; font-size: 0.8rem; color: #888;">
+                            <strong>FASCIA-LOG:</strong> En attente d'ingestion...
+                        </div>
+                    </div>
+                </details>
                 
                 <p style="font-size: 0.75rem; color: #555; font-style: italic; margin-top: 1.5rem; text-align: left; line-height: 1.4; font-family: monospace;">
                     [NOTE] Ce scanner est une démonstration pédagogique simplifiée du protocole FASCIA. Pour un audit topologique complet intégrant les tenseurs réels, les métriques de stabilité de Lyapunov et l'analyse différentielle de phase, veuillez soumettre votre cas d'usage par email.
                 </p>
+
+                <div style="text-align: center; margin-top: 2rem; border-top: 1px solid #222; padding-top: 1.5rem;">
+                    <button class="button" onclick="resetScanner()">Nouvelle Analyse</button>
+                </div>
             </div>
         </div>
 
@@ -1233,6 +1245,10 @@
                 return;
             }
 
+            // Masquer la zone de saisie et le bouton (effet de renvoi)
+            document.getElementById('doc-input').style.display = 'none';
+            document.getElementById('scan-btn').style.display = 'none';
+
             // Reset laser color to blue scanning state
             laser.style.background = '#00ffff';
             laser.style.boxShadow = '0 0 10px #00ffff, 0 0 5px #fff';
@@ -1367,6 +1383,33 @@
             setTimeout(() => {
                 resultsBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }, 100);
+        }
+
+        function resetScanner() {
+            const docInput = document.getElementById('doc-input');
+            const scanBtn = document.getElementById('scan-btn');
+            const resultsBox = document.getElementById('results-box');
+            const activeScan = document.getElementById('active-scan-container');
+            const laser = document.querySelector('.laser-bar');
+            const scanStatus = document.getElementById('scan-status');
+
+            // Réinitialiser le champ et réafficher les contrôles
+            docInput.value = '';
+            docInput.style.display = 'block';
+            scanBtn.style.display = 'inline-block';
+
+            // Masquer les résultats
+            resultsBox.style.display = 'none';
+
+            // Remettre le scanner en veille (laser bleu neutre)
+            activeScan.style.display = 'block';
+            laser.style.background = 'var(--laser-color, #0047ab)';
+            laser.style.boxShadow = 'none';
+            scanStatus.innerText = "[STATUT : SCANNER EN VEILLE - EN ATTENTE DE SUBSTRAT]";
+            
+            // Scroll fluide vers le champ de saisie
+            docInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            docInput.focus();
         }
     </script>
 </body>
