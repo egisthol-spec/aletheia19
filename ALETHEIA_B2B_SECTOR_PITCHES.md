@@ -54,4 +54,39 @@ Ce document regroupe les pitches sectoriels d'Aletheia19, permettant d'aligner n
     > *« Quel est le coût d'opportunité de NE PAS auditer le Sol de cette cible ou de ce projet ? »*
     *   *Principe* : Inverse la charge de la preuve en forçant le comité d'allocation ou de deal à justifier sa confiance aveugle dans les audits de conformité Codex traditionnels.
 *   **Preuve Empirique (Case Study)** : **HP / Autonomy** (2011) — 8,8 milliards de dollars de pertes non détectées par les audits financiers classiques des Big 4 (faillite du Sol non vue sous le Codex).
-*   **Livrable Associé** : *M.O.S. Light (5 000 € — thermomètre en 15 min)* et *FASCIA Full V3 (150 000 € — IRM et biopsie forensique du substrat)*.
+*   **Livrable Associé** : *M.O.S. Light (5 000 € — Forensic Memo + Q&A Asynchrone)* et *FASCIA Full V3 (150 000 € — IRM et biopsie forensique du substrat)*.
+
+---
+
+## 📄 V. TEMPLATE DE LIVRABLE : THE FORENSIC WRITTEN MEMO (M.O.S. LIGHT)
+
+Ce modèle de document est le livrable asynchrone type envoyé à l'investisseur. Il élimine le besoin d'appels oraux tout en densifiant l'autorité et la valeur du diagnostic.
+
+```
+SUBJECT: ALETHEIA19 M.O.S. LIGHT DIAGNOSTIC – [TARGET COMPANY NAME]
+DATE: [Date]
+TO: [Client Name / Investment Committee]
+CC: [Aletheia19 Labs Project Vault]
+
+1. EXECUTIVE DIAGNOSTIC VERDICT
+-------------------------------
+• Status: [ GREEN LIGHT / ORANGE WARNING / RED VETO ]
+• Surface Alert Score (SAS): [XX] / 35
+• Bottom Line: [Short, high-density summary sentence. E.g., "The target shows strong accounting metrics but exhibits critical signs of Semantic Oxygen Debt (D5) and deferred R&D maintenance (D1)."]
+
+2. THE 3 CRITICAL METABOLIC FRICTIONS (Identified via OSINT & Cross-Analysis)
+------------------------------------------------------------------------------
+• Friction A [e.g., Temporal Extraction]: [1-2 factual sentences. E.g., "Product validation cycles compressed by 40% over the last 18 months, coinciding with a 25% reduction in QA headcount."]
+• Friction B [e.g., Semantic Parasitism]: [1-2 factual sentences. E.g., "Management filings exhibit extreme jargon density (buzzword ratio > 0.40) while failing to describe the physical release pipeline of the software core."]
+• Friction C [e.g., Immune Response]: [1-2 factual sentences. E.g., "Unusual 60% turnover rate in senior technical engineering roles over 24 months, with departure logs masked under standard NDAs."]
+
+3. THE "LOST HAND" WARNING (Standard Upsell Trigger)
+---------------------------------------------------
+"This M.O.S. Light diagnostic is a heuristic surface scan, not the territory. It relies on public proxies and clinical estimations of friction. It cannot isolate falsified Jira registries or deep operational decay.
+
+Dominance Rule: If SAS > 21, or if any individual diagnostic (D1-D7) scores ≥ 8, proceeding to transaction without a FASCIA Full V3 Spectral Audit (deep substrate ingestion) exposes the buyer to unquantified metabolic collapse risk."
+
+4. ASYNCHRONOUS Q&A PROTOCOL
+---------------------------
+"To preserve mathematical precision and eliminate real-time interpretation noise, all questions regarding this diagnostic must be submitted in writing. A detailed, written forensic response will be delivered within 48 hours."
+```
