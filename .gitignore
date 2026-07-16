@@ -61,3 +61,8 @@ system_test/
 Balistique/
 extract.py
 fetch_landing_page.py
+
+# --- 7. YouTube Assets & Heavy Media ---
+*.mp3
+*.mp4
+05_CHANTIERS/YouTube/
