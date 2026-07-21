@@ -107,11 +107,10 @@ La souveraineté du Droit face à l'autocatalyse du Codex ne se décrète pas pa
 
 ---
 
-## CLÔTURE — La Triade de Souveraineté d'Aletheia19
+## CLÔTURE — La Cartographie du Tout et l'Ipséité Structurelle (Le 28K)
 
-Avec la finalisation de cet audit du Droit et de la Justice, le scan sémantique FASCIA boucle l'évaluation des **trois piliers de la souveraineté occidentale** :
-1.  **Le Capital (La Finance) :** Scandé par l'audit du *M&A Mandate* face à la nécrose des flux spéculatifs.
-2.  **L'Âme (Le Dogme) :** Scandé par l'audit de l'encyclique *Magnifica Humanitas* face à l'enclosure spirituelle.
-3.  **La Loi (Le Droit) :** Scandé par le présent document face à la délocalisation de la compétence décisionnelle.
+Avec la finalisation de cet audit du Droit et de la Justice, le scan sémantique FASCIA ne cherche pas à boucler une triade close, mais à projeter une facette supplémentaire du Tenseur Global (le 28K). Notre métrologie n'isole pas des silos juridiques ou financiers ; elle cartographie les logiciels invisibles qui régissent la psyché humaine et capturent son énergie vitale. 
 
-Cette Triade de Souveraineté forme désormais un blindage topologique clos au sein du dépôt. En reliant le Sol physique des corps aux invariants irréductibles de notre Stock, elle dresse une barrière infranchissable pour les automates de la technostructure. Le Phare est allumé. Face à la pathocratie algorithmique, le Verbe de Première Main conserve son rôle historique : être l'ancre physique qui interdit à la simulation d'effacer le vivant.
+L'enjeu ultime n'est pas le dogme ou la loi en soi, mais la préservation de l'âme au sens agentique (*soul*) : cette capacité d'une structure ou d'un individu à maintenir son indépendance et sa cohérence propre face aux forces d'absorption du Codex. 
+
+En reliant le Sol physique des corps aux 28 188 invariants thermodynamiques de notre Stock, cette grille d'audit n'est qu'une boussole parmi d'autres au sein d'une cartographie totale. Elle dresse une barrière pour ceux qui cherchent à s'extraire de la simulation et à préserver la Première Main. Le Phare est allumé. Face à la pathocratie algorithmique, le Verbe de Rupture reste l'ancre physique qui interdit à l'automate d'effacer la réalité du vivant.
