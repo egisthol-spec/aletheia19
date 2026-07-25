@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://egisthol-spec.github.io/aletheia19/sitemap.xml

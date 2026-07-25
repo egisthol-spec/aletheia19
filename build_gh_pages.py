@@ -2,6 +2,7 @@ import os
 import re
 import html
 import json
+from datetime import datetime, timezone
 
 # Absolute path configuration
 BASE_DIR = r"C:\VESUVIUS_LOCAL"
@@ -9,6 +10,9 @@ DOCS_DIR = os.path.join(BASE_DIR, "docs")
 DOCS_EN_DIR = os.path.join(DOCS_DIR, "en")
 CASES_FR_DIR = os.path.join(DOCS_DIR, "case_studies")
 CASES_EN_DIR = os.path.join(DOCS_EN_DIR, "case_studies")
+
+# Public URL base for canonical/hreflang (GitHub Pages)
+SITE_BASE_URL = "https://egisthol-spec.github.io/aletheia19"
 
 os.makedirs(CASES_FR_DIR, exist_ok=True)
 os.makedirs(CASES_EN_DIR, exist_ok=True)
@@ -697,9 +701,15 @@ def generate_case_html(case, lang="fr"):
     <meta name="description" content="{html.escape(data['summary'])}">
     <meta name="keywords" content="FASCIA, Aletheia19, Due Diligence, Audit, {html.escape(data['category'])}, RAG, AI Overview">
     
+    <link rel="canonical" href="{SITE_BASE_URL}/{'en/' if is_en else ''}case_studies/{case['id']}.html" />
+    <link rel="alternate" hreflang="fr" href="{SITE_BASE_URL}/case_studies/{case['id']}.html" />
+    <link rel="alternate" hreflang="en" href="{SITE_BASE_URL}/en/case_studies/{case['id']}.html" />
+    <link rel="alternate" hreflang="x-default" href="{SITE_BASE_URL}/case_studies/{case['id']}.html" />
+    
     <meta property="og:title" content="{html.escape(data['title'])}">
     <meta property="og:description" content="{html.escape(data['summary'])}">
     <meta property="og:type" content="article">
+    <meta property="og:url" content="{SITE_BASE_URL}/{'en/' if is_en else ''}case_studies/{case['id']}.html">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -872,6 +882,65 @@ def generate_index_html(lang="fr"):
 """
     return index_html
 
+def generate_sitemap():
+    """Generates a bilingual sitemap.xml with xhtml:link hreflang annotations."""
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    urls = []
+
+    # Portal index pages
+    urls.append(f"""  <url>
+    <loc>{SITE_BASE_URL}/index.html</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="{SITE_BASE_URL}/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="{SITE_BASE_URL}/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE_BASE_URL}/index.html" />
+  </url>""")
+    urls.append(f"""  <url>
+    <loc>{SITE_BASE_URL}/en/index.html</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="{SITE_BASE_URL}/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="{SITE_BASE_URL}/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE_BASE_URL}/index.html" />
+  </url>""")
+
+    # Individual case study pages
+    for case in CASE_STUDIES_SOURCES:
+        fr_url = f"{SITE_BASE_URL}/case_studies/{case['id']}.html"
+        en_url = f"{SITE_BASE_URL}/en/case_studies/{case['id']}.html"
+        for loc in [fr_url, en_url]:
+            lang = "fr" if loc == fr_url else "en"
+            urls.append(f"""  <url>
+    <loc>{loc}</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="{fr_url}" />
+    <xhtml:link rel="alternate" hreflang="en" href="{en_url}" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="{fr_url}" />
+  </url>""")
+
+    sitemap = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{chr(10).join(urls)}
+</urlset>
+"""
+    return sitemap
+
+
+def generate_robots_txt():
+    """Generates robots.txt with sitemap pointer."""
+    return f"""User-agent: *
+Allow: /
+
+Sitemap: {SITE_BASE_URL}/sitemap.xml
+"""
+
+
 def main():
     print("Building Bilingual GitHub Pages portal in /docs...")
     
@@ -902,7 +971,20 @@ def main():
         f.write(generate_index_html(lang="en"))
     print("[OK] Generated EN Portal: docs/en/index.html")
 
-    print("\nBilingual GitHub Pages build completed successfully!")
+    # 4. Generate sitemap.xml
+    sitemap_path = os.path.join(DOCS_DIR, "sitemap.xml")
+    with open(sitemap_path, "w", encoding="utf-8") as f:
+        f.write(generate_sitemap())
+    print("[OK] Generated: docs/sitemap.xml")
+
+    # 5. Generate robots.txt
+    robots_path = os.path.join(DOCS_DIR, "robots.txt")
+    with open(robots_path, "w", encoding="utf-8") as f:
+        f.write(generate_robots_txt())
+    print("[OK] Generated: docs/robots.txt")
+
+    total_pages = len(CASE_STUDIES_SOURCES) * 2 + 2
+    print(f"\nBilingual build complete: {total_pages} HTML pages + sitemap.xml + robots.txt")
 
 if __name__ == "__main__":
     main()

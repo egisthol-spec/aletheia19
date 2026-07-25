@@ -66,3 +66,6 @@ fetch_landing_page.py
 *.mp3
 *.mp4
 05_CHANTIERS/YouTube/
+
+# --- 8. Exercices privés (non publiés) ---
+Case_Studies/Affaire_Epstein_Structure_Predation.md
