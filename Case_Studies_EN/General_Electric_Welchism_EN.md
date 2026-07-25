@@ -1,58 +1,58 @@
-# 📂 FASCIA CLINICAL AUDIT: L'Ère Jack Welch chez General Electric (1981-2001)
-## La Financiarisation du Geste Industriel et l'Autophagie Corporate
-**Standard:** FASCIA Protocol — Lot 6 / Cas 4  
+# 📂 FASCIA CLINICAL AUDIT: The Jack Welch Era at General Electric (1981-2001)
+## The Financialization of the Industrial Gesture and Corporate Autophagy
+**Standard:** FASCIA Protocol — Lot 6 / Case 4  
 **Author:** Aletheia19 Labs  
 
-*« L'ère Jack Welch chez General Electric est l'exemple le plus spectaculaire d'autophagie industrielle sous la dictature du Codex financier. En transformant un géant mondial de l'ingénierie physique (turbines, locomotives, moteurs) en une banque de l'ombre spéculative (GE Capital) pour lisser les bénéfices trimestriels, Jack Welch a détruit la culture du Sol de l'entreprise au profit de la feuille de calcul de Wall Street. »*
+*“The Jack Welch era at General Electric is the most spectacular example of industrial autophagy under the dictatorship of the financial Codex. By transforming a global giant of physical engineering (turbines, locomotives, engines) into a speculative shadow bank (GE Capital) to smooth out quarterly earnings, Jack Welch destroyed the company's Sol culture in favor of Wall Street's spreadsheet.”*
 
 ---
 
 > [!IMPORTANT]
 > **FASCIA OPERATIONAL FORMULA**
-> * **Here is des centaines d'usines de haute technologie et des ingénieurs de First-Hand.** (The Sol industriel)
-> * **Here is le lissage artificiel des bénéfices trimestriels via GE Capital.** (La façade du Codex)
-> * **Measure la suppression systématique des budgets de R&D et des effectifs.** (L'apnée de l'innovation)
-> * **La crise de 2008 gèle GE Capital, révélant la sénescence des usines d'origine.** (Le démantèlement final)
+> * **Here are hundreds of high-tech factories and First-Hand engineers.** (The industrial Sol)
+> * **Here is the artificial smoothing of quarterly earnings via GE Capital.** (The Façade Homeostasis of the Codex)
+> * **Measure the systematic elimination of R&D budgets and workforce.** (The apnea of innovation)
+> * **The 2008 crisis freezes GE Capital, revealing the senescence of the original factories.** (The final dismantling)
 
 ---
 
-## 🏛️ I. THE HAUTE VALEUR DU PAPIER VS LE GESTE D'INGÉNIERIE
+## 🏛️ I. THE HIGH VALUE OF PAPER VS THE ENGINEERING GESTURE
 
-Sous la présidence de Jack Welch (1981-2001), General Electric (GE) est devenue la première capitalisation boursière mondiale. Welch a été couronné « Manager du Siècle » par le magazine *Fortune*.
+Under the chairmanship of Jack Welch (1981-2001), General Electric (GE) became the world's largest market capitalization. Welch was crowned "Manager of the Century" by *Fortune* magazine.
 
-### 1. La Transformation Spéculative (The Codex de Wall Street)
-Pour afficher une croissance linéaire parfaite de 15 % des bénéfices par action à chaque trimestre (ce que la physique industrielle réelle rend impossible à cause des cycles économiques), Welch a développé **GE Capital**.
-*   **La banque de l'ombre (Shadow Bank)** : GE Capital n'était pas une banque régulée. Elle s'endettait à court terme sur les marchés de papier commercial avec la note triple A de GE, et prêtait cet argent à long terme pour des acquisitions immobilières, des rachats de dettes et des investissements spéculatifs.
-*   **L'alibi comptable** : À la fin de chaque trimestre, si les divisions turbines ou moteurs affichaient un manque à gagner, GE Capital vendait des actifs immobiliers ou ajustait ses provisions pour « combler le trou » à la décimale près, satisfaisant ainsi les analystes financiers de Wall Street (le Codex).
+### 1. The Speculative Transformation (The Wall Street Codex)
+To display a perfect linear growth of 15% in earnings per share every quarter (which real industrial physics makes impossible due to economic cycles), Welch developed **GE Capital**.
+*   **The shadow bank**: GE Capital was not a regulated bank. It borrowed short-term on the commercial paper markets using GE's triple-A rating, and lent this money long-term for real estate acquisitions, debt buyouts, and speculative investments.
+*   **The accounting alibi**: At the end of each quarter, if the turbine or engine divisions posted a shortfall, GE Capital sold real estate assets or adjusted its provisions to "fill the hole" to the decimal point, thereby satisfying Wall Street financial analysts (the Codex).
 
-### 2. La Réalité du Sol : L'Atrophie du Geste et de la R&D
-Pendant que GE Capital générait jusqu'à 60 % des bénéfices du groupe :
-*   Welch a imposé le programme **"Up or Out"** (la courbe de vitalité) : chaque année, les 10 % de managers les moins bien classés par des métriques quantitatives froides étaient licenciés.
-*   Ce système de stress a coupé tout rétrocontrôle immunitaire ($D_3$). Les ingénieurs du Sol de terrain ont cessé de signaler les défauts de fabrication de peur d'être mal notés.
-*   Les budgets de recherche et développement (R&D) fondamentaux ont été sacrifiés pour financer des programmes de rachat d'actions (stock buybacks), consommant le capital cognitif accumulé depuis Thomas Edison.
+### 2. The Reality of the Sol: The Atrophy of the Gesture and R&D
+While GE Capital generated up to 60% of the group's profits:
+*   Welch imposed the **"Up or Out"** program (the vitality curve): every year, the bottom 10% of managers ranked by cold quantitative metrics were fired.
+*   This stress system cut off any immune feedback ($D_3$). Field Sol engineers stopped reporting manufacturing defects for fear of receiving poor ratings.
+*   Fundamental research and development (R&D) budgets were sacrificed to fund stock buyback programs, consuming the cognitive capital accumulated since Thomas Edison.
 
 ```
-   [ USINES GE ORIGINELLES ] ──► (Sacrifice des budgets R&D & Geste industriel)
+   [ ORIGINAL GE FACTORIES ] ──► (Sacrifice of R&D budgets & industrial gesture)
                                            │
-                                           ▼ (Création de GE Capital spéculatif - Codex)
-   [ HAUSSE SPECTACULAIRE DU TITRE ] ──► [ APPARENCE DE SOLIDITÉ ABSOLUE ]
+                                           ▼ (Creation of speculative GE Capital - Codex)
+   [ SPECTACULAR RISE IN STOCK ] ──► [ APPEARANCE OF ABSOLUTE SOLIDITY ]
                                            │
-                                           ▼ (Crise de 2008 : Gel de GE Capital)
-   [ SAUVETAGE EN URGENCE DE LA FED & DÉMANTÈLEMENT EN 3 PIÈCES (2024) ]
+                                           ▼ (2008 Crisis: Freeze of GE Capital)
+   [ EMERGENCY FED BAILOUT & DISMANTLING INTO 3 PIECES (2024) ]
 ```
 
 ---
 
-## 📊 II. FASCIA DIAGNOSTIC
+## 📊 II. FASCIA DIAGNOSIS
 
-### D1 : Façade Homeostasis (10/10)
-Jack Welch a incarné le mythe du génie managérial. L'homéostasie a été totale pendant 20 ans. The Codex de gestion (Six Sigma, dégraissage à la hache sous le surnom de "Neutron Jack") a été copié par la majorité des multinationales occidentales, normalisant la destruction des compétences de terrain comme méthode standard de gestion.
+### D1: Façade Homeostasis (10/10)
+Jack Welch embodied the myth of managerial genius. Homeostasis was total for 20 years. The management Codex (Six Sigma, ruthless downsizing under the nickname "Neutron Jack") was copied by the majority of Western multinationals, normalizing the destruction of field skills as a standard management method.
 
-### D5 : Oxygen Debt / Financiarisation Apnéique (10/10)
-En devenant dépendant de GE Capital pour masquer ses failles industrielles, GE a vécu en apnée. Lorsque la crise des subprimes a éclaté en 2008, le marché du papier commercial s'est figé. GE Capital s'est retrouvée en situation d'asphyxiation financière immédiate. Sans le sauvetage de secours de la Réserve Fédérale, le groupe entier aurait déposé le bilan en 48 heures.
+### D5: Oxygen Debt / Apneic Financialization (10/10)
+By becoming dependent on GE Capital to mask its industrial flaws, GE lived in apnea. When the subprime crisis erupted in 2008, the commercial paper market froze. GE Capital found itself in immediate financial asphyxiation. Without the emergency bailout from the Federal Reserve, the entire group would have filed for bankruptcy within 48 hours.
 
 ---
 
-## 🔑 IV. THE SOVEREIGNTY LESSON (SOL LESSON)
+## 🔑 IV. THE LESSON OF SOVEREIGNTY (LESSON OF THE SOL)
 
-Le cas Jack Welch montre que **la valeur financière du Codex ($R=0$) est un parasite qui finit par dévorer le Sol industriel ($R=1$)**. La souveraineté économique d'un pays ou d'une entreprise exige de **sanctuariser la R&D et le savoir-faire ouvrier contre les exigences de lissage à court terme**. Si vous remplacez les ingénieurs par des traders de bilan pour plaire aux marchés, la physique de vos turbines finira par vous rappeler que le papier ne produit pas d'électricité.
+The Jack Welch case shows that **the financial value of the Codex ($R=0$) is a parasite that eventually devours the industrial Sol ($R=1$)**. The economic sovereignty of a country or a company requires **sanctifying R&D and worker know-how against short-term smoothing requirements**. If you replace engineers with balance sheet traders to please the markets, the physics of your turbines will eventually remind you that paper does not produce electricity.

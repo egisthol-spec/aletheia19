@@ -1,61 +1,61 @@
-# 📂 FASCIA CLINICAL AUDIT: L'Affaire Purdue Pharma (OxyContin)
-## La Sédation du Réel et la Simulation de la Non-Addiction
-**Standard:** FASCIA Protocol — Lot 4 / Cas 1  
+# 📂 FASCIA CLINICAL AUDIT: The Purdue Pharma Case (OxyContin)
+## The Sedation of Reality and the Simulation of Non-Addiction
+**Standard:** FASCIA Protocol — Batch 4 / Case 1  
 **Author:** Aletheia19 Labs  
 
-*« Purdue Pharma est l'exemple le plus violent de la déconnexion entre le Codex réglementaire (l'étiquette de la FDA affirmant que l'absorption retardée réduit le risque d'addiction) et le Sol neurobiologique (le récepteur opiacé $\mu$ qui développe une tolérance et une dépendance fatale). »*
+*“Purdue Pharma is the most violent example of the disconnect between the regulatory Codex (the FDA label claiming that delayed absorption reduces the risk of addiction) and the neurobiological Sol (the $\mu$ opioid receptor that develops a fatal tolerance and dependence).”*
 
 ---
 
 > [!IMPORTANT]
 > **FASCIA OPERATIONAL FORMULA**
-> * **Here is des millions de récepteurs opiacés humains ciblés par l'oxycodone.** (The Sol biologique)
-> * **Here is une étiquette FDA exclusive affirmant un risque d'abus inférieur à 1 %** (La façade du Codex)
-> * **Measure l'effritement de la pellicule de diffusion lente par mastication.** (La contrainte physique)
-> * **La crise des opiacés entraîne plus de 500 000 morts par overdose aux États-Unis.** (Le crash somatique)
+> * **Here are millions of human opioid receptors targeted by oxycodone.** (The biological Sol)
+> * **Here is an exclusive FDA label claiming an abuse risk of less than 1%.** (The façade of the Codex)
+> * **Measure the crumbling of the slow-release film coating through chewing.** (The physical constraint)
+> * **The opioid crisis leads to over 500,000 overdose deaths in the United States.** (The somatic crash)
 
 ---
 
-## 🏛️ I. THE ALIBI GÉOMÉTRIQUE DE L'ENROBAGE VS LA NEUROBIOLOGIE DU SOL
+## 🏛️ I. THE GEOMETRIC ALIBI OF THE COATING VS THE NEUROBIOLOGY OF THE SOL
 
-En 1996, Purdue Pharma lance l'**OxyContin**, une formulation à libération prolongée d'oxycodone (un opiacé puissant deux fois plus fort que la morphine).
+In 1996, Purdue Pharma launches **OxyContin**, an extended-release formulation of oxycodone (a powerful opioid twice as strong as morphine).
 
-### 1. Le Mensonge de la Libération Prolongée (The Codex de Façade)
-Pour vendre ce stupéfiant à grande échelle pour des douleurs courantes (maux de dos, arthrose) au-delà des soins palliatifs, les Sackler (propriétaires de Purdue) inventent un argument scientifique :
-*   **La théorie du graphique sémantique** : L'enrobage du comprimé (système Contin) libère le produit lentement sur 12 heures. Cela élimine les pics d'euphorie et les creux de manque, rendant le produit « non addictif ».
-*   **La capture de la FDA** : Purdue obtient de la FDA une étiquette unique (label) affirmant que l'absorption retardée *« est censée réduire la responsabilité d'abus du médicament »*.
-*   Ce label du Codex a servi de bouclier juridique pour lancer une campagne marketing agressive, affirmant aux médecins que le risque d'addiction était de *« moins de 1 % »*.
+### 1. The Lie of Extended Release (The Façade Codex)
+To sell this narcotic on a massive scale for common pain (backaches, osteoarthritis) beyond palliative care, the Sacklers (owners of Purdue) invent a scientific argument:
+*   **The theory of the semantic graph**: The tablet's coating (Contin system) releases the product slowly over 12 hours. This eliminates the peaks of euphoria and the troughs of withdrawal, making the product "non-addictive."
+*   **The capture of the FDA**: Purdue obtains a unique label from the FDA stating that delayed absorption *"is believed to reduce the abuse liability of a drug."*
+*   This Codex label served as a legal shield to launch an aggressive marketing campaign, assuring doctors that the risk of addiction was *"less than 1%."*
 
-### 2. La Contrainte Physique du Sol : L'Effondrement de l'Enrobage
-The Sol neurobiologique et physique a rapidement contredit cette théorie :
-*   Les usagers ont découvert qu'il suffisait d'écraser le comprimé en poudre ou de le sucer pour éliminer instantanément le mécanisme de libération prolongée. Le produit se transformait alors en une dose massive d'oxycodone pure, injectable ou inhalable.
-*   Même pris normalement, l'effet ne durait pas 12 heures pour la majorité des patients. Au bout de 8 heures, le manque physique s'installait, forçant le patient à augmenter les doses, initiant le cycle de l'addiction.
+### 2. The Physical Constraint of the Sol: The Collapse of the Coating
+The neurobiological and physical Sol quickly contradicted this theory:
+*   Users discovered that it was enough to crush the tablet into a powder or suck it to instantly eliminate the extended-release mechanism. The product then turned into a massive dose of pure oxycodone, injectable or snortable.
+*   Even taken normally, the effect did not last 12 hours for the majority of patients. After 8 hours, physical withdrawal set in, forcing the patient to increase doses, initiating the cycle of addiction.
 
 ```
-   [ COMPRIMÉ OXYCONTIN ] ──► (Mastication / Écrasement du comprimé au Sol)
+   [ OXYCONTIN TABLET ] ──► (Chewing / Crushing the tablet on the Sol)
                                         │
-                                        ▼ (Destruction du mécanisme de retard)
-   [ LIBÉRATION DE L'OXYCODONE PURE ] ◄── (Effet flash sur les récepteurs $\mu$)
+                                        ▼ (Destruction of the delay mechanism)
+   [ RELEASE OF PURE OXYCODONE ] ◄── (Flash effect on the $\mu$ receptors)
                   │
-                  ▼ (Tolérance accélérée / Addiction somatique physique)
-   [ CRISE DES OPIACÉS & OVERDOSES EN CHAÎNE ]
+                  ▼ (Accelerated tolerance / Somatic physical addiction)
+   [ OPIOID CRISIS & CHAIN OVERDOSES ]
 ```
 
 ---
 
-## 📊 II. FASCIA DIAGNOSTIC
+## 📊 II. FASCIA DIAGNOSIS
 
-### D1 : Façade Homeostasis (10/10)
-Purdue Pharma a maintenu sa façade de « partenaire de la gestion de la douleur » pendant 15 ans. Elle a financé des sociétés savantes de douleur, des cours de médecine et des associations de patients pour répéter son discours. La réalité physique — l'épidémie d'overdoses et de dépendance dans les régions rurales (Rust Belt) — a été systématiquement attribuée par Purdue à des « abuseurs de drogue déviants » plutôt qu'à la nature intrinsèque du produit.
+### D1: Façade Homeostasis (10/10)
+Purdue Pharma maintained its façade as a "pain management partner" for 15 years. It funded pain societies, medical courses, and patient associations to parrot its narrative. The physical reality—the epidemic of overdoses and addiction in rural areas (Rust Belt)—was systematically attributed by Purdue to "deviant drug abusers" rather than to the intrinsic nature of the product.
 
-### D3 : Capture de la Régulation (10/10)
-La FDA a été capturée par Purdue. L'examinateur de la FDA qui a approuvé le label unique en 1995 (Curtis Wright) a démissionné de la FDA un an plus tard pour prendre un poste payé 400 000 $ par an chez... Purdue Pharma. **L'organe de contrôle immunitaire a été désactivé par corruption sémantique et financière.**
+### D3: Capture of Regulation (10/10)
+The FDA was captured by Purdue. The FDA examiner who approved the unique label in 1995 (Curtis Wright) resigned from the FDA a year later to take a job paying $400,000 a year at... Purdue Pharma. **The immune control organ was deactivated by semantic and financial corruption.**
 
-### D5 : Dette de Mort Somatique (10/10)
-En niant l'addiction et en poussant à des doses toujours plus élevées (jusqu'à 80 mg et 160 mg par comprimé), Purdue a créé une dette biologique insurmontable. Lorsque les autorités ont fini par restreindre les ordonnances d'OxyContin dans les années 2010, les millions de personnes dépendantes se sont tournées vers l'héroïne de rue et le fentanyl, aggravant le taux de mortalité.
+### D5: Somatic Death Debt (10/10)
+By denying addiction and pushing for ever higher doses (up to 80 mg and 160 mg per tablet), Purdue created an insurmountable biological debt. When authorities finally restricted OxyContin prescriptions in the 2010s, the millions of dependent people turned to street heroin and fentanyl, worsening the mortality rate.
 
 ---
 
-## 🔑 IV. THE SOVEREIGNTY LESSON (SOL LESSON)
+## 🔑 IV. THE LESSON OF SOVEREIGNTY (LESSON OF THE SOL)
 
-Le cas Purdue Pharma montre que **les labels administratifs de sécurité ($R=0$) ne protègent pas contre la chimie du vivant ($R=1$)**. La souveraineté du médecin et du patient consiste à refuser les brochures commerciales et à auditer la molécule brute : un opiacé reste un opiacé, peu importe l'enrobage ou le discours marketing de la firme. Si vous croyez la notice du Codex contre la physique du récepteur synaptique, vous perdez le contrôle de votre biologie.
+The Purdue Pharma case shows that **administrative safety labels ($R=0$) do not protect against the chemistry of the living ($R=1$)**. The sovereignty of the doctor and the patient consists of refusing commercial brochures and auditing the raw molecule: an opioid remains an opioid, regardless of the coating or the firm's marketing pitch. If you believe the Codex insert against the physics of the synaptic receptor, you lose control of your biology.

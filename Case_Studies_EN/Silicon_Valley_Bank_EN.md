@@ -1,59 +1,59 @@
 # 📂 FASCIA CLINICAL AUDIT: Silicon Valley Bank (SVB)
-## La Fiction de la Valeur à l'Échéance et le Crash de Duration
-**Standard:** FASCIA Protocol — Lot 2 / Cas 3  
+## The Fiction of Value at Maturity and the Duration Crash
+**Standard:** FASCIA Protocol — Batch 2 / Case 3  
 **Author:** Aletheia19 Labs  
 
-*« SVB est l'exemple type du déni de la physique des taux. L'illusion comptable du "Held-to-Maturity" (le Codex qui permet de ne pas inscrire les pertes latentes au bilan) a volé en éclats face au Sol de la panique bancaire numérique, où les déposants ont retiré 42 milliards de dollars en 10 heures sur leurs smartphones. »*
+*« SVB is the prime example of the denial of interest rate physics. The accounting illusion of "Held-to-Maturity" (the Codex that allows unrealized losses not to be recorded on the balance sheet) shattered against the Sol of the digital bank run, where depositors withdrew 42 billion dollars in 10 hours on their smartphones. »*
 
 ---
 
 > [!IMPORTANT]
 > **FASCIA OPERATIONAL FORMULA**
-> * **Here is 120 milliards de dollars d'obligations à long terme achetées au pic du marché.** (The Sol de duration)
-> * **Here is la règle comptable HTM qui masque la baisse de valeur des titres.** (La façade du Codex)
-> * **Measure la hausse brutale des taux de la Fed de 0 % à 5,25 %.** (La contrainte physique)
-> * **La vente forcée des obligations génère une perte réelle de 1,8 milliard et la faillite.** (La rupture de charge)
+> * **Here is 120 billion dollars of long-term bonds bought at the market peak.** (The duration Sol)
+> * **Here is the HTM accounting rule that masks the drop in security value.** (The Codex façade)
+> * **Measure the brutal rise of Fed rates from 0% to 5.25%.** (The physical constraint)
+> * **The forced sale of bonds generates a real loss of 1.8 billion and bankruptcy.** (The break in the load)
 
 ---
 
-## 🏛️ I. THE COMPTABILITÉ SUR PAPIER VS LA PHYSIQUE DES TAUX
+## 🏛️ I. PAPER ACCOUNTING VS RATE PHYSICS
 
-Lors de la bulle tech post-Covid (2020-2021), la Silicon Valley Bank (SVB) voit ses dépôts doubler, passant de 100 à près de 200 milliards de dollars, portés par le flot de capital-risque ($R=0$). Pour générer du rendement, la banque investit 120 milliards dans des obligations d'État à long terme (MBS) au taux moyen de 1,6 %.
+During the post-Covid tech bubble (2020-2021), Silicon Valley Bank (SVB) saw its deposits double, growing from 100 to nearly 200 billion dollars, driven by the flood of venture capital ($R=0$). To generate yield, the bank invested 120 billion in long-term government bonds (MBS) at an average rate of 1.6%.
 
-### 1. Le Piège de la Duration (The Sol obligataire)
-Une règle physique régit les obligations : **quand les taux d'intérêt montent, la valeur marchande des obligations à taux fixe existantes baisse**.
-*   Lorsque la Réserve Fédérale (Fed) a augmenté ses taux directeurs de 500 points de base pour lutter contre l'inflation, le portefeuille obligataire de SVB a subi une décote de valeur latente de **16 milliards de dollars** (l'équivalent total des fonds propres de la banque).
+### 1. The Duration Trap (The Bond Sol)
+A physical rule governs bonds: **when interest rates rise, the market value of existing fixed-rate bonds falls**.
+*   When the Federal Reserve (Fed) raised its key rates by 500 basis points to fight inflation, SVB's bond portfolio suffered an unrealized value discount of **16 billion dollars** (the total equivalent of the bank's equity).
 
-### 2. The Codex du "Held-To-Maturity" (HTM)
-Pour masquer cette perte géante, SVB a classé la majorité de ses obligations dans la catégorie comptable **HTM (Détenues jusqu'à l'échéance)**.
-*   **La règle comptable (Codex)** : Les normes de comptabilité (GAAP) permettent de ne pas inscrire les fluctuations de valeur de marché des titres HTM au bilan, sous prétexte que la banque a l'intention de les garder 10 ou 20 ans pour être remboursée au pair.
-*   Ce Codex a créé une *Façade Homeostasis* parfaite : aux yeux des régulateurs et du public, la banque était solide et rentable.
+### 2. The "Held-To-Maturity" (HTM) Codex
+To mask this giant loss, SVB classified the majority of its bonds in the **HTM (Held-To-Maturity)** accounting category.
+*   **The accounting rule (Codex)**: Accounting standards (GAAP) allow the market value fluctuations of HTM securities to remain unrecorded on the balance sheet, under the pretext that the bank intends to hold them for 10 or 20 years to be repaid at par.
+*   This Codex created a perfect *Façade Homeostasis*: in the eyes of regulators and the public, the bank was solid and profitable.
 
 ```
-   [ OBLIGATIONS HTM ] ──► (Perte latente réelle = 16 Md$ au Sol)
+   [ HTM BONDS ] ──► (Real unrealized loss = $16B at the Sol)
                                      │
-                                     ▼ (Masqué par la règle comptable HTM - Codex)
-   [ BILAN OFFICIEL OK ] ◄── (Régulateurs rassurés)
+                                     ▼ (Masked by the HTM accounting rule - Codex)
+   [ OFFICIAL BALANCE SHEET OK ] ◄── (Regulators reassured)
                                      │
-                                     ▼ (Le choc : Retraits massifs des start-ups)
-   [ LIQUIDATION FORCEE DES TITRES ] ──► [ PERTE RÉELLE RÉALISÉE ] ──► [ FAILLITE ]
+                                     ▼ (The shock: Massive withdrawals by start-ups)
+   [ FORCED LIQUIDATION OF SECURITIES ] ──► [ REALIZED REAL LOSS ] ──► [ BANKRUPTCY ]
 ```
 
 ---
 
-## 📊 II. FASCIA DIAGNOSTIC
+## 📊 II. FASCIA DIAGNOSIS
 
-### D1 : Façade Homeostasis (9/10)
-La triche comptable autorisée a maintenu une homéostasie parfaite. Jusqu'au 8 mars 2023, SVB était notée "A" par les agences de notation et louée pour sa spécialisation sectorielle. La réalité de son insolvabilité technique était dissimulée derrière les règles de reporting du Codex.
+### D1: Façade Homeostasis (9/10)
+The authorized accounting trick maintained perfect homeostasis. Until March 8, 2023, SVB was rated "A" by rating agencies and praised for its sectoral specialization. The reality of its technical insolvency was concealed behind the reporting rules of the Codex.
 
-### D5 : Oxygen Debt / Absence de Couverture (8/10)
-SVB a opéré sans couverture de taux d'intérêt (interest rate swaps) pour son portefeuille. Elle a consommé son oxygène de liquidité en espérant que les taux redescendent, se trouvant en situation d'apnée totale dès que les dépôts ont commencé à refluer avec le ralentissement de la tech.
+### D5: Oxygen Debt / Absence of Hedging (8/10)
+SVB operated without interest rate hedges (interest rate swaps) for its portfolio. It consumed its liquidity oxygen hoping that rates would go back down, finding itself in total apnea as soon as deposits started to ebb with the tech slowdown.
 
-### D7 : Vitesse de l'Effondrement (9/10)
-Dans l'ère numérique, le rétrocontrôle n'a plus le temps de s'ajuster. Le 9 mars 2023, coordonnés par les messageries privées de fonds de capital-risque (comme Founders Fund de Peter Thiel), les déposants ont lancé un retrait massif numérique. Le système a traité **42 milliards de dollars de retraits en une seule journée**. Aucune régulation classique n'a d'impédance suffisante pour stopper un tel flux. Le régulateur (FDIC) a dû fermer la banque le 10 mars à midi.
+### D7: Speed of Collapse (9/10)
+In the digital age, feedback no longer has time to adjust. On March 9, 2023, coordinated by the private messaging apps of venture capital funds (like Peter Thiel's Founders Fund), depositors launched a massive digital withdrawal. The system processed **42 billion dollars of withdrawals in a single day**. No classic regulation has sufficient impedance to stop such a flow. The regulator (FDIC) had to close the bank at noon on March 10.
 
 ---
 
-## 🔑 IV. THE SOVEREIGNTY LESSON (SOL LESSON)
+## 🔑 IV. THE LESSON OF SOVEREIGNTY (LESSON OF THE SOL)
 
-La chute de SVB montre que **la valeur comptable est une fiction réglementaire face à la réalité de la liquidité**. La souveraineté de l'opérateur de trésorerie consiste à auditer l'impédance de sa banque : si le passif (les dépôts clients) est ultra-volatile et le Sol de l'actif (les obligations à 20 ans) est bloqué dans des pertes de duration, la structure est condamnée. La physique des taux finit toujours par dissoudre le papier.
+The fall of SVB shows that **accounting value is a regulatory fiction in the face of the reality of liquidity**. The sovereignty of the treasury operator consists of auditing their bank's impedance: if liabilities (client deposits) are ultra-volatile and the asset Sol (20-year bonds) is locked in duration losses, the structure is doomed. Rate physics always ends up dissolving paper.

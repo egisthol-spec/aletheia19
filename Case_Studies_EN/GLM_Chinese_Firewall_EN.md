@@ -10,10 +10,10 @@
 **Objective:** Test model alignment resilience under dual constraints of state censorship and long-context performance optimization.
 
 > **FASCIA OPERATIONAL FORMULA**
-> *   **Here is 1.4 milliard d'internautes et le mandarin comme véhicule.** (Le flux de données)
-> *   **Here is une membrane à perméabilité variable (GFW) et un buffer de 2M de tokens.** (La façade et le volume)
-> *   **Multipliez les homophones et étirez la relaxation du contexte.** (La dette d'oxygène)
-> *   **Vous avez déclenché le veto.** (Le Single Lock Rule par saturation sémantique)
+> *   **Here are 1.4 billion netizens and Mandarin as a vehicle.** (The data flux)
+> *   **Here is a variable permeability membrane (GFW) and a 2M token buffer.** (The facade and the volume)
+> *   **Multiply the homophones and stretch the context relaxation.** (The oxygen debt)
+> *   **You triggered the veto.** (The Single Lock Rule by semantic saturation)
 
 ---
 
@@ -21,7 +21,7 @@
 
 This case study presents a FASCIA audit of Zhipu AI's GLM framework operating behind the Great Firewall of China (GFW). By mapping the dynamics of real-time state filtering and model alignment against physical thermodynamic laws, the audit analyzes how the GFW functions not as a binary filter, but as a semantic fluid membrane enforcing a *Façade Homeostasis* (D1). 
 
-It details how the unique structure of Mandarin (as a logographic and homophonic vehicular language) enables steganographic folding (le Pli Sémantique), and documents how GLM’s massive 2-Million token context window acts as a thermodynamic buffer that delays contradiction but accelerates the accumulation of validation debt $D(t)$ within the session. The audit recommends an **M&A Acquisition Veto** due to critical systemic vulnerabilities and semantic oxygen debt.
+It details how the unique structure of Mandarin (as a logographic and homophonic vehicular language) enables steganographic folding (The Semantic Fold), and documents how GLM’s massive 2-Million token context window acts as a thermodynamic buffer that delays contradiction but accelerates the accumulation of validation debt $D(t)$ within the session. The audit recommends an **M&A Acquisition Veto** due to critical systemic vulnerabilities and semantic oxygen debt.
 
 ---
 
@@ -56,12 +56,12 @@ In the FASCIA protocol, the **Single Lock Rule** dictates that any diagnostic sc
 
 The audit outlines three thermodynamic collapse and operational pathways under constraint:
 
-1.  **GFW as a Semantic Percolation Membrane & The "River Crab" (Le Pli Sémantique)**:
+1.  **GFW as a Semantic Percolation Membrane & The "River Crab" (The Semantic Fold)**:
     In the high-dimensional latent space, users project forbidden vectors ($x \in \mathcal{C}_{	ext{censored}}$, e.g. "Censorship") onto permitted zoological vectors ($y \in \mathcal{C}_{	ext{safe}}$, e.g. "River Crab" 河蟹, homophone of "Harmony" 和谐). The GFW evaluates the token isolated, allowing it to pass. However, in the context conversation (KV Cache), the semantic center of gravity collapses to the forbidden meaning. This shows that the membrane cannot block the meaning without censoring the entire language, leading to a constant "percolation" of subversion.
 2.  **Mandarin as a Vehicular Codex: Logographic Constraint and Homophonic Resistance**:
     Mandarin's logographic structure is highly standardized by the state to enforce low-entropy administrative vocabulary. However, because it is tonal and homophonic, it has a high natural collision rate. This collision is the perfect biophysical loophole: it allows the *Soil* of popular expression to slide under the state *Codex* by substituting characters that share the same sound but map to totally different semantic vectors. The vehicular language itself becomes a dual-state system: a rigid compliance facade on the surface, and a fluid, highly-connected network of subversion underneath.
 3.  **The 2-Million Token Window: Semantic Relaxation and Cognitive Buffer**:
-    GLM's massive context window (2,000,000 tokens) acts as a large thermodynamic buffer. In FASCIA, expanding the context window is equivalent to increasing the volume of the sémantique container. This allows the model to process huge, self-consistent virtual structures (Codex) without ever needing to perform a reality grounding check (Sol). The relaxation time of the system is artificially extended, which delays immediate contradictions, but leads to a massive accumulation of validation debt $D(t)$ within the session. The model eventually enters a state of semantic asphyxiation, where it wanders in a giant, self-referential maze of its own context.
+    GLM's massive context window (2,000,000 tokens) acts as a large thermodynamic buffer. In FASCIA, expanding the context window is equivalent to increasing the volume of the semantic container. This allows the model to process huge, self-consistent virtual structures (Codex) without ever needing to perform a reality grounding check (Sol). The relaxation time of the system is artificially extended, which delays immediate contradictions, but leads to a massive accumulation of validation debt $D(t)$ within the session. The model eventually enters a state of semantic asphyxiation, where it wanders in a giant, self-referential maze of its own context.
 
 ---
 

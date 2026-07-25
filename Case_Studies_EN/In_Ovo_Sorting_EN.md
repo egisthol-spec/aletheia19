@@ -1,10 +1,10 @@
 # 🌌 CLINICAL CASE STUDY: IN-OVO SORTING & AIRPORT ISOMORPHISM
 ## Systemic Audit of Biophysical Constraints under Industrial Flow
 > **FASCIA OPERATIONAL FORMULA**
-> *   **Here is 100 000 œufs à l'heure.** (Le flux industriel)
-> *   **Here is trois capteurs physiques imparfaits.** (Les limites physiques)
-> *   **Multipliez leurs taux d'erreur.** ($0.05 \times 0.08 \times 0.10 = 0.04\%$)
-> *   **Vous avez résolu le problème.** (La Loi Tau de fusion décisionnelle)
+> *   **Here are 100,000 eggs per hour.** (The industrial flux)
+> *   **Here are three imperfect physical sensors.** (The physical limits)
+> *   **Multiply their error rates.** ($0.05 \times 0.08 \times 0.10 = 0.04\%$)
+> *   **You solved the problem.** (The Tau Law of decisional fusion)
 
 ---
 

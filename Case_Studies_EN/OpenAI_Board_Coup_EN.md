@@ -1,61 +1,61 @@
-# 📂 FASCIA CLINICAL AUDIT: Le Putsch du Conseil d'OpenAI (Novembre 2023)
-## Le Conflit Non-Profit vs Capitalisme Commercial et la Capture par Microsoft
-**Standard:** FASCIA Protocol — Lot 5 / Cas 2  
+# 📂 FASCIA CLINICAL AUDIT: The OpenAI Board Coup (November 2023)
+## The Non-Profit vs Commercial Capitalism Conflict and the Capture by Microsoft
+**Standard:** FASCIA Protocol — Lot 5 / Case 2  
 **Author:** Aletheia19 Labs  
 
-*« Le coup d'État manqué du conseil d'administration d'OpenAI en novembre 2023 révèle l'impuissance des structures juridiques théoriques (le Codex non-profit) face aux contraintes d'impédance de l'écosystème commercial. Un conseil d'administration sans pouvoir financier direct ne peut pas exercer son droit de veto si les salariés et le principal investisseur (Microsoft) menacent de transhumer en bloc vers une structure miroir. »*
+*“The failed coup d'état by the OpenAI board of directors in November 2023 reveals the impotence of theoretical legal structures (the non-profit Codex) against the impedance constraints of the commercial ecosystem. A board of directors without direct financial power cannot exercise its Veto right if employees and the main investor (Microsoft) threaten to transhume en bloc to a mirror structure.”*
 
 ---
 
 > [!IMPORTANT]
 > **FASCIA OPERATIONAL FORMULA**
-> * **Here is une structure à but non lucratif détenant le contrôle légal d'OpenAI.** (The Codex statutaire)
-> * **Here is une filiale commerciale pesant 80 milliards de dollars sous perfusion Microsoft.** (The Sol financier)
-> * **Measure la menace de démission de 95 % des employés après le limogeage de Sam Altman.** (L'impédance humaine)
-> * **Le retour triomphal d'Altman dissout le conseil d'administration d'origine.** (La capture systémique)
+> * **Here is a non-profit structure holding legal control of OpenAI.** (The statutory Codex)
+> * **Here is an $80 billion commercial subsidiary on Microsoft life support.** (The financial Sol)
+> * **Measure the threat of resignation of 95% of employees after the dismissal of Sam Altman.** (The human impedance)
+> * **The triumphant return of Altman dissolves the original board of directors.** (The systemic capture)
 
 ---
 
-## 🏛️ I. THE CHARTE DE SÛRETÉ DU CODEX VS LE LEVIER FINANCIER DU SOL
+## 🏛️ I. THE CODEX SAFETY CHARTER VS THE FINANCIAL LEVERAGE OF THE SOL
 
-OpenAI a été fondée en 2015 comme un laboratoire de recherche d'intérêt général à but non lucratif pour s'assurer que l'intelligence artificielle générale (AGI) bénéficie à l'humanité.
+OpenAI was founded in 2015 as a non-profit, general-interest research laboratory to ensure that artificial general intelligence (AGI) benefits humanity.
 
-### 1. La Structure Hybride (The Codex d'Alignement)
-Pour financer la puissance de calcul requise par les modèles GPT, Sam Altman crée en 2019 une filiale commerciale à bénéfice plafonné (OpenAI LP).
-*   **La subordination légale (Codex)** : Le conseil d'administration de la fondation non-profit conserve le contrôle exclusif de la filiale commerciale. Les administrateurs n'ont aucun intérêt financier dans l'entreprise. Leur devoir fiduciaire unique est de veiller à la sécurité de l'AGI, et non au rendement des investisseurs (Microsoft).
-*   Le conseil a le droit de vie ou de mort sur la structure et peut licencier le PDG à tout moment s'il estime que la sécurité est menacée.
+### 1. The Hybrid Structure (The Alignment Codex)
+To finance the computing power required by GPT models, Sam Altman created a capped-profit commercial subsidiary in 2019 (OpenAI LP).
+*   **Legal subordination (Codex)**: The board of directors of the non-profit foundation retained exclusive control of the commercial subsidiary. The directors had no financial interest in the company. Their sole fiduciary duty was to ensure the safety of AGI, not investor returns (Microsoft).
+*   The board had the power of life or death over the structure and could fire the CEO at any time if they believed safety was threatened.
 
-### 2. La Rupture de Charge du 17 Novembre 2023
-Estimant que Sam Altman n'était « pas sincère dans ses communications » et qu'il précipitait le déploiement commercial au détriment de la sûreté (le Sol), le conseil d'administration exerce son **Veto statutaire** et limoge Altman.
-*   **La réaction immunitaire du Sol économique** : Microsoft (qui a promis 13 milliards de dollars d'investissements sous forme de crédit cloud Azure) et les grands fonds d'investissement (Thrive Capital) court-circuitent la décision.
-*   Microsoft propose instantanément de recruter Sam Altman et tous les employés d'OpenAI au sein d'une nouvelle division d'IA au sein de Microsoft.
-*   **La fronde somatique** : Face à la perspective de voir la valeur de leurs stock-options (equity) réduite à néant, **700 des 770 employés d'OpenAI** signent une lettre exigeant la démission du conseil d'administration sous peine de démission collective immédiate.
+### 2. The Break of Load on November 17, 2023
+Believing that Sam Altman was "not consistently candid in his communications" and that he was rushing commercial deployment at the expense of safety (the Sol), the board of directors exercised its **statutory Veto** and fired Altman.
+*   **The immune reaction of the economic Sol**: Microsoft (which promised 13 billion dollars of investments in the form of Azure cloud credit) and large investment funds (Thrive Capital) short-circuited the decision.
+*   Microsoft instantly offered to recruit Sam Altman and all OpenAI employees into a new AI division within Microsoft.
+*   **The somatic revolt**: Faced with the prospect of seeing the value of their stock options (equity) reduced to zero, **700 of the 770 OpenAI employees** signed a letter demanding the board's resignation under threat of immediate collective resignation.
 
 ```
-   [ CONSEIL D'ADMINISTRATION NON-PROFIT ] ──► (Veto : Limogeage d'Altman - Codex)
+   [ NON-PROFIT BOARD OF DIRECTORS ] ──► (Veto: Altman's dismissal - Codex)
                                                      │
-                                                     ▼ (Fronde des salariés & Microsoft)
-   [ TRANSGRESSION FINANCIÈRE / Microsoft ] ◄── (Menace de vider la boîte de sa substance)
+                                                     ▼ (Employee revolt & Microsoft)
+   [ FINANCIAL TRANSGRESSION / Microsoft ] ◄── (Threat to empty the company of its substance)
                   │
-                  ▼ (Retour d'Altman / Dissolution et remplacement du conseil)
-   [ CONVERSION 100 % COMMERCIALE D'OPENAI ]
+                  ▼ (Altman's return / Dissolution and replacement of the board)
+   [ 100% COMMERCIAL CONVERSION OF OPENAI ]
 ```
 
 ---
 
-## 📊 II. FASCIA DIAGNOSTIC
+## 📊 II. FASCIA DIAGNOSIS
 
-### D1 : Façade Homeostasis (9/10)
-La façade non-profit a permis à OpenAI de recruter les meilleurs chercheurs en IA du monde sous un prétexte d'éthique et de bien de l'humanité, tout en profitant des allégements fiscaux. Cette homéostasie sémantique s'est brisée dès que la filiale commerciale a accumulé une valeur de marché de 80 milliards de dollars. **The Sol spéculatif a dévoré le Codex éthique.**
+### D1: Façade Homeostasis (9/10)
+The non-profit façade allowed OpenAI to recruit the best AI researchers in the world under the pretext of ethics and the good of humanity, while benefiting from tax breaks. This semantic homeostasis shattered as soon as the commercial subsidiary accumulated a market value of 80 billion dollars. **The speculative Sol devoured the ethical Codex.**
 
-### D3 : Réaction Immunitaire Capturée (10/10)
-Le licenciement d'Altman était la réaction immunitaire ultime ($D_3$) prévue par les statuts. Cette réaction a été écrasée par une contre-attaque immunitaire de l'écosystème d'affaires. Microsoft a démontré que la souveraineté légale d'un conseil d'administration ne pèse rien si l'infrastructure physique de calcul (les serveurs Azure) et l'impédance intellectuelle (les chercheurs) appartiennent au capital privé.
+### D3: Captured Immune Reaction (10/10)
+Altman's firing was the ultimate immune reaction ($D_3$) provided by the statutes. This reaction was crushed by an immune counter-attack from the business ecosystem. Microsoft demonstrated that the legal sovereignty of a board of directors carries no weight if the physical computing infrastructure (Azure servers) and intellectual impedance (researchers) belong to private capital.
 
-### D7 : Hollow Consensus / Alignement Fantôme (9/10)
-L'« alignement » de l'IA est un exemple de consensus creux. Le conseil d'administration d'origine cherchait un alignement biophysique et de sûreté. La nouvelle gouvernance mise en place après la crise (avec l'entrée de Larry Summers et d'anciens dirigeants d'affaires) est alignée uniquement sur les objectifs de croissance et de captation de marché.
+### D7: Hollow Consensus / Phantom Alignment (9/10)
+AI "alignment" is an example of a hollow consensus. The original board of directors sought biophysical and safety alignment. The new governance established after the crisis (with the entry of Larry Summers and former business executives) is aligned solely with the goals of growth and market capture.
 
 ---
 
-## 🔑 IV. THE SOVEREIGNTY LESSON (SOL LESSON)
+## 🔑 IV. THE LESSON OF SOVEREIGNTY (LESSON OF THE SOL)
 
-Le putsch d'OpenAI montre que **la souveraineté ne s'écrit pas sur des statuts juridiques ($R=0$) si le contrôle de l'infrastructure physique ($R=1$) et du capital humain est détenu par un tiers**. Si vos serveurs dépendent du cloud d'un géant monopolistique et que vos employés travaillent pour la valeur de leur equity, votre conseil d'administration éthique est une décoration de façade. La souveraineté de l'opérateur d'IA exige de détenir ses propres grappes de serveurs (GPU) et de financer ses équipes sans promesse de spéculation financière de court terme.
+The OpenAI coup shows that **sovereignty is not written on legal statutes ($R=0$) if control of physical infrastructure ($R=1$) and human capital is held by a third party**. If your servers depend on the cloud of a monopolistic giant and your employees work for the value of their equity, your ethical board of directors is a facade decoration. The sovereignty of an AI operator requires owning its own server clusters (GPUs) and financing its teams without the promise of short-term financial speculation.

@@ -1,60 +1,60 @@
-# 📂 FASCIA CLINICAL AUDIT: Tesla Autopilot / FSD
-## La Transfert de Responsabilité et la Dissolution de la Mesure du Réel
-**Standard:** FASCIA Protocol — Lot 1 / Cas 2  
+# 📂 CLINICAL FASCIA AUDIT: Tesla Autopilot / FSD
+## The Transfer of Responsibility and the Dissolution of the Measurement of Reality
+**Standard:** FASCIA Protocol — Batch 1 / Case 2  
 **Author:** Aletheia19 Labs  
 
-*« Tesla FSD est l'archétype de la capture cognitive par le Codex : renommer un système d'assistance de niveau 2 en "Full Self-Driving" pour capter la valorisation boursière, tout en déchargeant 100 % de la responsabilité physique du Sol sur l'utilisateur par des mentions légales cachées. »*
+*« Tesla FSD is the archetype of cognitive capture by the Codex: renaming a level 2 assistance system to "Full Self-Driving" to capture market valuation, while discharging 100% of the physical responsibility of the Sol onto the user through hidden legal disclaimers. »*
 
 ---
 
 > [!IMPORTANT]
 > **FASCIA OPERATIONAL FORMULA**
-> * **Here is 2 millions de véhicules équipés de caméras optiques (sans Lidar).** (The Sol physique)
-> * **Here is l'affirmation sémantique "Full Self-Driving".** (La façade du Codex)
-> * **Measure l'obligation contractuelle pour le conducteur de reprendre le volant en 150 ms.** (Le transfert de risque)
-> * **Le système est une prothèse cognitive qui anesthésie la vigilance humaine.** (La jachère inversée)
+> * **Here are 2 million vehicles equipped with optical cameras (without Lidar).** (The Physical Sol)
+> * **Here is the semantic assertion "Full Self-Driving".** (The Codex façade)
+> * **Measure the contractual obligation for the driver to retake the wheel in 150 ms.** (The risk transfer)
+> * **The system is a cognitive prosthesis that anesthetizes human vigilance.** (The inverted Fallow)
 
 ---
 
-## 🏛️ I. THE VISION OPTIQUE VS LA PROFONDEUR DU SOL
+## 🏛️ I. OPTICAL VISION VS THE DEPTH OF THE SOL
 
-L'approche de Tesla concernant la conduite autonome repose sur un dogme technologique dicté par Elon Musk : **"Vision-Only"**. L'entreprise a supprimé les radars à ultrasons et les radars classiques de ses véhicules pour ne conserver que 8 caméras optiques.
+Tesla's approach to autonomous driving relies on a technological dogma dictated by Elon Musk: **"Vision-Only"**. The company removed ultrasonic radars and classic radars from its vehicles, retaining only 8 optical cameras.
 
-### 1. Le Piège du Mirroring Virtuel (Codex)
-Les caméras projettent l'environnement routier dans un réseau de neurones artificiels (Occupancy Network). Ce réseau tente de reconstruire une approximation 3D de la route.
-*   **La faille du Lidar absent** : Sans mesure active de distance (temps de vol d'un faisceau laser Lidar), le système calcule la distance par pure estimation géométrique (stéréoscopie passive).
-*   **Le crash type (ex: Truck Crossing - Floride)** : Un camion blanc traverse perpendiculairement la route sous un soleil éclatant. Le réseau de neurones confond le flanc blanc du camion avec le ciel lumineux. N'ayant pas de capteur physique de matière (radar/Lidar), l'Autopilot maintient sa vitesse de croisière et s'encastre sous la remorque.
+### 1. The Trap of Virtual Mirroring (Codex)
+The cameras project the road environment into an artificial neural network (Occupancy Network). This network attempts to reconstruct a 3D approximation of the road.
+*   **The flaw of the missing Lidar**: Without active distance measurement (time-of-flight of a Lidar laser beam), the system calculates distance by pure geometric estimation (passive stereoscopy).
+*   **The typical crash (e.g., Truck Crossing - Florida)**: A white truck crosses the road perpendicularly under bright sunlight. The neural network confuses the white flank of the truck with the bright sky. Lacking a physical matter sensor (radar/Lidar), the Autopilot maintains its cruising speed and embeds itself under the trailer.
 
 ```
-   [ CAMÉRAS OPTIQUES ] ──► [ RÉSEAU NEURONAL ] ──► [ ESTIMATION DU TRUCK ]
+   [ OPTICAL CAMERAS ] ──► [ NEURAL NETWORK ] ──► [ TRUCK ESTIMATION ]
                                   │
-                                  ▼ (Confusion sémantique : Truck = Ciel)
-                            [ PAS DE FREINAGE ] ──► [ CRASH MATÉRIEL (Sol) ]
+                                  ▼ (Semantic confusion: Truck = Sky)
+                            [ NO BRAKING ] ──► [ HARDWARE CRASH (Sol) ]
 ```
 
 ---
 
-## 📊 II. FASCIA DIAGNOSTIC
+## 📊 II. FASCIA DIAGNOSIS
 
-### D1 : Façade Homeostasis (8/10)
-Tesla produit des vidéos promotionnelles montrant des trajets entiers sans intervention humaine (dès 2016). Cette façade d'autonomie complète ($R=0$) maintient la valorisation boursière hors norme de l'entreprise, bien que le système réel exige une attention de chaque instant.
+### D1: Façade Homeostasis (8/10)
+Tesla produces promotional videos showing entire trips without human intervention (as early as 2016). This façade of complete autonomy ($R=0$) maintains the company's exceptional stock market valuation, even though the actual system demands constant attention.
 
-### D3 : Neutralisation du Rétrocontrôle (7/10)
-Plusieurs ingénieurs de l'équipe Autopilot ont alerté la direction sur le danger de retirer le radar radar millimétrique. Ces alertes du Sol ont été écartées ou neutralisées au profit d'objectifs de réduction des coûts de fabrication et de vitesse de déploiement (Loi 24006).
+### D3: Feedback Loop Neutralization (7/10)
+Several engineers from the Autopilot team warned management about the danger of removing the millimeter-wave radar. These alerts from the Sol were dismissed or neutralized in favor of manufacturing cost reduction and deployment speed objectives (Law 24006).
 
-### D7 : Hollow Consensus et Décharge de Responsabilité (9/10)
-C'est le verrou juridique suprême de Tesla : le système est vendu sous le nom de *« Capacité de conduite entièrement autonome »*, mais le contrat de licence stipule que le conducteur doit *« garder les mains sur le volant à tout moment et rester pleinement vigilant »*. The Codex juridique se décharge ainsi de toute responsabilité biophysique sur l'humain en cas d'accident.
-
----
-
-## 🔬 III. THE COLLAPSE PAR PHANTOM BRAKING
-
-Le symptôme le plus révélateur du manque d'ancrage physique est le **Phantom Braking** (freinage fantôme). Le véhicule circulant à 130 km/h sur l'autoroute pile brutalement sans aucun obstacle visible. 
-*   **La cause** : Une ombre de pont, un panneau publicitaire ou un reflet lumineux génère une anomalie statistique dans le réseau de neurones. L'IA, manquant d'assurance physique, applique un principe de précaution erroné.
-*   **L'effet sur le Sol** : Ce comportement crée un risque majeur de collision par l'arrière, forçant l'humain à réagir en urgence pour écraser l'accélérateur et contrer l'automate.
+### D7: Hollow Consensus and Liability Waiver (9/10)
+This is Tesla's supreme legal lock: the system is sold under the name *"Full Self-Driving Capability"*, but the license agreement stipulates that the driver must *"keep hands on the wheel at all times and remain fully attentive"*. The legal Codex thus discharges all biophysical responsibility onto the human in the event of an accident.
 
 ---
 
-## 🔑 IV. THE SOVEREIGNTY LESSON (SOL LESSON)
+## 🔬 III. COLLAPSE BY PHANTOM BRAKING
 
-Le cas Tesla montre comment le Codex peut privatiser les profits de l'automatisation tout en socialisant les risques sur le Sol (les conducteurs et les piétons). La souveraineté de l'opérateur réside dans le **refus de se laisser endormir** par l'homéostasie de l'écran. L'Autopilot est une assistance cognitive utile, mais le conducteur qui lui délègue sa vie renonce à son immunité biologique.
+The most revealing symptom of the lack of physical anchoring is **Phantom Braking**. The vehicle traveling at 130 km/h on the highway brakes brutally without any visible obstacle. 
+*   **The cause**: A bridge shadow, a billboard, or a light reflection generates a statistical anomaly in the neural network. The AI, lacking physical certainty, applies an erroneous precautionary principle.
+*   **The effect on the Sol**: This behavior creates a major risk of a rear-end collision, forcing the human to react urgently to crush the accelerator and override the automaton.
+
+---
+
+## 🔑 IV. THE LESSON OF SOVEREIGNTY (LESSON OF THE SOL)
+
+The Tesla case shows how the Codex can privatize the profits of automation while socializing the risks on the Sol (drivers and pedestrians). The sovereignty of the operator lies in the **refusal to be put to sleep** by the homeostasis of the screen. The Autopilot is a useful cognitive assistance, but the driver who delegates their life to it renounces their biological immunity.

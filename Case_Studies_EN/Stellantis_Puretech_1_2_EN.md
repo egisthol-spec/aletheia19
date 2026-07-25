@@ -1,64 +1,64 @@
-# 📂 FASCIA CLINICAL AUDIT: Le Moteur Stellantis 1.2 PureTech
-## La Dissolution de la Matière sous la Pression du Codex Carbone
-**Standard:** FASCIA Protocol — Lot 1 / Cas 3  
+# 📂 CLINICAL FASCIA AUDIT: The Stellantis 1.2 PureTech Engine
+## The Dissolution of Matter under the Pressure of the Carbon Codex
+**Standard:** FASCIA Protocol — Batch 1 / Case 3  
 **Author:** Aletheia19 Labs  
 
-*« Le désastre du PureTech 1.2 est un cas d'école de l'optimisation réglementaire (le Codex CO2) menée au détriment de la physique des matériaux. On a plongé du caoutchouc dans de l'acide chaud pour gagner 2 grammes de CO2 on paper de certification, entraînant la destruction mécanique du moteur. »*
+*« The disaster of the PureTech 1.2 is a textbook case of regulatory optimization (the CO2 Codex) conducted at the expense of material physics. Rubber was plunged into hot acid to save 2 grams of CO2 on the certification paper, resulting in the mechanical destruction of the engine. »*
 
 ---
 
 > [!IMPORTANT]
 > **FASCIA OPERATIONAL FORMULA**
-> * **Here is une courroie de distribution humide plongée dans l'huile moteur.** (La matière du Sol)
-> * **Here is la certification d'émissions de CO2 optimisée à l'extrême.** (La façade du Codex)
-> * **Measure la dilution de l'essence imbrûlée qui attaque le caoutchouc de la courroie.** (La contrainte chimique)
-> * **Vous avez bouché la crépine d'huile, entraînant la perte soudaine de pression et du freinage.** (Le bug physique)
+> * **Here is a wet timing belt immersed in engine oil.** (The matter of the Sol)
+> * **Here is the extremely optimized CO2 emissions certification.** (The Codex façade)
+> * **Measure the dilution of unburned fuel that attacks the rubber of the belt.** (The chemical constraint)
+> * **You have clogged the oil strainer, causing a sudden loss of pressure and braking.** (The physical bug)
 
 ---
 
-## 🏛️ I. THE OPTIMISATION DU CODEX VS L'ACIDE DU SOL
+## 🏛️ I. CODEX OPTIMIZATION VS SOL ACID
 
-Pour concevoir son moteur essence 3-cylindres EB2 (le 1.2 PureTech), PSA (devenu Stellantis) a cherché à réduire les frictions internes pour afficher des consommations et émissions de CO2 minimales lors des cycles d'homologation NEDC/WLTP.
+To design its 3-cylinder EB2 gasoline engine (the 1.2 PureTech), PSA (now Stellantis) sought to reduce internal friction to display minimal fuel consumption and CO2 emissions during NEDC/WLTP homologation cycles.
 
-### 1. Le Choix de la Courroie Humide (Wet Belt)
-Traditionnellement, une courroie de distribution tourne à sec à l'extérieur du bloc, tandis qu'une chaîne de distribution tourne dans l'huile. Pour cumuler la faible friction de la courroie et l'isolation acoustique de la chaîne, les ingénieurs ont conçu une **courroie de distribution humide**, tournant directement dans le bain d'huile moteur.
-*   **La contrainte de papier (Codex)** : Le moteur affiche une baisse de 1 à 2 % de consommation et est élu "Moteur de l'année" de sa catégorie de 2015 à 2018.
-*   **La contrainte de terrain (Sol)** : Lors des trajets courts à froid (typiques d'une utilisation urbaine), de l'essence imbrûlée passe à travers les segments et se mélange à l'huile moteur. Ce carburant dégrade les propriétés de l'huile, la transformant en un solvant agressif qui attaque chimiquement le polymère de la courroie.
+### 1. The Wet Belt Choice
+Traditionally, a timing belt runs dry outside the block, while a timing chain runs in oil. To combine the low friction of the belt and the acoustic insulation of the chain, engineers designed a **wet timing belt**, running directly in the engine oil bath.
+*   **The paper constraint (Codex)**: The engine displays a 1 to 2% drop in consumption and was voted "Engine of the Year" in its category from 2015 to 2018.
+*   **The field constraint (Sol)**: During short, cold trips (typical of urban use), unburned gasoline passes through the piston rings and mixes with the engine oil. This fuel degrades the oil's properties, turning it into an aggressive solvent that chemically attacks the belt's polymer.
 
 ```
-   [ TRAJETS COURTS À FROID ] ──► [ ESSENCE IMBRÛLÉE DANS L'HUILE ]
-                                                │
-                                                ▼ (Attaque chimique du polymère)
-   [ CRÉPINE CLOQUÉE DE RÉSIDUS ] ◄── [ EFFILOCHAGE DE LA COURROIE ]
+   [ SHORT COLD TRIPS ] ──► [ UNBURNED FUEL IN OIL ]
+                                          │
+                                          ▼ (Chemical attack of the polymer)
+   [ STRAINER CLOGGED WITH RESIDUE ] ◄── [ FRAYING OF THE BELT ]
                   │
-                  ▼ (Perte de Pression d'Huile & Dépression de Frein)
-   [ CASSE MOTEUR & PERTE DE FREINAGE (Rupture Somatique) ]
+                  ▼ (Loss of Oil Pressure & Brake Vacuum)
+   [ ENGINE FAILURE & LOSS OF BRAKING (Somatic Rupture) ]
 ```
 
 ---
 
-## 📊 II. FASCIA DIAGNOSTIC
+## 📊 II. FASCIA DIAGNOSIS
 
-### D1 : Façade Homeostasis (9/10)
-Stellantis a nié le problème de conception pendant des années. Les véhicules sortaient des usines avec des certifications CO2 irréprochables et des manuels d'entretien très stricts (le Codex). L'homéostasie a été maintenue en déchargeant le coût des casses moteurs sur les clients sous prétexte de « mauvaise utilisation » ou de « déviation des intervalles de vidange ».
+### D1: Façade Homeostasis (9/10)
+Stellantis denied the design flaw for years. Vehicles left the factories with impeccable CO2 certifications and very strict maintenance manuals (the Codex). Homeostasis was maintained by offloading the cost of engine failures onto customers under the pretext of "improper use" or "deviation from oil change intervals."
 
-### D5 : Oxygen Debt / Maintenance Différée (8/10)
-En refusant d'admettre la défaillance des matériaux, Stellantis a accumulé une dette de rappel massive. Les clients ont servi de cobayes physiques pour tester la vitesse de dégradation du caoutchouc sous dilution d'hydrocarbures.
+### D5: Oxygen Debt / Deferred Maintenance (8/10)
+By refusing to admit the material failure, Stellantis accumulated a massive recall debt. Customers served as physical guinea pigs to test the rate of rubber degradation under hydrocarbon dilution.
 
-### D6 : Inverted Fallow / Saturation Administrative (7/10)
-La réponse du constructeur a été purement administrative : modification constante des spécifications d'huile (passage de la norme 0W-30 à la 5W-30 puis à des huiles spécifiques anti-dégradation), multiplication des contrôles de largeur de courroie par un outil jauge spécialisé lors des révisions, et rappels ciblés. Cette surcouche bureaucratique a saturé le réseau de garages sans résoudre le défaut géométrique de base.
-
----
-
-## 🔬 III. LA RUPTURE PHYSIQUE ET LE RISQUE SÉCURITAIRE
-
-Le point de rupture ultime de ce système n'est pas seulement la casse du moteur par manque de lubrification. 
-*   Les débris de caoutchouc effilochés de la courroie s'accumulent dans la crépine de la pompe à huile.
-*   Cela obstrue également la pompe à vide du système d'assistance de freinage (Mastervac).
-*   **The Sol parle soudainement** : Le conducteur se retrouve à 110 km/h sur l'autoroute avec une pédale de frein dure comme du bois, incapable d'arrêter le véhicule. La fiction de la conformité réglementaire s'effondre devant le risque de mort cinétique.
+### D6: Inverted Fallow / Administrative Saturation (7/10)
+The manufacturer's response was purely administrative: constant modification of oil specifications (moving from 0W-30 to 5W-30 standard and then to specific anti-degradation oils), multiplication of belt width checks using a specialized gauge tool during servicing, and targeted recalls. This bureaucratic overlay saturated the garage network without resolving the fundamental geometric flaw.
 
 ---
 
-## 🔑 IV. THE SOVEREIGNTY LESSON (SOL LESSON)
+## 🔬 III. THE PHYSICAL RUPTURE AND THE SECURITY RISK
 
-Le PureTech 1.2 illustre comment **l'optimisation mono-critère du Codex (les grammes de CO2 de laboratoire) produit des catastrophes sur le Sol multidimensionnel (la durabilité mécanique et la vie humaine)**. La souveraineté de l'ingénieur réside dans son respect de la physique des matériaux contre la pression des financiers de la technostructure.
+The ultimate breaking point of this system is not just engine failure due to lack of lubrication. 
+*   Frayed rubber debris from the belt accumulates in the oil pump strainer.
+*   This also obstructs the vacuum pump of the brake assist system (Mastervac).
+*   **The Sol suddenly speaks**: The driver finds themselves at 110 km/h on the highway with a brake pedal hard as wood, unable to stop the vehicle. The fiction of regulatory compliance collapses in the face of kinetic death risk.
+
+---
+
+## 🔑 IV. THE LESSON OF SOVEREIGNTY (LESSON OF THE SOL)
+
+The PureTech 1.2 illustrates how **the single-criterion optimization of the Codex (the laboratory CO2 grams) produces disasters on the multidimensional Sol (mechanical durability and human life)**. The sovereignty of the engineer lies in their respect for material physics against the pressure from the technostructure's financiers.

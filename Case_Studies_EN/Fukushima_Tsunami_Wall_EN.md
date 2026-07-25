@@ -1,61 +1,61 @@
-# 📂 FASCIA CLINICAL AUDIT: La Catastrophe de Fukushima Daiichi (2011)
-## Le Mur de Façade et la Noyade de la Redondance Électrique
-**Standard:** FASCIA Protocol — Lot 3 / Cas 1  
+# 📂 FASCIA CLINICAL AUDIT: The Fukushima Daiichi Disaster (2011)
+## The Façade Wall and the Drowning of Electrical Redundancy
+**Standard:** FASCIA Protocol — Batch 3 / Case 1  
 **Author:** Aletheia19 Labs  
 
-*« Fukushima n'est pas un accident naturel imprévisible. C'est le cas typique où la direction de TEPCO a refusé de rehausser le mur anti-tsunami de 10 à 15,7 mètres pour des raisons de coût immédiat, choisissant le Codex (les rapports d'ingénierie internes mis sous le tapis) contre le Sol physique (l'océan Pacifique). »*
+*“Fukushima is not an unpredictable natural accident. It is the typical case where TEPCO's management refused to raise the anti-tsunami wall from 10 to 15.7 meters for reasons of immediate cost, choosing the Codex (internal engineering reports swept under the rug) against the Physical Sol (the Pacific Ocean).”*
 
 ---
 
 > [!IMPORTANT]
 > **FASCIA OPERATIONAL FORMULA**
-> * **Here is 6 réacteurs nucléaires protégés par une digue de 10 mètres.** (The Sol vulnérable)
-> * **Here is un modèle sismique de 2008 simulant une vague de 15,7 mètres.** (La vérité ignorée du Codex)
-> * **Measure la hauteur de la vague du 11 mars 2011 (14 à 15 mètres).** (La contrainte physique)
-> * **Les générateurs diesel de secours, placés en sous-sol, sont noyés.** (La faillite de la First-Hand)
+> * **Here are 6 nuclear reactors protected by a 10-meter seawall.** (The vulnerable Sol)
+> * **Here is a 2008 seismic model simulating a 15.7-meter wave.** (The ignored truth of the Codex)
+> * **Measure the height of the wave on March 11, 2011 (14 to 15 meters).** (The physical constraint)
+> * **The backup diesel generators, located in the basement, are drowned.** (The failure of the First-Hand)
 
 ---
 
-## 🏛️ I. THE HAUTEUR DU RELEVÉ COMPTABLE VS LA HAUTEUR DE LA VAGUE
+## 🏛️ I. THE HEIGHT OF THE ACCOUNTING RECORD VS THE HEIGHT OF THE WAVE
 
-La centrale de Fukushima Daiichi a été construite dans les années 1960 avec une digue de protection conçue pour résister à un tsunami de 5,7 mètres. Elle a ensuite été portée à 10 mètres.
+The Fukushima Daiichi plant was built in the 1960s with a protective seawall designed to withstand a 5.7-meter tsunami. It was later raised to 10 meters.
 
-### 1. La Simulation Alerte de 2008 (The Codex étouffé)
-En 2008, les ingénieurs de TEPCO spécialisés dans l'évaluation des risques effectuent des simulations basées sur le séisme historique de Sanriku (1896) :
-*   Le modèle mathématique montre qu'une vague de **15,7 mètres** est physiquement possible sur le site.
-*   **La décision de la direction (Codex)** : Rehausser la digue aurait pris du temps et coûté des dizaines de millions de dollars. TEPCO choisit de reporter la décision de mise en œuvre, estimant que la probabilité statistique était trop faible et que les rapports de simulation devaient rester « internes » pour ne pas inquiéter l'autorité de sûreté (NISA).
+### 1. The Alert Simulation of 2008 (The Stifled Codex)
+In 2008, TEPCO engineers specializing in risk assessment ran simulations based on the historical Sanriku earthquake (1896):
+*   The mathematical model shows that a **15.7-meter** wave is physically possible on the site.
+*   **The management decision (Codex)**: Raising the seawall would have taken time and cost tens of millions of dollars. TEPCO chooses to postpone the implementation decision, estimating that the statistical probability was too low and that the simulation reports should remain "internal" so as not to alarm the nuclear safety authority (NISA).
 
-### 2. Le Bug Géométrique : La Noyade de l'Ultime Secours
-Le 11 mars 2011, le séisme de Tōhoku génère une vague de **14 à 15 mètres** qui submerge facilement la digue de 10 mètres.
-*   Le choc n'a pas détruit les réacteurs en soi (les barres de contrôle se sont insérées avec succès pour stopper la réaction).
-*   **La rupture biophysique** : L'eau a inondé les **générateurs diesel de secours** et les armoires de batteries électriques, situés dans les sous-sols des bâtiments turbines (zone la plus basse de la centrale).
-*   Sans électricité, les pompes de refroidissement se sont arrêtées (perte totale de courant / *station blackout*). Sans refroidissement, le combustible a fondu dans les réacteurs 1, 2 et 3, entraînant des explosions d'hydrogène et la contamination de la région.
+### 2. The Geometric Bug: The Drowning of the Ultimate Backup
+On March 11, 2011, the Tōhoku earthquake generates a **14 to 15-meter** wave that easily overtops the 10-meter seawall.
+*   The shock itself did not destroy the reactors (the control rods were successfully inserted to stop the reaction).
+*   **The biophysical rupture**: Water flooded the **backup diesel generators** and electrical battery cabinets, located in the basements of the turbine buildings (the lowest area of the plant).
+*   Without electricity, the cooling pumps stopped (total loss of power / *station blackout*). Without cooling, the fuel melted in reactors 1, 2, and 3, leading to hydrogen explosions and the contamination of the region.
 
 ```
-   [ DIGUE DE 10 MÈTRES ] ──► (Vague submergeante de 14 mètres au Sol)
+   [ 10-METER SEAWALL ] ──► (14-meter overtopping wave at the Sol)
                                         │
-                                        ▼ (Inondation des sous-sols)
-   [ MOTEURS DIESEL NOYÉS ] ◄── (Perte totale de lubrification/énergie)
+                                        ▼ (Flooding of basements)
+   [ DROWNED DIESEL ENGINES ] ◄── (Total loss of lubrication/energy)
                   │
-                  ▼ (Arrêt des pompes de refroidissement du cœur)
-   [ FUSION DU CŒUR & EXPLOSION D'HYDROGÈNE ]
+                  ▼ (Halt of core cooling pumps)
+   [ CORE MELTDOWN & HYDROGEN EXPLOSION ]
 ```
 
 ---
 
-## 📊 II. FASCIA DIAGNOSTIC
+## 📊 II. FASCIA DIAGNOSIS
 
-### D1 : Façade Homeostasis (9/10)
-TEPCO et la NISA (le régulateur) partageaient un mythe de la « sécurité absolue » (le dogme du *Anzen Shinwa*). Ce Codex culturel interdisait de concevoir qu'un accident majeur puisse arriver. Cette façade a empêché la mise en place de mesures de protection basiques (comme le fait de placer les moteurs diesels sur les hauteurs de la falaise ou de rendre les portes des sous-sols étanches).
+### D1: Façade Homeostasis (9/10)
+TEPCO and NISA (the regulator) shared a myth of "absolute safety" (the dogma of *Anzen Shinwa*). This cultural Codex forbade conceiving that a major accident could happen. This façade prevented the implementation of basic protection measures (such as placing the diesel engines on the heights of the cliff or making the basement doors watertight).
 
-### D3 : Réaction Immunitaire Neutralisée (10/10)
-Le comité de gouvernance de TEPCO a activement ignoré le rapport de 2008. L'autorité de sûreté (NISA), capturée par l'industrie, n'a jamais forcé TEPCO à appliquer les recommandations de ses propres ingénieurs. L'immunité du système a été désactivée par le profit et la bureaucratie.
+### D3: Neutralized Immune Reaction (10/10)
+TEPCO's governance committee actively ignored the 2008 report. The safety authority (NISA), captured by the industry, never forced TEPCO to apply the recommendations of its own engineers. The system's immunity was deactivated by profit and bureaucracy.
 
-### D5 : Oxygen Debt / Négligence de Sûreté (9/10)
-TEPCO a économisé sur le coût de la digue et de l'étanchéité, reportant le risque physique sur l'écosystème du Japon. Le coût final de ce report de dette biophysique dépasse les **200 milliards de dollars** (décontamination, démantèlement sur 40 ans et indemnisation).
+### D5: Oxygen Debt / Safety Negligence (9/10)
+TEPCO saved on the cost of the seawall and waterproofing, deferring the physical risk onto the ecosystem of Japan. The final cost of this deferral of biophysical debt exceeds **$200 billion** (decontamination, 40-year dismantling, and compensation).
 
 ---
 
-## 🔑 IV. THE SOVEREIGNTY LESSON (SOL LESSON)
+## 🔑 IV. THE LESSON OF SOVEREIGNTY (LESSON OF THE SOL)
 
-Fukushima montre que **la nature ne lit pas les probabilités comptables de la direction**. Une vague de 14 mètres se moque de savoir si sa survenue statistique est de 1 sur 1000 ans. La souveraineté de l'opérateur industriel consiste à installer la **redondance sur le Sol physique** : placer les générateurs en hauteur, hors de portée de l'eau. Si vous enterrez vos organes vitaux dans les sous-sols pour économiser des tuyaux, la physique viendra les noyer.
+Fukushima shows that **nature does not read management's statistical probabilities**. A 14-meter wave does not care if its statistical occurrence is 1 in 1000 years. The sovereignty of the industrial operator consists of installing **redundancy on the Physical Sol**: placing generators high up, out of reach of water. If you bury your vital organs in basements to save on pipes, physics will come and drown them.
