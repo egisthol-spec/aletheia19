@@ -243,6 +243,22 @@ CASE_STUDIES_SOURCES = [
         "source": os.path.join(BASE_DIR, "Case_Studies", "Mediator_Servier.md"),
         "summary": "Comment la dissimulation sémantique de la norfenfluramine a détruit les valves de milliers de cœurs.",
         "icon": "🔬"
+    },
+    {
+        "id": "atos_restructuring",
+        "title": "Atos : Autophagie Financière & Dette de Refinancement",
+        "category": "Tech & Restructuration",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Atos_Restructuring.md"),
+        "summary": "Comment la scission théorique a détruit la confiance des clients et vidé le Sol de sa trésorerie.",
+        "icon": "💻"
+    },
+    {
+        "id": "openai_board_coup",
+        "title": "OpenAI Board Coup : Conseil Non-Profit vs Écosystème d'Affaires",
+        "category": "IA & Gouvernance Corporate",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "OpenAI_Board_Coup.md"),
+        "summary": "Pourquoi les statuts éthiques du Codex échouent sans souveraineté sur l'infrastructure physique.",
+        "icon": "🤖"
     }
 ]
 
