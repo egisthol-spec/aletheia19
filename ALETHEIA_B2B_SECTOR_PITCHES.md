@@ -15,7 +15,7 @@ Ce document regroupe les pitches sectoriels d'Aletheia19, permettant d'aligner n
     > *« Si l'on décale la signature de 72 heures pour mener une vérification physique aléatoire sur vos 3 ingénieurs clés, qu'acceptez-vous de sacrifier dans les clauses pour compenser cette attente ? »*
     *   *Principe* : Mesure la panique temporelle et la robustesse réelle du Sol opérationnel.
 *   **Preuve Empirique (Case Study)** : **Renault-Nissan Alliance** (découplage et friction souveraine) ou **Enron-Theranos** (coquilles vides sémantiques).
-*   **Livrable Associé** : *The FASCIA M&A Kit (390 €)* et *Audit Level II (50 000 €)*.
+*   **Livrable Associé** : *The FASCIA M&A Kit (190 €)* et *Audit Level II (50 000 €)*.
 
 ---
 
