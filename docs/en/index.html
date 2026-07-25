@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALETHEIA19 — Biophysical Clinical Cases Observatory</title>
+    <meta name="description" content="Registre mondial d'autopsies industrielles, M&A et technologiques sous protocole FASCIA. Ingestion RAG et audits de dérive.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        amber: { 400: '#f59e0b', 500: '#d97706' },
+                        cyan: { 400: '#22d3ee', 950: '#083344' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans min-h-screen flex flex-col">
+    <header class="border-b border-slate-800 bg-slate-900/60 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <span class="font-bold text-amber-400 font-mono text-sm">ALETHEIA19</span>
+            <a href="../index.html" class="text-xs font-mono px-3 py-1.5 rounded bg-slate-800 border border-slate-700 hover:border-amber-400 text-slate-300 hover:text-white transition">
+                🇫🇷 Version Française
+            </a>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 py-10 text-center">
+            <span class="inline-block font-mono text-xs text-cyan-400 bg-cyan-950 border border-cyan-800 px-3 py-1 rounded-full mb-4">
+                GLOBAL OBSERVATORY OF FASCIA DRIFTS
+            </span>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-100 tracking-tight mb-4">
+                Clinical Cases of <span class="text-amber-400">Sol</span> & <span class="text-cyan-400">Codex</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-slate-400 text-base md:text-lg leading-relaxed">
+                Global database of industrial, aerospace, financial, and technological forensic autopsies. Impedance analysis and biophysical drift diagnostic under FASCIA protocol.
+            </p>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-6xl w-full mx-auto px-4 py-12">
+        <div class="flex justify-between items-center mb-8">
+            <h2 class="text-xl font-bold text-slate-200 flex items-center gap-2">
+                <span>📂</span> Matrix of the 36 Clinical Cases
+            </h2>
+            <span class="text-xs font-mono text-slate-500">36 / 36 Cases Deployed</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+        <a href="case_studies/boeing_737_max.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        ✈️ Aeronautics &amp; Engineering
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Boeing 737 MAX: Corporate Senescence &amp; MCAS Model
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Autopsy of engineering culture loss and secrecy for short-term financial extraction.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/renault_nissan_alliance.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🚗 Automotive &amp; Governance
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Renault-Nissan Alliance: RNBV Black Box &amp; Friction
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Forensic analysis of the Dutch entity structure and sovereignty decoupling.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/vatican_magnifica_humanitas.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🏛️ Institutions &amp; Sovereignty
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Vatican: Encyclical Magnifica Humanitas (2026)
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Immune response of humanity&#x27;s oldest administration against statistical AI asphyxiation.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/capgemini_esn_crisis.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        💻 Tech &amp; IT Outsourcing
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    2026 IT Consulting Crisis: Capgemini &amp; R=0 Collapse
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Biophysical diagnostic of 1,616 Capgemini departures vs TCS ingestion model.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/enron_theranos.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🩸 Finance &amp; Biotech
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Enron &amp; Theranos: Empty Shells &amp; Semantic Sedation
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How the Codex hides material failure behind falsified compliance reporting.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/harvey_legal_tech.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        ⚖️ Law &amp; Legal Tech
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Law &amp; Justice: Harvey.ai Automation
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    The imperative of somatic presence face to robot-generated contract anesthesia.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/glm_chinese_firewall.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🌐 AI &amp; State Sovereignty
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    GLM &amp; Chinese Great Firewall: Semantic Steganography
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Analysis of the semantic retention membrane and the Semantic Fold behind GFW.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/challenger_o_ring.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🚀 Aerospace &amp; Craft
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Challenger &amp; The Steelworker&#x27;s Craft: The Boisjoly Alert
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Autopsy of the O-ring and management&#x27;s refusal to listen to ground engineers.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/meta_self_audit.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🤖 Big Tech &amp; Alignment
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Meta: Cognitive Capture &amp; Model Self-Audit
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Evaluation of ground loss and internal cognitive stock atrophy by LLMs.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/in_ovo_sorting.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🔬 Agri-Tech &amp; Bio-Ethics
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    In Ovo Sorting: Bio-Ethics &amp; Agri-Tech Drift
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Audit of semantic substitution in industrial selection and embryo sexing.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/energie_thermodynamique.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        ⚡ Energy &amp; Infrastructures
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Energy &amp; Thermodynamics: EPR Flamanville &amp; Friction
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Schedule and cost drifts under the pressure of nuclear regulatory Codex.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/education_transmission.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        📚 Cognition &amp; Transmission
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Education &amp; Transmission: Atrophy of the First-Hand
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Degradation of cognitive apnea capacity and amnesia of First-Hand knowledge.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/hp_autonomy.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        💼 M&amp;A &amp; Big Four Audits
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    HP / Autonomy (2011): $8.8B Hidden Losses
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How traditional audit firms miss ground insolvency under Codex metrics.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/volkswagen_dieselgate.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🚗 Automotive &amp; Regulation
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Volkswagen Dieselgate: Software Façade &amp; Chemical Constraints
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Forensic autopsy of defeat devices configured to cheat on real-world NOx chemistry.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/tesla_autopilot_fsd.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🚗 Automotive &amp; AI
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Tesla Autopilot &amp; FSD: Liability Transfer &amp; Vision Dilemma
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Analysis of pure optical vision without physical depth grounding.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/stellantis_puretech_1_2.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🚗 Automotive &amp; Engineering
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Stellantis PureTech 1.2: Wet Timing Belt Dissolution
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How paper friction reduction dissolves real engine materials.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/airbags_takata.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🚗 Automotive &amp; Industrial Safety
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Takata Airbags: Chemical Instability &amp; Ammonium Nitrate
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How a cheap propellant turns into lethal shrapnel under ambient humidity.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/toyota_production_system.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🚗 Automotive &amp; Craft
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Toyota Production System: Andon Cord vs Bureaucratic Lean
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    The importance of ground veto rights on the Gemba face to financial lean constraints.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/wirecard_ghost_cash.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        💼 Banking &amp; Accounting
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Wirecard: Ghost Cash &amp; Auditor Blindness
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How €1.9 billion in non-existent escrow cash was certified by EY auditors.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/credit_suisse_archegos.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        💼 Banking &amp; Risk Management
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Credit Suisse: Collapse of a Giant &amp; Synthetic Leverage
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Analysis of the double Greensill and Archegos disaster under blind risk metrics.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/silicon_valley_bank.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        💼 Banking &amp; Liquidity
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Silicon Valley Bank: Duration Risk &amp; Digital Bank Run
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How Fed rate hikes dissolved long-term assets hidden by HTM accounting.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/axa_cyber_veto.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        💼 Insurance &amp; Logical Safety
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    AXA Cyber-Insurance: The Ransomware Reimbursement Veto
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Why funding extortion to reduce insurance costs destroys real ground security.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/fukushima_tsunami_wall.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        ⚡ Energy &amp; Nuclear Safety
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Fukushima Daiichi: Sea Wall Failure &amp; Emergency Power Flooding
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How geometric sea wall inadequacy flooded backup diesel generators.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/texas_power_grid_ercot.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        ⚡ Energy &amp; Infrastructures
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Texas Power Grid: Storm Uri &amp; Deregulation Freeze
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    The failure of a deregulated energy market without physical winterization mandates.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/crowdstrike_kernel_crash.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        💻 Logical Safety &amp; OS Kernel
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    CrowdStrike Outage: Invalid Memory Injection &amp; Kernel Panic
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How a corrupt Channel File pushed to Ring 0 paralyzed global infrastructure.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/purdue_pharma_oxycontin.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🔬 Healthcare &amp; Pharmacology
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Purdue Pharma OxyContin: Delayed Release &amp; Opioid Addiction
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How the delayed-release coating Codex was shattered by neurobiological reality.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/philips_cpap_respirators.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🔬 Healthcare &amp; Medical Safety
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Philips Respirators: Foam Degradation &amp; Toxic Inhalation
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How thermal degradation of PE-PUR foam projected particles into patient lungs.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/ibm_watson_health.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🔬 Healthcare &amp; AI
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    IBM Watson Oncology: Synthetic Recommendations &amp; Clinical Failure
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How training on synthetic scenarios disconnected AI from real oncology.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/mediator_servier.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🔬 Healthcare &amp; Regulation
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Mediator Servier: Chemical Concealment &amp; Heart Valve Damage
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How semantic dissimulation of norfenfluramine destroyed thousands of heart valves.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/atos_restructuring.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        💻 Tech &amp; Restructuring
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Atos: Financial Autophagy &amp; Refinancing Debt Collapse
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How theoretical splitting destroyed client confidence and drained cash.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/openai_board_coup.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🤖 AI &amp; Corporate Governance
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    OpenAI Board Coup: Non-Profit Board vs Commercial Ecosystem
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Why ethical bylaws fail without sovereignty over physical GPU infrastructure.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/eu_ai_act_enclosure.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🏛️ Institutions &amp; Sovereignty
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    EU AI Act: Bureaucratic Enclosure &amp; Digital Colonization
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How regulatory overreach eliminates local European open-source innovation.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/justice_dematerialisation_pnl.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🏛️ Institutions &amp; Sovereignty
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Justice Digitization: Loss of Somatic Grounding
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    The impact of video trials and predictive algorithms on defence rights.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/la_poste_timbre_rouge.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🏛️ Institutions &amp; Sovereignty
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    La Poste: e-Red Letter &amp; Rupture of Postal Privacy
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Why local printing of private emails by postmen destroys correspondence privacy.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/general_electric_welchism.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🏛️ Industry &amp; Financialization
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    General Electric: Jack Welch &amp; Industrial Autophagy
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How quarterly earnings smoothing by GE Capital atrophiated engineering assets.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        <a href="case_studies/alstom_ge_acquisition.html" class="group bg-slate-900/60 hover:bg-slate-900 border border-slate-800 hover:border-cyan-500/50 p-6 rounded-xl transition-all duration-300 flex flex-col justify-between shadow-lg hover:shadow-cyan-950/30">
+            <div>
+                <div class="flex justify-between items-start mb-3">
+                    <span class="text-xs font-mono text-cyan-400 bg-cyan-950/60 border border-cyan-900 px-2.5 py-0.5 rounded-full">
+                        🏛️ Institutions &amp; Sovereignty
+                    </span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 group-hover:text-amber-400 transition mb-2">
+                    Alstom Energy Sale: FCPA Extraterritorial Capture &amp; Arabelle Turbines
+                </h3>
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    How US extraterritorial law (DoJ) dispossessed France of its nuclear turbines.
+                </p>
+            </div>
+            <div class="mt-6 flex items-center text-xs text-amber-400 font-mono group-hover:translate-x-1 transition-transform">
+                Explore forensic audit →
+            </div>
+        </a>
+        
+        </div>
+    </main>
+
+    <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-xs text-slate-500">
+        <p>Aletheia19 Labs — Registre des Invariants Biophysiques FASCIA & M.O.S.</p>
+        <p class="mt-2 text-slate-600">Bilingual Indexation RAG & Generative Engine Optimization (GEO) Active</p>
+    </footer>
+</body>
+</html>
