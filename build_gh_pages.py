@@ -598,13 +598,105 @@ CASE_STUDIES_SOURCES = [
 ]
 
 def markdown_to_html_simple(md_text):
-    """Converts basic markdown formatting to HTML blocks."""
+    """Converts basic markdown formatting to HTML blocks with support for grouped blockquotes and alert styles."""
     lines = md_text.splitlines()
     html_out = []
     in_list = False
+    in_quote = False
+    quote_lines = []
+
+    def flush_quote():
+        nonlocal in_quote, quote_lines
+        if not in_quote:
+            return
+        
+        # Default styling for a blockquote
+        alert_class = "border-l-4 border-slate-700 bg-slate-900/60 p-4 rounded-r my-4 text-slate-300"
+        
+        clean_lines = []
+        is_alert = False
+        alert_type = "NOTE"
+        
+        for ql in quote_lines:
+            ql_strip = ql.strip()
+            if ql_strip.startswith("[!IMPORTANT]"):
+                is_alert = True
+                alert_type = "IMPORTANT"
+            elif ql_strip.startswith("[!NOTE]"):
+                is_alert = True
+                alert_type = "NOTE"
+            elif ql_strip.startswith("[!WARNING]"):
+                is_alert = True
+                alert_type = "WARNING"
+            elif ql_strip.startswith("[!TIP]"):
+                is_alert = True
+                alert_type = "TIP"
+            elif ql_strip.startswith("[!CAUTION]"):
+                is_alert = True
+                alert_type = "CAUTION"
+            else:
+                clean_lines.append(ql)
+        
+        if is_alert:
+            if alert_type == "IMPORTANT":
+                alert_class = "border-l-4 border-amber-500 bg-amber-950/25 p-5 rounded-r my-5 text-slate-200"
+            elif alert_type == "WARNING":
+                alert_class = "border-l-4 border-red-500 bg-red-950/25 p-5 rounded-r my-5 text-slate-200"
+            elif alert_type == "TIP":
+                alert_class = "border-l-4 border-emerald-500 bg-emerald-950/25 p-5 rounded-r my-5 text-slate-200"
+            elif alert_type == "CAUTION":
+                alert_class = "border-l-4 border-rose-600 bg-rose-950/30 p-5 rounded-r my-5 text-slate-200"
+            else: # NOTE
+                alert_class = "border-l-4 border-cyan-500 bg-cyan-950/25 p-5 rounded-r my-5 text-slate-200"
+        
+        quote_html = []
+        q_in_list = False
+        for ql in clean_lines:
+            ql_str = ql.strip()
+            if ql_str.startswith("* ") or ql_str.startswith("- "):
+                if not q_in_list:
+                    quote_html.append("<ul class='list-disc list-inside space-y-1.5 my-2 text-slate-300'>")
+                    q_in_list = True
+                content = ql_str[2:]
+                content = re.sub(r'\*\*(.*?)\*\*', r'<strong class="text-amber-300">\1</strong>', content)
+                content = re.sub(r'\*(.*?)\*', r'<em>\1</em>', content)
+                quote_html.append(f"<li>{content}</li>")
+            else:
+                if q_in_list:
+                    quote_html.append("</ul>")
+                    q_in_list = False
+                if ql_str:
+                    parsed = re.sub(r'\*\*(.*?)\*\*', r'<strong class="text-amber-300">\1</strong>', ql_str)
+                    parsed = re.sub(r'\*(.*?)\*', r'<em>\1</em>', parsed)
+                    quote_html.append(f"<p class='my-2 leading-relaxed'>{parsed}</p>")
+        if q_in_list:
+            quote_html.append("</ul>")
+            
+        inner_content = "\n".join(quote_html)
+        html_out.append(f"<blockquote class='{alert_class}'>{inner_content}</blockquote>")
+        
+        quote_lines.clear()
+        in_quote = False
 
     for line in lines:
         line_str = line.strip()
+        
+        # Check if line is part of a blockquote
+        if line.startswith(">"):
+            content = line[1:]
+            if content.startswith(" "):
+                content = content[1:]
+            
+            if in_list: 
+                html_out.append("</ul>")
+                in_list = False
+            
+            in_quote = True
+            quote_lines.append(content)
+            continue
+        else:
+            if in_quote:
+                flush_quote()
         
         # Headers
         if line_str.startswith("# "):
@@ -619,10 +711,6 @@ def markdown_to_html_simple(md_text):
         elif line_str.startswith("#### "):
             if in_list: html_out.append("</ul>"); in_list = False
             html_out.append(f"<h4 class='text-lg font-medium mt-4 mb-2 text-slate-300'>{html.escape(line_str[5:])}</h4>")
-        # Blockquotes
-        elif line_str.startswith("> "):
-            if in_list: html_out.append("</ul>"); in_list = False
-            html_out.append(f"<blockquote class='border-l-4 border-amber-500/80 bg-slate-900/80 p-4 rounded-r my-4 text-slate-300 italic'>{html.escape(line_str[2:])}</blockquote>")
         # Horizontal rule
         elif line_str in ["---", "***", "___"]:
             if in_list: html_out.append("</ul>"); in_list = False
@@ -645,6 +733,9 @@ def markdown_to_html_simple(md_text):
                 parsed = re.sub(r'\*(.*?)\*', r'<em>\1</em>', parsed)
                 html_out.append(f"<p class='my-3 text-slate-300 leading-relaxed'>{parsed}</p>")
 
+    if in_quote:
+        flush_quote()
+        
     if in_list:
         html_out.append("</ul>")
 
