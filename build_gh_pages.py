@@ -211,6 +211,38 @@ CASE_STUDIES_SOURCES = [
         "source": os.path.join(BASE_DIR, "Case_Studies", "CrowdStrike_Kernel_Crash.md"),
         "summary": "Comment un fichier de configuration corrompu poussé au Ring 0 a paralysé l'infrastructure mondiale.",
         "icon": "💻"
+    },
+    {
+        "id": "purdue_pharma_oxycontin",
+        "title": "Purdue Pharma OxyContin : Libération Prolongée & Addiction",
+        "category": "Santé & Pharmacologie",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Purdue_Pharma_Oxycontin.md"),
+        "summary": "Comment l'enrobage retardé du Codex a été pulvérisé par la réalité neurobiologique du Sol.",
+        "icon": "🔬"
+    },
+    {
+        "id": "philips_cpap_respirators",
+        "title": "Respirateurs Philips : Usure de Mousse & Inhalation Toxique",
+        "category": "Santé & Sûreté Médicale",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Philips_CPAP_Respirators.md"),
+        "summary": "Comment la dégradation thermique de la mousse PE-PUR a projeté des particules dans les poumons.",
+        "icon": "🔬"
+    },
+    {
+        "id": "ibm_watson_health",
+        "title": "IBM Watson Oncology : Recommandations Cliniques Fictives",
+        "category": "Santé & Intelligence Artificielle",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "IBM_Watson_Health.md"),
+        "summary": "Comment un entraînement sur des scénarios synthétiques a déconnecté la machine du réel médical.",
+        "icon": "🔬"
+    },
+    {
+        "id": "mediator_servier",
+        "title": "Mediator Servier : Maquillage Chimique & Insuffisance Cardiaque",
+        "category": "Santé & Réglementation",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Mediator_Servier.md"),
+        "summary": "Comment la dissimulation sémantique de la norfenfluramine a détruit les valves de milliers de cœurs.",
+        "icon": "🔬"
     }
 ]
 
