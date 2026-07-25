@@ -299,6 +299,14 @@ CASE_STUDIES_SOURCES = [
         "source": os.path.join(BASE_DIR, "Case_Studies", "Alstom_GE_Acquisition.md"),
         "summary": "Comment le droit extraterritorial américain (DoJ) a dépossédé la France de ses turbines nucléaires.",
         "icon": "🏛️"
+    },
+    {
+        "id": "affaire_epstein_structure_predation",
+        "title": "Affaire Epstein : Réseau de Prédation & Capture de Sûreté",
+        "category": "Institutions & Souveraineté",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Affaire_Epstein_Structure_Predation.md"),
+        "summary": "Analyse systémique d'une structure de compromission asymétrique et d'immunité de façade.",
+        "icon": "🏛️"
     }
 ]
 
