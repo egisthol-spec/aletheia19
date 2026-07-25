@@ -155,6 +155,38 @@ CASE_STUDIES_SOURCES = [
         "source": os.path.join(BASE_DIR, "Case_Studies", "Toyota_Production_System.md"),
         "summary": "L'importance du droit de veto sur le Gemba face aux contraintes du flux tendu financier.",
         "icon": "🚗"
+    },
+    {
+        "id": "wirecard_ghost_cash",
+        "title": "Wirecard : Le Cash Fantôme & La Falsification du Codex",
+        "category": "Banque & Comptabilité",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Wirecard_Ghost_Cash.md"),
+        "summary": "Comment 1,9 milliard d'euros de trésorerie fictive ont été certifiés par aveuglement des auditeurs.",
+        "icon": "💼"
+    },
+    {
+        "id": "credit_suisse_archegos",
+        "title": "Credit Suisse : Chute d'un Géant & Levier Synthétique",
+        "category": "Banque & Gestion des Risques",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Credit_Suisse_Archegos.md"),
+        "summary": "Analyse du double désastre Archegos et Greensill sous les indicateurs aveugles du Codex.",
+        "icon": "💼"
+    },
+    {
+        "id": "silicon_valley_bank",
+        "title": "Silicon Valley Bank : Risque de Duration & Panique Numérique",
+        "category": "Banque & Liquidité",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Silicon_Valley_Bank.md"),
+        "summary": "Comment la hausse des taux de la Fed a dissous les actifs à long terme masqués par la comptabilité HTM.",
+        "icon": "💼"
+    },
+    {
+        "id": "axa_cyber_veto",
+        "title": "AXA Cyber-Assurance : Le Veto sur le Remboursement des Rançons",
+        "category": "Assurance & Sûreté Logique",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "AXA_Cyber_Veto.md"),
+        "summary": "Pourquoi financer le crime pour réduire le coût d'assurance détruit la sécurité du Sol.",
+        "icon": "💼"
     }
 ]
 
