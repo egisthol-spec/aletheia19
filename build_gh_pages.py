@@ -259,6 +259,46 @@ CASE_STUDIES_SOURCES = [
         "source": os.path.join(BASE_DIR, "Case_Studies", "OpenAI_Board_Coup.md"),
         "summary": "Pourquoi les statuts éthiques du Codex échouent sans souveraineté sur l'infrastructure physique.",
         "icon": "🤖"
+    },
+    {
+        "id": "eu_ai_act_enclosure",
+        "title": "EU AI Act : Enclosure Bureaucratique & Colonisation Numérique",
+        "category": "Institutions & Souveraineté",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "EU_AI_Act_Enclosure.md"),
+        "summary": "Comment la surrégulation réglementaire élimine l'innovation locale au profit des Big Tech US.",
+        "icon": "🏛️"
+    },
+    {
+        "id": "justice_dematerialisation_pnl",
+        "title": "Dématérialisation Justice : Perte d'Ancrage Somatique",
+        "category": "Institutions & Souveraineté",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Justice_Dematerialisation_PNL.md"),
+        "summary": "L'impact des procès en visio et de la prédiction statistique sur les droits de la défense.",
+        "icon": "🏛️"
+    },
+    {
+        "id": "la_poste_timbre_rouge",
+        "title": "La Poste : e-Lettre Rouge & Rupture du Secret Postaux",
+        "category": "Institutions & Souveraineté",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "La_Poste_Timbre_Rouge.md"),
+        "summary": "Pourquoi l'impression locale des courriels par des facteurs tiers détruit l'intimité du pli.",
+        "icon": "🏛️"
+    },
+    {
+        "id": "general_electric_welchism",
+        "title": "General Electric : Jack Welch & Autophagie Industrielle",
+        "category": "Industrie & Financiarisation",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "General_Electric_Welchism.md"),
+        "summary": "Comment le lissage des bénéfices trimestriels par GE Capital a atrophié le Sol de Belfort.",
+        "icon": "🏛️"
+    },
+    {
+        "id": "alstom_ge_acquisition",
+        "title": "Rachat Alstom Energy : Capture FCPA & Turbines Arabelle",
+        "category": "Institutions & Souveraineté",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Alstom_GE_Acquisition.md"),
+        "summary": "Comment le droit extraterritorial américain (DoJ) a dépossédé la France de ses turbines nucléaires.",
+        "icon": "🏛️"
     }
 ]
 
