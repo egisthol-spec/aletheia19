@@ -115,6 +115,46 @@ CASE_STUDIES_SOURCES = [
         "source": os.path.join(BASE_DIR, "ALETHEIA_B2B_SECTOR_PITCHES.md"),
         "summary": "Comment les cabinets d'audit classiques ratent la faillite du Sol sous les métriques du Codex.",
         "icon": "💼"
+    },
+    {
+        "id": "volkswagen_dieselgate",
+        "title": "Volkswagen Dieselgate : Façade Logicielle & Contrainte Chimique",
+        "category": "Automobile & Réglementation",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Volkswagen_Dieselgate.md"),
+        "summary": "Autopsie forensique du defeat device configuré pour tricher sur la chimie du Sol.",
+        "icon": "🚗"
+    },
+    {
+        "id": "tesla_autopilot_fsd",
+        "title": "Tesla Autopilot & FSD : Transfert de Responsabilité",
+        "category": "Automobile & Intelligence Artificielle",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Tesla_Autopilot_FSD.md"),
+        "summary": "Analyse du dilemme de la vision optique pure sans ancrage de distance physique.",
+        "icon": "🚗"
+    },
+    {
+        "id": "stellantis_puretech_1_2",
+        "title": "Stellantis PureTech 1.2 : La Courroie de distribution Humide",
+        "category": "Automobile & Ingénierie",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Stellantis_Puretech_1_2.md"),
+        "summary": "Comment la réduction des frottements de papier dissout les matériaux réels du moteur.",
+        "icon": "🚗"
+    },
+    {
+        "id": "airbags_takata",
+        "title": "Airbags Takata : Instabilité Chimique & Nitrate d'Ammonium",
+        "category": "Automobile & Sûreté Industrielle",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Airbags_Takata.md"),
+        "summary": "Comment un comburant bon marché se transforme en éclats d'obus avec l'humidité.",
+        "icon": "🚗"
+    },
+    {
+        "id": "toyota_production_system",
+        "title": "Toyota Production System : Cordon Andon vs Lean Bureaucratique",
+        "category": "Automobile & Geste",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Toyota_Production_System.md"),
+        "summary": "L'importance du droit de veto sur le Gemba face aux contraintes du flux tendu financier.",
+        "icon": "🚗"
     }
 ]
 
