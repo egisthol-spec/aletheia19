@@ -871,6 +871,52 @@ def generate_index_html(lang="fr"):
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {"".join(cards_html)}
         </div>
+
+        <!-- Section Méthodologie / Epistemology -->
+        <section class="mt-20 border-t border-slate-900 pt-12">
+            <div class="bg-slate-900/40 border border-slate-800 p-8 md:p-10 rounded-2xl shadow-xl">
+                <div class="max-w-3xl">
+                    <span class="inline-block text-xs font-mono text-amber-500 bg-amber-950/60 border border-amber-900 px-3 py-1 rounded-full mb-4">
+                        { "CADRAGE ÉPISTÉMOLOGIQUE" if not is_en else "EPISTEMOLOGICAL FRAMEWORK" }
+                    </span>
+                    <h2 class="text-2xl font-bold text-slate-100 mb-4">
+                        { "Principes d'Audit FASCIA & Réfutabilité" if not is_en else "FASCIA Audit Principles & Falsifiability" }
+                    </h2>
+                    <p class="text-sm font-medium text-amber-400/90 italic mb-8 leading-relaxed">
+                        { "« Note importante : Les cas d'étude présentés ci-dessus ne servent pas à induire ou à démontrer la théorie ; ils servent à illustrer son application déductive sur des architectures complexes réelles. »" if not is_en else "“Important note: The case studies presented above do not aim to infer or prove the theory; they serve to illustrate its deductive application to real-world complex architectures.”" }
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
+                    <div class="border-l-2 border-cyan-500/40 pl-4">
+                        <h3 class="text-base font-bold text-slate-200 mb-2">
+                            { "1. Le Sol vs Le Codex" if not is_en else "1. The Sol vs. The Codex" }
+                        </h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            { "Les audits classiques (due diligence financières des Big Four, certifications ISO) vérifient la cohérence interne des déclarations écrites (Le Codex, R=0). FASCIA ignore les déclarations d'intention pour mesurer l'impédance physique et le couplage réel des flux de terrain (Le Sol, R=1)." if not is_en else "Traditional audits (Big Four financial due diligence, ISO certifications) verify the internal coherence of written declarations (The Codex, R=0). FASCIA ignores statements of intent to measure physical impedance and actual ground-level coupling (The Sol, R=1)." }
+                        </p>
+                    </div>
+
+                    <div class="border-l-2 border-cyan-500/40 pl-4">
+                        <h3 class="text-base font-bold text-slate-200 mb-2">
+                            { "2. La Souveraineté du Veto" if not is_en else "2. The Sovereignty of Veto" }
+                        </h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            { "Un système n'est souverain que si ses praticiens de terrain (ingénieurs, cliniciens, développeurs) détiennent un droit de veto technique absolu et non négociable face aux impératifs d'optimisation financière. L'effondrement commence lorsque le Codex capture le Veto." if not is_en else "A system is only sovereign if its ground-level practitioners (engineers, clinicians, developers) hold an absolute, non-negotiable technical right of veto against financial optimization pressures. Collapse begins when the Codex captures the Veto." }
+                        </p>
+                    </div>
+
+                    <div class="border-l-2 border-cyan-500/40 pl-4">
+                        <h3 class="text-base font-bold text-slate-200 mb-2">
+                            { "3. Le Critère de Réfutabilité" if not is_en else "3. Falsifiability Criterion" }
+                        </h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            { "FASCIA n'est pas une boîte noire ou un outil statistique. Pour réfuter scientifiquement un diagnostic FASCIA, il faut démontrer l'absence de découplage réel Sol/Codex ou prouver l'existence d'une friction physique compensatrice au niveau du Sol." if not is_en else "FASCIA is not a black-box or statistical tool. To scientifically invalidate a FASCIA diagnostic, one must demonstrate the absence of real Sol/Codex decoupling or prove the existence of compensatory physical friction in the Sol." }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-xs text-slate-500">
