@@ -756,7 +756,7 @@ def generate_case_html(case, lang="fr"):
     body_html = markdown_to_html_simple(md_content)
     
     # Toggle links
-    lang_toggle_link = f"../../en/case_studies/{case['id']}.html" if not is_en else f"../../case_studies/{case['id']}.html"
+    lang_toggle_link = f"../en/case_studies/{case['id']}.html" if not is_en else f"../../case_studies/{case['id']}.html"
     lang_toggle_label = "🇬🇧 English" if not is_en else "🇫🇷 Français"
     back_link = "../index.html" if not is_en else "../index.html"
     back_label = "← Tous les cas cliniques" if not is_en else "← All Case Studies"
