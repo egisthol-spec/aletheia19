@@ -468,19 +468,19 @@ CASE_STUDIES_SOURCES = [
         }
     },
     {
-        "id": "mediator_servier",
+        "id": "thalidomide_grunenthal",
         "icon": "🔬",
         "fr": {
-            "title": "Mediator Servier : Maquillage Chimique & Insuffisance Cardiaque",
+            "title": "Thalidomide Grünenthal : Chiralité Moléculaire & Veto de Sûreté",
             "category": "Santé & Réglementation",
-            "summary": "Comment la dissimulation sémantique de la norfenfluramine a détruit les valves de milliers de cœurs.",
-            "source": os.path.join(BASE_DIR, "Case_Studies", "Mediator_Servier.md")
+            "summary": "Comment la racémisation in vivo a déjoué le Codex de sécurité de la firme et déclenché un veto historique de la FDA.",
+            "source": os.path.join(BASE_DIR, "Case_Studies", "Thalidomide_Grunenthal.md")
         },
         "en": {
-            "title": "Mediator Servier: Chemical Concealment & Heart Valve Damage",
+            "title": "Thalidomide Grünenthal: Molecular Chirality & Safety Veto",
             "category": "Healthcare & Regulation",
-            "summary": "How semantic dissimulation of norfenfluramine destroyed thousands of heart valves.",
-            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Mediator_Servier_EN.md")
+            "summary": "How in vivo racemization bypassed the firm's safety Codex and triggered a historic FDA veto.",
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Thalidomide_Grunenthal_EN.md")
         }
     },
     {
