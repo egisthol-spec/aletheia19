@@ -187,6 +187,30 @@ CASE_STUDIES_SOURCES = [
         "source": os.path.join(BASE_DIR, "Case_Studies", "AXA_Cyber_Veto.md"),
         "summary": "Pourquoi financer le crime pour réduire le coût d'assurance détruit la sécurité du Sol.",
         "icon": "💼"
+    },
+    {
+        "id": "fukushima_tsunami_wall",
+        "title": "Fukushima Daiichi : Le Mur de protection & Noyade Électrique",
+        "category": "Énergie & Sûreté Nucléaire",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Fukushima_Tsunami_Wall.md"),
+        "summary": "Comment l'insuffisance géométrique de la digue a noyé les générateurs diesel de secours.",
+        "icon": "⚡"
+    },
+    {
+        "id": "texas_power_grid_ercot",
+        "title": "Réseau Électrique Texas : Tempête Uri & Dérégulation",
+        "category": "Énergie & Infrastructures",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "Texas_Power_Grid_ERCOT.md"),
+        "summary": "L'échec d'un marché d'énergie dérégulé sans obligation physique d'isolation thermique.",
+        "icon": "⚡"
+    },
+    {
+        "id": "crowdstrike_kernel_crash",
+        "title": "CrowdStrike Outage : Injection de Code & Panique Noyau",
+        "category": "Sûreté Logique & Noyau OS",
+        "source": os.path.join(BASE_DIR, "Case_Studies", "CrowdStrike_Kernel_Crash.md"),
+        "summary": "Comment un fichier de configuration corrompu poussé au Ring 0 a paralysé l'infrastructure mondiale.",
+        "icon": "💻"
     }
 ]
 
