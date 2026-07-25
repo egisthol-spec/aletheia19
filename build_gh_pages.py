@@ -670,7 +670,7 @@ def generate_case_html(case, lang="fr"):
     back_link = "../index.html" if not is_en else "../index.html"
     back_label = "← Tous les cas cliniques" if not is_en else "← All Case Studies"
     cta_title = "Besoin d'un audit forensique sur votre structure ?" if not is_en else "Need a forensic audit for your organization?"
-    cta_desc = "Accédez au Kit M&A FASCIA et aux 30 livrables d'inspection d'impédance." if not is_en else "Access the FASCIA M&A Kit and 30 impedance inspection deliverables."
+    cta_desc = "Accédez au Kit M&A FASCIA et aux 36 livrables d'inspection d'impédance." if not is_en else "Access the FASCIA M&A Kit and 36 impedance inspection deliverables."
     cta_btn = "Consulter les Instruments →" if not is_en else "View Instruments →"
 
     schema_json = {
