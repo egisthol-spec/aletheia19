@@ -26,13 +26,13 @@ CASE_STUDIES_SOURCES = [
             "title": "Boeing 737 MAX : Senescence Corporate & Modèle MCAS",
             "category": "Aéronautique & Ingénierie",
             "summary": "Autopsie de la perte de culture d'ingénierie et de l'omerta au profit de l'extraction financière.",
-            "source": os.path.join(BASE_DIR, "Case_Studies", "Boeing_737_MAX.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies", "Boeing_737_MAX_V2.md")
         },
         "en": {
             "title": "Boeing 737 MAX: Corporate Senescence & MCAS Model",
             "category": "Aeronautics & Engineering",
             "summary": "Autopsy of engineering culture loss and secrecy for short-term financial extraction.",
-            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Boeing_737_MAX_EN.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Boeing_737_MAX_EN_V2.md")
         }
     },
     {
@@ -42,13 +42,13 @@ CASE_STUDIES_SOURCES = [
             "title": "Alliance Renault-Nissan : Boîte Noire RNBV & Friction",
             "category": "Automobile & Gouvernance",
             "summary": "Analyse forensique de la structure de droit néerlandais et du découplage de souveraineté.",
-            "source": os.path.join(BASE_DIR, "Case_Studies", "Renault_Nissan_Alliance.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies", "Renault_Nissan_Alliance_V2.md")
         },
         "en": {
             "title": "Renault-Nissan Alliance: RNBV Black Box & Friction",
             "category": "Automotive & Governance",
             "summary": "Forensic analysis of the Dutch entity structure and sovereignty decoupling.",
-            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Renault_Nissan_Alliance_EN.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Renault_Nissan_Alliance_EN_V2.md")
         }
     },
     {
@@ -90,13 +90,13 @@ CASE_STUDIES_SOURCES = [
             "title": "Enron & Theranos : Coquilles Vides & Sédation Sémantique",
             "category": "Finance & Biotech",
             "summary": "Comment le Codex masque la défaillance matérielle sous des rapports de conformité falsifiés.",
-            "source": os.path.join(BASE_DIR, "Case_Studies", "Enron_Theranos.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies", "Enron_Theranos_V2.md")
         },
         "en": {
             "title": "Enron & Theranos: Empty Shells & Semantic Sedation",
             "category": "Finance & Biotech",
             "summary": "How the Codex hides material failure behind falsified compliance reporting.",
-            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Enron_Theranos_EN.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Enron_Theranos_EN_V2.md")
         }
     },
     {
@@ -106,13 +106,13 @@ CASE_STUDIES_SOURCES = [
             "title": "Droit & Justice : L'Automatisation Harvey.ai",
             "category": "Droit & Legal Tech",
             "summary": "L'impératif de présence somatique face à l'anesthésie contractuelle générée par robot.",
-            "source": os.path.join(BASE_DIR, "Case_Studies", "Droit_et_Justice.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies", "Droit_et_Justice_V2.md")
         },
         "en": {
             "title": "Law & Justice: Harvey.ai Automation",
             "category": "Law & Legal Tech",
             "summary": "The imperative of somatic presence face to robot-generated contract anesthesia.",
-            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Droit_et_Justice_EN.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Droit_et_Justice_EN_V2.md")
         }
     },
     {
@@ -186,13 +186,13 @@ CASE_STUDIES_SOURCES = [
             "title": "Énergie & Thermodynamique : EPR Flamanville & Friction",
             "category": "Énergie & Infrastructures",
             "summary": "La dérive des délais et des coûts sous la pression du Codex réglementaire nucléaire.",
-            "source": os.path.join(BASE_DIR, "Case_Studies", "Energie_et_Thermodynamique.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies", "Energie_et_Thermodynamique_V2.md")
         },
         "en": {
             "title": "Energy & Thermodynamics: EPR Flamanville & Friction",
             "category": "Energy & Infrastructures",
             "summary": "Schedule and cost drifts under the pressure of nuclear regulatory Codex.",
-            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Energie_et_Thermodynamique_EN.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Energie_et_Thermodynamique_EN_V2.md")
         }
     },
     {
@@ -202,13 +202,13 @@ CASE_STUDIES_SOURCES = [
             "title": "Éducation & Transmission : Atrophie de la Première Main",
             "category": "Cognition & Transmission",
             "summary": "Dégradation de la capacité d'apnée cognitive et amnésie des savoirs de Première Main.",
-            "source": os.path.join(BASE_DIR, "Case_Studies", "Education_et_Transmission.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies", "Education_et_Transmission_V2.md")
         },
         "en": {
             "title": "Education & Transmission: Atrophy of the First-Hand",
             "category": "Cognition & Transmission",
             "summary": "Degradation of cognitive apnea capacity and amnesia of First-Hand knowledge.",
-            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Education_et_Transmission_EN.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Education_et_Transmission_EN_V2.md")
         }
     },
     {
@@ -218,13 +218,13 @@ CASE_STUDIES_SOURCES = [
             "title": "HP / Autonomy (2011) : 8.8 Md$ de Pertes Cachées",
             "category": "M&A & Audits Big Four",
             "summary": "Comment les cabinets d'audit classiques ratent la faillite du Sol sous les métriques du Codex.",
-            "source": os.path.join(BASE_DIR, "ALETHEIA_B2B_SECTOR_PITCHES.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies", "HP_Autonomy_V2.md")
         },
         "en": {
             "title": "HP / Autonomy (2011): $8.8B Hidden Losses",
             "category": "M&A & Big Four Audits",
             "summary": "How traditional audit firms miss ground insolvency under Codex metrics.",
-            "source": os.path.join(BASE_DIR, "05_CHANTIERS", "Gumroad", "ALETHEIA_MANDATE_M_A_DUE_DILIGENCE_EN_V3.md")
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "HP_Autonomy_EN_V2.md")
         }
     },
     {

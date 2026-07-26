@@ -1,10 +1,8 @@
 # =========================================================================
-# ALETHEIA19 - METRICS & SCALING SPECIFICATION (metrics.yaml)
-# =========================================================================
-# ALETHEIA19 - METRICS & SCALING SPECIFICATION (metrics.yaml)
+# ALETHEIA19 - METRICS & SCALING SPECIFICATION (metrics.yaml) — V2.0
 # =========================================================================
 # Format: YAML 1.2
-# Reference Zenodo DOI: 10.5281/zenodo.21192234
+# Standard: FASCIA Qualitative 0-10 Diagnostic Framework
 # =========================================================================
 
 metrology_rules:
@@ -12,16 +10,12 @@ metrology_rules:
     name: "Soil Grounding Ratio / Indice d'Ancrage au Sol"
     symbol: "R"
     operational_definition:
-      description: "Static textual audit: Ratio of Soil invariants to Codex representation tokens."
-      formula: "R_static = Sol_Tokens / (Sol_Tokens + Codex_Tokens)"
-    dynamic_projection:
-      description: "Continuous process audit: Trigonometric projection of the physical validation rate (V_val) over the symbolic revision rate (V_rev)."
-      formula: "R_dynamic = sin(theta) where theta = arctan(V_val / V_rev)"
-    constraint_identity: "D_t^2 + R^2 = 1.0 (Loi de Conservation de la Contrainte)"
+      description: "Ratio of empirical First-Hand observations (Sol) to administrative/symbolic assertions (Codex)."
+      formula: "R = Sol_Tokens / (Sol_Tokens + Codex_Tokens)"
     bounds:
-      grounded: "R >= 0.707" # Optimal coupling (theta >= 45 degrees, validation rate >= revision rate)
-      vigilance: "0.35 < R < 0.707"
-      chimera: "R <= 0.35" # System is a pure simulation
+      grounded: "R >= 0.70" # High empirical grounding (7/10)
+      vigilance: "0.35 < R < 0.70" # Moderate desynchronization
+      chimera: "R <= 0.35" # System is a pure simulation (3/10 or below)
 
   loi_tau:
     name: "Multi-Layer Error Reduction"
@@ -30,7 +24,7 @@ metrology_rules:
 
   single_lock:
     name: "Single Lock Trigger"
-    definition: "A single critical diagnostic score >= 9/10 triggers a direct audit veto, bypassing the global average."
+    definition: "A single critical diagnostic score >= 9/10 triggers a direct audit veto, bypassing global averages."
     target_diagnostics:
       - "D3_Neutralized_Immune_Response"
       - "D7_Hollow_Consensus"
@@ -39,62 +33,44 @@ metrology_rules:
     name: "Cistercian Decoupling & Friction Index"
     symbol: "chi"
     associated_diagnostic: "D6_Inverted_Fallow"
-    definition: "Operational friction index derived from the algebraic connectivity of the coordination network G(V, E). It maps the second smallest eigenvalue (Fiedler value, lambda_2) of the Laplacian matrix L = D - A to the local autonomy margin."
-    formula: "chi = 2 * lambda_2 / (lambda_2 + lambda_N)" # Normalizes spectral properties between 0 (sovereign decentralization) and 1 (Cluniac central stasis)
+    definition: "Operational friction index measuring coordination overhead vs local execution autonomy (scale 0.0 to 1.0)."
     bounds:
-      sovereign_decentralized: "chi == 0" # Perfect balance: local nodes operate autonomously (Fiedler value is low but non-zero, preserving local jachere).
-      administrative_creep: "0.0 < chi < 0.5" # Network algebraic connectivity is rising, propagating micro-management constraints.
-      cognitive_capture: "chi >= 0.5" # The network is hyper-constrained (lambda_2 approaches the spectral radius lambda_N), local nodes lose all independent execution state.
+      sovereign_decentralized: "chi <= 0.20" # High local autonomy
+      administrative_creep: "0.20 < chi < 0.60" # Rising coordination lag
+      cognitive_capture: "chi >= 0.60" # Local nodes lose execution state
 
   semantic_oxygen_ratio:
     name: "Semantic Oxygen Ratio / Asphyxiation Index"
     symbol: "omega"
     associated_diagnostic: "D5_Semantic_Oxygen_Debt"
-    definition: "The ratio of unconstrained operational terms to the total vocabulary required to describe anomalous, failure, or crisis states."
-    formula: "omega = V_unconstrained / (V_unconstrained + V_censored)"
+    definition: "Ratio of unconstrained operational terms to total vocabulary describing crisis/failure states (scale 0.0 to 1.0)."
     bounds:
-      oxygenated: "omega >= 0.80" # The organization can freely name and respond to its failures.
-      hypoxia: "0.50 < omega < 0.80" # Semantic suppression is active. Warnings are delayed or masked.
-      asphyxiation: "omega <= 0.50" # Severe censorship. The system lacks the vocabulary to coordinate emergency response.
+      oxygenated: "omega >= 0.80" # Uncensored crisis reporting
+      hypoxia: "0.50 < omega < 0.80" # Active suppression of warnings
+      asphyxiation: "omega <= 0.50" # Severe censorship
 
   temporal_asymmetry_index:
     name: "Temporal Asymmetry Index / Indice de Dissymétrie Temporelle"
     symbol: "D_t"
     associated_diagnostic: "D4_Temporal_Extraction"
-    definition: "Quantifies the divergence between the rate of symbolic model revision V_rev and the rate of physical substrate validation V_val, projected onto the circle of constraint."
-    formula: "D_t = cos(theta) where theta = arctan(V_val / V_rev)"
+    definition: "Quantifies the divergence rate between symbolic model revision and physical substrate validation (scale 0.0 to 1.0)."
     bounds:
-      synchronized: "D_t < 0.30" # Ideal coupling (theta approaches 90 degrees)
-      coupled_tracking: "0.30 <= D_t < 0.707" # The substrate has enough time to adapt (theta >= 45 degrees)
-      chaotic_desynchronization: "D_t >= 0.707" # The revision rate outruns validation rate (theta falls below 45 degrees, V_rev > V_val)
-
-  diagnostic_consistency_index:
-    name: "Diagnostic Consistency Index / Indice d'Incohérence Diagnostique"
-    symbol: "Delta"
-    definition: "Measures the divergence of independently estimated Soil Grounding (R_est) and Temporal Asymmetry (D_t_est) by calculating their distance to the theoretical circle of constraint."
-    formula: "Delta = abs(D_t_est^2 + R_est^2 - 1.0)"
-    bounds:
-      consistent: "Delta < 0.10" # High diagnostic convergence
-      unstable: "0.10 <= Delta < 0.30" # Moderate estimation noise or measurement blur
-      contradictory: "Delta >= 0.30" # Heavy internal contradiction; suggests target dissimulation or bad input data
+      synchronized: "D_t < 0.30" # Ideal tracking between model and physical ground
+      coupled_tracking: "0.30 <= D_t < 0.70" # Substrate adapts with growing lag
+      chaotic_desynchronization: "D_t >= 0.70" # Model revisions outrun physical testing (7/10 threshold)
 
 inference_rules:
   R001_asphyxia_regime:
     name: "Transition to Asphyxiation Regime"
-    condition: "D5_Semantic_Oxygen_Debt >= 0.80 AND D6_Inverted_Fallow >= 0.70"
-    consequence: "Systemic hypoxia triggered. Critical operational signals are masked. Initiate emergency vocabulary restoration."
-  
+    condition: "D5_Semantic_Oxygen_Debt >= 8/10 AND D6_Inverted_Fallow >= 7/10"
+    consequence: "Systemic hypoxia triggered. Critical operational signals are masked."
+
   R002_chimera_collapse:
     name: "Transition to Chimera Collapse"
-    condition: "score_r <= 0.35 AND D1_Facade_Homeostasis >= 0.80"
-    consequence: "Autophagous semantic loop active. Autonomy grounding (Sol) is lost. Trigger direct audit veto."
+    condition: "score_r <= 0.35 AND D1_Facade_Homeostasis >= 8/10"
+    consequence: "Autophagous semantic loop active. Sol grounding is lost. Trigger direct audit veto."
 
   R003_immune_neutralization:
     name: "Neutralization Veto Trigger"
-    condition: "D3_Neutralized_Immune_Response >= 0.90 OR D7_Hollow_Consensus >= 0.90"
-    consequence: "Immune warning vectors disabled. Bypassing global averages to execute direct veto protocol."
-
-  R004_desynchronization_collapse:
-    name: "Desynchronization Phase Transition"
-    condition: "D_t >= 0.707 AND D5_Semantic_Oxygen_Debt >= 0.50"
-    consequence: "Systemic desynchronization detected. The symbolic layer has decoupled from the substrate (theta < 45 degrees). Physical collapse (blackout/stasis) is imminent."
+    condition: "D3_Neutralized_Immune_Response >= 9/10 OR D7_Hollow_Consensus >= 9/10"
+    consequence: "Immune warning vectors disabled. Executing direct veto protocol."

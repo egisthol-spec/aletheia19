@@ -23,7 +23,7 @@ Ce document regroupe les pitches sectoriels d'Aletheia19, permettant d'aligner n
 
 *   **Cible** : Directeurs Industriels, RSSI/Auditeurs de Sûreté Nucléaire/Aérospatiale, Directeurs de Sûreté d'Infrastructures.
 *   **L'Enjeu Biophysique** : Détecter l'usure de matière et la dérive de sécurité avant l'accident physique. Mesurer comment la pression financière ou réglementaire comprime les temps de validation réels au profit de rapports de conformité papiers.
-*   **Indicateur Clé** : L'Indice d'Asymétrie Temporelle ($D_t \ge 0.707$) — la vitesse de révision des modèles (Codex) dépasse largement la vitesse de validation physique sur le terrain.
+*   **Indicateur Clé** : L'Indice d'Asymétrie Temporelle ($D_t \ge 7/10$) — la vitesse de révision des modèles (Codex) dépasse largement la vitesse de validation physique sur le terrain.
 *   **La Sonde d'Entretien** :
     > *« Si vous deviez doubler le temps de test et de validation de votre prochain composant critique, quelle instance de gouvernance interne tenterait de bloquer cette décision sous prétexte de conformité aux délais ? »*
     *   *Principe* : Identifie la capture du Sol par les métriques de surface.
