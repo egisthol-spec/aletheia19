@@ -68,19 +68,19 @@ CASE_STUDIES_SOURCES = [
         }
     },
     {
-        "id": "capgemini_esn_crisis",
-        "icon": "💻",
+        "id": "turquie_seisme_2023",
+        "icon": "🏢",
         "fr": {
-            "title": "Crise des ESN 2026 : Capgemini & L'Effondrement du R=0",
-            "category": "Tech & Outsourcing IT",
-            "summary": "Diagnostic biophysique des 1 616 départs Capgemini et de la divergence avec le modèle d'ingestion TCS.",
-            "source": os.path.join(BASE_DIR, "05_CHANTIERS", "Gumroad", "11_CAPTURE_SECTORIELLE_CRISE_ESN.md")
+            "title": "Turquie (2023) : Le Séisme de Kahramanmaraş",
+            "category": "Sûreté Civile & Infrastructures",
+            "summary": "Comment l'amnistie de zonage (imar barışı) a simulé la conformité par décret politique en déniant la physique.",
+            "source": os.path.join(BASE_DIR, "Case_Studies", "Turquie_Seisme_2023_V2.md")
         },
         "en": {
-            "title": "2026 IT Consulting Crisis: Capgemini & R=0 Collapse",
-            "category": "Tech & IT Outsourcing",
-            "summary": "Biophysical diagnostic of 1,616 Capgemini departures vs TCS ingestion model.",
-            "source": os.path.join(BASE_DIR, "05_CHANTIERS", "Gumroad", "11_SECTOR_CAPTURE_ESN_CRISIS.md")
+            "title": "Turkey (2023): The Kahramanmaraş Earthquake",
+            "category": "Civil Safety & Infrastructure",
+            "summary": "How zoning amnesties (imar barışı) simulated compliance by decree while ignoring physical laws.",
+            "source": os.path.join(BASE_DIR, "Case_Studies_EN", "Turquie_Seisme_2023_EN_V2.md")
         }
     },
     {
