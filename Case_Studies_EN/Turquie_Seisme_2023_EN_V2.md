@@ -42,7 +42,7 @@ Post-disaster investigations conducted by the Union of Chambers of Turkish Engin
 * **Score justification:** Technical control organs and independent professional warnings were neutralized by political overrides.
 
 ### D4: Temporal Asymmetry (8/10)
-* **Mechanism:** An explosion in annual building permits issued (surging from under 150,000 per year in 2002 to over 800,000 per year at its peak in 2017), coupled with the compression of mandatory geotechnical soil survey timelines (*zemin etüdü*), which were frequently reduced to 24-hour administrative sign-offs in amnesty zones to prevent sales delays.
+* **Mechanism:** A dramatic surge in annual building permits issued (rising from 161,920 in 2002 to an all-time peak of 1,405,447 in 2017, before settling at over 840,000 in 2023), coupled with the compression of mandatory geotechnical soil survey timelines (*zemin etüdü*), which were frequently reduced to 24-hour administrative sign-offs in amnesty zones to prevent sales delays.
 * **Score justification:** Real estate delivery schedules (Codex) fully decoupled from physical time constants required for concrete curing, structural settling, and empirical soil qualification (Soil).
 
 ---
