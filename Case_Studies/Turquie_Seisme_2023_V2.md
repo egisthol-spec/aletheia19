@@ -42,8 +42,8 @@ Les enquêtes post-sinistre menées par l'Union des chambres d'ingénieurs et d'
 * **Justification du score :** Neutralisation politique des organes de contrôle technique et des contre-pouvoirs professionnels.
 
 ### D4 : Désynchronisation Temporelle (8/10)
-* **Mécanisme :** Un boom de la construction immobilière ultra-rapide soutenu par le crédit, où la vitesse d'érection des structures a largement dépassé la vitesse d'études géotechniques et de stabilisation des sols d'ancrage.
-* **Justification du score :** Le rythme du marché (Codex) a ignoré le temps nécessaire à la validation et à la prise en compte des failles physiques (Sol).
+* **Mécanisme :** Une explosion du volume des permis de construire (passant de moins de 150 000 par an en 2002 à plus de 800 000 par an au sommet de 2017), combinée à la réduction des délais d'études géotechniques préalables (*zemin etüdü*), souvent réduites à une simple signature administrative en 24h dans les zones d'amnistie pour ne pas ralentir la commercialisation.
+* **Justification du score :** Le rythme de livraison des programmes immobiliers (Codex) s'est désynchronisé des constantes de temps physiques de séchage du béton et de qualification géologique des sols d'ancrage (Sol).
 
 ---
 

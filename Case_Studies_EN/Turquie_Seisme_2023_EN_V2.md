@@ -42,8 +42,8 @@ Post-disaster investigations conducted by the Union of Chambers of Turkish Engin
 * **Score justification:** Technical control organs and independent professional warnings were neutralized by political overrides.
 
 ### D4: Temporal Asymmetry (8/10)
-* **Mechanism:** A debt-fueled, rapid real estate boom where the speed of building construction far outpaced geological survey validations and soil stabilization timelines.
-* **Score justification:** Market-driven speed (Codex) overran the slow, physical feedback loops of soil testing and structural drying times (Soil).
+* **Mechanism:** An explosion in annual building permits issued (surging from under 150,000 per year in 2002 to over 800,000 per year at its peak in 2017), coupled with the compression of mandatory geotechnical soil survey timelines (*zemin etüdü*), which were frequently reduced to 24-hour administrative sign-offs in amnesty zones to prevent sales delays.
+* **Score justification:** Real estate delivery schedules (Codex) fully decoupled from physical time constants required for concrete curing, structural settling, and empirical soil qualification (Soil).
 
 ---
 
