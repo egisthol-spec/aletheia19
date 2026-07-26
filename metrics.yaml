@@ -24,9 +24,14 @@ metrology_rules:
 
   single_lock:
     name: "Single Lock Trigger"
-    definition: "A single critical diagnostic score >= 9/10 triggers a direct audit veto, bypassing global averages."
+    definition: "Any individual diagnostic score (D1-D7) >= 9/10 triggers an immediate autonomous audit veto, bypassing global averages."
     target_diagnostics:
+      - "D1_Facade_Homeostasis"
+      - "D2_Semantic_Parasitism"
       - "D3_Neutralized_Immune_Response"
+      - "D4_Temporal_Extraction"
+      - "D5_Semantic_Oxygen_Debt"
+      - "D6_Inverted_Fallow"
       - "D7_Hollow_Consensus"
 
   cistercian_decoupling_index:
