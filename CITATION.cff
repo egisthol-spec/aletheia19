@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "ALETHEIA19 — Forensic Semantic Architecture & Biophysical Auditing"
+message: "If you use this framework, please cite it as below."
+type: software
+authors:
+  - name: "Aletheia19 Labs"
+    website: "https://aletheia19.org"
+repository-code: "https://github.com/egisthol-spec/aletheia19"
+url: "https://aletheia19.org"
+license: MIT
+version: "1.0.0-canonical"
+date-released: "2026-07-28"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21192234"
+    description: "FASCIA Protocol V5.5 — Unified Specification"
+  - type: doi
+    value: "10.5281/zenodo.18129882"
+    description: "Proof of Anteriority — 25,188 Cognitive Isomorphisms"
+  - type: doi
+    value: "10.5281/zenodo.18182159"
+    description: "Vesuvius Technical Report — Thermodynamic De-Noising"
+keywords:
+  - fascia-protocol
+  - forensic-audit
+  - systemic-risk
+  - biophysics
+  - thermodynamics
+  - due-diligence
+  - ai-governance
+  - open-source-metrology
+abstract: >-
+  ALETHEIA19 is a forensic auditing framework that treats organizations
+  and technologies as open thermodynamic systems. The FASCIA Protocol
+  measures Semantic Oxygen Debt, Temporal Desynchronization, and
+  Topological Friction to diagnose systemic failure modes before collapse.

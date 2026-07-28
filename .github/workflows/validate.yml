@@ -1,0 +1,37 @@
+name: FASCIA Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate critical files exist
+        run: |
+          test -f README.md
+          test -f ontology.yaml
+          test -f demo_sensor.py
+          test -f CITATION.cff
+          test -f LICENSE
+          echo "✅ All critical files present."
+
+      - name: Run demo sensor
+        run: |
+          python demo_sensor.py "Test validation of the FASCIA semantic analysis pipeline."
+          echo "✅ Demo sensor executed successfully."
+
+      - name: Validate YAML
+        run: |
+          python -c "import yaml; yaml.safe_load(open('ontology.yaml'))"
+          echo "✅ ontology.yaml is valid."

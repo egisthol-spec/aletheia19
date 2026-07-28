@@ -1,3 +1,7 @@
+[![Zenodo DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21192234-blue.svg)](https://doi.org/10.5281/zenodo.21192234)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![FASCIA Validation](https://github.com/egisthol-spec/aletheia19/actions/workflows/validate.yml/badge.svg)](https://github.com/egisthol-spec/aletheia19/actions/workflows/validate.yml)
+
 # 🌌 ALETHEIA19 — Forensic Semantic Architecture & Biophysical Auditing
 
 ## ALETHEIA CANONICAL SPECIFICATION

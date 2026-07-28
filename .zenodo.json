@@ -1,0 +1,31 @@
+{
+  "title": "ALETHEIA19 — FASCIA Protocol Canonical Specification",
+  "upload_type": "software",
+  "description": "Forensic Semantic Architecture & Biophysical Auditing. Open-core metrology scripts, diagnostic engines, and cognitive defense tools for systemic risk analysis.",
+  "creators": [
+    {"name": "Aletheia19 Labs", "affiliation": "Independent Research"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "fascia-protocol",
+    "forensic-audit",
+    "systemic-risk",
+    "biophysics",
+    "thermodynamics",
+    "due-diligence",
+    "ai-governance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21192234",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.18129882",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}
