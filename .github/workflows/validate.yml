@@ -28,8 +28,11 @@ jobs:
 
       - name: Run demo sensor
         run: |
-          python demo_sensor.py "Test validation of the FASCIA semantic analysis pipeline."
+          python demo_sensor.py
           echo "✅ Demo sensor executed successfully."
+
+      - name: Install PyYAML
+        run: pip install pyyaml
 
       - name: Validate YAML
         run: |
