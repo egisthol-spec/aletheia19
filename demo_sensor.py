@@ -76,17 +76,22 @@ def simulate_audit(content, source_name):
     print("=" * 72 + "\n")
 
 if __name__ == "__main__":
+    import os
     print_banner()
     
     if len(sys.argv) > 1:
-        text_path = sys.argv[1]
-        try:
-            with open(text_path, 'r', encoding='utf-8') as f:
-                text_to_analyze = f.read()
-            source = text_path
-        except Exception as e:
-            print(f"[!] Error: Could not read file {text_path}. ({e})")
-            sys.exit(1)
+        raw_arg = sys.argv[1]
+        if os.path.isfile(raw_arg):
+            try:
+                with open(raw_arg, 'r', encoding='utf-8') as f:
+                    text_to_analyze = f.read()
+                source = raw_arg
+            except Exception as e:
+                print(f"[!] Error: Could not read file {raw_arg}. ({e})")
+                sys.exit(1)
+        else:
+            text_to_analyze = " ".join(sys.argv[1:])
+            source = "Command-Line Inline Text"
     else:
         print("[*] Running with integrated Law & Justice sample corpus...")
         text_to_analyze = DEFAULT_TEXT
