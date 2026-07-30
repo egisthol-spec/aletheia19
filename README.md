@@ -38,15 +38,21 @@ python demo_sensor.py path/to/target_corpus.txt
   Forensic Semantic Architecture & Biophysical Auditing
   Zenodo Preprint Reference: DOI 10.5281/zenodo.21192234
 ========================================================================
+
 [*] Initializing FASCIA Lightweight Sensor (Demo Mode)...
-[+] Analyzed Substrate: Command-Line Inline Text (14 words)
+[*] Loading lexical anchors (distilled subset)...
+[+] Analyzed Substrate: Command-Line Inline Text (13 words)
+    - First Hand (Sol) Anchors Detected: 3 ['whistleblower', 'whistleblowers', 'safety']
+    - Third Hand (Automate) Anchors Detected: 2 ['cutting r&d', 'r&d']
+    - Codex (Autocatalysis) Anchors Detected: 2 ['growth', 'reported']
 
 ------------------------------------------------------------------------
 METRICS ANALYSIS:
-  * Isomorphism Index             : 93.31% (Topological Stability)
-  * Semantic Oxygen Debt (Omega)  : 6.67 / 10.0
-  * Soil Biophysical Friction (Chi): 0.1333  [Scale: 0.0 - 1.0]
+  * Isomorphism Index             : 86.30% (Topological Stability)
+  * Semantic Oxygen Debt (Omega)  : 7.14 / 10.0
+  * Soil Biophysical Friction (Chi): 1.0000  [Scale: 0.0 - 1.0]
 ------------------------------------------------------------------------
+
 DIAGNOSTIC STATUS:
   >> WARNING: High Semantic Oxygen Debt detected.
      The corpus is dominated by auto-catalytic Codex structures (R=0).

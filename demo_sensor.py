@@ -32,10 +32,19 @@ def simulate_audit(content, source_name):
     print("[*] Loading lexical anchors (distilled subset)...")
     time.sleep(0.3)
     
-    # Mock anchors for the demo
-    first_hand_anchors = ["première main", "r=1", "friction", "corps", "sol", "intime conviction"]
-    third_hand_anchors = ["troisième main", "r=0", "automate", "algorithme", "compas", "technostructure"]
-    codex_anchors = ["boucle", "stase", "standardisé", "rétroaction", "auto-référentielle"]
+    # Mock anchors for the demo (Bilingual FR/EN subset)
+    first_hand_anchors = [
+        "première main", "first hand", "r=1", "friction", "corps", "sol", "soil", 
+        "intime conviction", "whistleblower", "whistleblowers", "safety"
+    ]
+    third_hand_anchors = [
+        "troisième main", "third hand", "r=0", "automate", "automated", 
+        "algorithme", "algorithm", "compas", "technostructure", "cutting r&d", "r&d"
+    ]
+    codex_anchors = [
+        "boucle", "loop", "stase", "stasis", "standardisé", "standardized", 
+        "rétroaction", "feedback", "auto-référentielle", "self-referential", "growth", "reported"
+    ]
 
     total_words = len(content.split())
     print(f"[+] Analyzed Substrate: {source_name} ({total_words} words)")
